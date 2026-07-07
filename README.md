@@ -1,17 +1,17 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/header.svg" alt="CaspianG - dynamic memory systems for adaptive software" width="100%" />
+    <img src="./assets/header.svg" alt="CaspianG - dynamic memory infrastructure" width="100%" />
   </a>
 </p>
 
-<h2 align="center">Building memory infrastructure for software that should remember what matters.</h2>
+<h2 align="center">Building memory infrastructure for software that should remember, adapt, and forget.</h2>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">WaveMind</a>
   /
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
   /
-  <a href="https://github.com/CaspianG/wavemind#quick-start">Quick start</a>
+  <a href="https://github.com/CaspianG/wavemind#quick-start">Quick Start</a>
   /
   <a href="https://github.com/CaspianG/wavemind#benchmarks">Benchmarks</a>
   /
@@ -27,11 +27,11 @@
 
 ---
 
-## Current Focus
+## Current Work
 
-I am building [WaveMind](https://github.com/CaspianG/wavemind): a local-first memory layer for agents and applications.
+I am building [WaveMind](https://github.com/CaspianG/wavemind), a local-first memory layer for applications that need more than static vector search.
 
-Most memory systems stop at vector search. WaveMind adds lifecycle and behavior around memory: hotness, decay, TTL, namespaces, reinforcement, consolidation, service APIs, and benchmarks.
+Most retrieval systems answer one question: "what is closest?" WaveMind adds the behavior around memory: hotness, decay, TTL, namespaces, reinforcement, consolidation, APIs, benchmarks, and production readiness checks.
 
 ```python
 from wavemind import WaveMind
@@ -45,32 +45,26 @@ print(result.text)
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/wavemind-map.svg" alt="WaveMind memory loop: store, retrieve, reinforce, decay, consolidate" width="100%" />
+    <img src="./assets/wavemind-map.svg" alt="WaveMind memory loop" width="100%" />
   </a>
 </p>
 
-## What I Build
+## What I Care About
 
-| Area | Work |
+| Area | Focus |
 | --- | --- |
-| Dynamic memory | Agent memory that adapts with usage instead of staying a static vector table |
-| Retrieval systems | Vector search, reranking, namespaces, TTL, decay, and production query paths |
-| Benchmarks | Reproducible checks for recall, latency, scale readiness, and memory behavior |
-| Developer tools | Simple APIs, CLI flows, FastAPI services, examples, and integrations |
+| Dynamic memory | Memory that changes with usage instead of staying a passive vector table |
+| Retrieval quality | Recall, reranking, stale-fact suppression, namespaces, and query latency |
+| Local-first systems | SQLite source of truth, optional vector backends, reproducible installs |
+| Production evidence | Tests, benchmark reports, CI gates, packaging, and clear limitations |
 
 ## Featured Projects
 
-| Project | Status | Why it matters |
+| Project | What it is | Status |
 | --- | --- | --- |
-| [WaveMind](https://github.com/CaspianG/wavemind) | Active | Dynamic long-term memory for agents and apps |
-| [focus-flow](https://github.com/CaspianG/focus-flow) | Stable | Minimal desktop focus timer I use myself for focused work; simple and effective |
-
-## Principles
-
-- Useful recall is more important than nearest-neighbor recall.
-- Local-first should be easy, but production paths should be real.
-- Benchmarks should separate evidence from claims.
-- A good developer experience should fit in minutes, not days.
+| [WaveMind](https://github.com/CaspianG/wavemind) | Dynamic long-term memory for agents and applications | Active |
+| [focus-flow](https://github.com/CaspianG/focus-flow) | Minimal desktop focus timer for deep-work sessions | Stable |
+| [CORECITY](https://github.com/CaspianG/CORECITY) | Browser game concept built around a live market mechanic | Public archive |
 
 ## Stack
 
@@ -85,6 +79,17 @@ print(result.text)
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=white">
 </p>
 
+## Principles
+
+- Useful recall matters more than nearest-neighbor recall.
+- Memory should have lifecycle: reinforce, expire, consolidate, and forget.
+- Benchmarks should separate evidence from claims.
+- Developer experience should fit in minutes, not days.
+
 ## Start Here
 
-If you are looking for the main project, start with [CaspianG/wavemind](https://github.com/CaspianG/wavemind).
+The main project is [CaspianG/wavemind](https://github.com/CaspianG/wavemind).
+
+```bash
+pip install wavemind
+```
