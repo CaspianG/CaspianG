@@ -77,13 +77,6 @@ print(answer)
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=white">
 </p>
 
-## GitHub Snapshot
-
-<p align="center">
-  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=CaspianG&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" />
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CaspianG&layout=compact&hide_border=true&theme=transparent" />
-</p>
-
 ## Start Here
 
 The main project is [CaspianG/wavemind](https://github.com/CaspianG/wavemind): a practical memory engine for software that should remember what matters, forget what expired, and adapt as usage changes.
