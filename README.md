@@ -34,29 +34,27 @@
 
 <table>
   <tr>
-    <td width="56%" valign="top">
-      <h2>Current focus: WaveMind</h2>
-      <p>
-        <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
-        is a dynamic memory layer for agents, copilots, research tools, and applications that need
-        more than static vector search.
-      </p>
-      <p>
-        It keeps durable storage as the source of truth, retrieves vector candidates, then applies
-        memory behavior on top: hotness, decay, TTL, namespaces, feedback, consolidation, and
-        benchmark gates.
-      </p>
-      <ul>
-        <li><strong>Local-first:</strong> SQLite by default, optional production backends.</li>
-        <li><strong>Evidence-first:</strong> tests, public benchmarks, CI gates, clear limitations.</li>
-        <li><strong>Integration-first:</strong> Python, HTTP API, LangChain, LlamaIndex, CrewAI, AutoGen.</li>
-      </ul>
-    </td>
-    <td width="44%" valign="top">
-      <h2>Try it in 30 seconds</h2>
-
+<td width="56%" valign="top">
+<h2>Current focus: WaveMind</h2>
+<p>
+  <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
+  is a dynamic memory layer for agents, copilots, research tools, and applications that need
+  more than static vector search.
+</p>
+<p>
+  It keeps durable storage as the source of truth, retrieves vector candidates, then applies
+  memory behavior on top: hotness, decay, TTL, namespaces, feedback, consolidation, and
+  benchmark gates.
+</p>
+<ul>
+  <li><strong>Local-first:</strong> SQLite by default, optional production backends.</li>
+  <li><strong>Evidence-first:</strong> tests, public benchmarks, CI gates, clear limitations.</li>
+  <li><strong>Integration-first:</strong> Python, HTTP API, LangChain, LlamaIndex, CrewAI, AutoGen.</li>
+</ul>
+</td>
+<td width="44%" valign="top">
+<h2>Try it in 30 seconds</h2>
 <pre><code class="language-bash">pip install wavemind</code></pre>
-
 <pre><code class="language-python">from wavemind import WaveMind
 
 memory = WaveMind()
@@ -64,7 +62,7 @@ memory.remember("The user prefers short technical answers.")
 
 result = memory.query("How should I answer?")[0]
 print(result.text)</code></pre>
-    </td>
+</td>
   </tr>
 </table>
 
@@ -78,22 +76,22 @@ print(result.text)</code></pre>
 
 <table>
   <tr>
-    <td width="25%" valign="top">
-      <h3>Dynamic Memory</h3>
-      <p>Systems that reinforce useful facts, suppress stale ones, isolate namespaces, and keep recall explainable.</p>
-    </td>
-    <td width="25%" valign="top">
-      <h3>Benchmarked Retrieval</h3>
-      <p>Evidence-driven comparisons against static vector retrieval, Chroma, Qdrant, and memory workloads.</p>
-    </td>
-    <td width="25%" valign="top">
-      <h3>Production Path</h3>
-      <p>APIs, persistence, backups, observability, packaging checks, load profiles, and reproducible demos.</p>
-    </td>
-    <td width="25%" valign="top">
-      <h3>Developer UX</h3>
-      <p>Small install surface, readable examples, framework adapters, and defaults that work locally first.</p>
-    </td>
+<td width="25%" valign="top">
+<h3>Dynamic Memory</h3>
+<p>Systems that reinforce useful facts, suppress stale ones, isolate namespaces, and keep recall explainable.</p>
+</td>
+<td width="25%" valign="top">
+<h3>Benchmarked Retrieval</h3>
+<p>Evidence-driven comparisons against static vector retrieval, Chroma, Qdrant, and memory workloads.</p>
+</td>
+<td width="25%" valign="top">
+<h3>Production Path</h3>
+<p>APIs, persistence, backups, observability, packaging checks, load profiles, and reproducible demos.</p>
+</td>
+<td width="25%" valign="top">
+<h3>Developer UX</h3>
+<p>Small install surface, readable examples, framework adapters, and defaults that work locally first.</p>
+</td>
   </tr>
 </table>
 
