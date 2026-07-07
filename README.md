@@ -1,41 +1,37 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/header.svg" alt="CaspianG - WaveMind, dynamic memory infrastructure for agents" width="100%" />
+    <img src="./assets/header.svg" alt="CaspianG - dynamic memory systems for adaptive software" width="100%" />
   </a>
 </p>
 
-<h3 align="center">Building WaveMind: dynamic memory infrastructure for agents that need to remember, adapt, and stay useful.</h3>
+<h2 align="center">Building memory infrastructure for software that should remember what matters.</h2>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">WaveMind</a>
   /
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
   /
+  <a href="https://github.com/CaspianG/wavemind#quick-start">Quick start</a>
+  /
   <a href="https://github.com/CaspianG/wavemind#benchmarks">Benchmarks</a>
   /
-  <a href="https://github.com/CaspianG/wavemind#quick-start">Quick start</a>
+  <a href="https://github.com/CaspianG/wavemind/issues">Issues</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/CaspianG/wavemind"><img alt="WaveMind" src="https://img.shields.io/badge/WaveMind-dynamic_memory-0B0F14?style=for-the-badge"></a>
-  <a href="https://pypi.org/project/wavemind/"><img alt="PyPI" src="https://img.shields.io/pypi/v/wavemind?style=for-the-badge&label=PyPI&color=2F81F7"></a>
+  <a href="https://github.com/CaspianG/wavemind"><img alt="WaveMind" src="https://img.shields.io/badge/WaveMind-dynamic%20memory-0B0F14?style=for-the-badge"></a>
+  <a href="https://pypi.org/project/wavemind/"><img alt="PyPI" src="https://img.shields.io/pypi/v/wavemind?style=for-the-badge&label=PyPI&color=2563EB"></a>
   <a href="https://github.com/CaspianG/wavemind/actions"><img alt="Checks" src="https://img.shields.io/github/actions/workflow/status/CaspianG/wavemind/full-check.yml?branch=main&style=for-the-badge&label=checks"></a>
-  <a href="https://github.com/CaspianG/wavemind/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/CaspianG/wavemind?style=for-the-badge&color=16A34A"></a>
+  <a href="https://github.com/CaspianG/wavemind/releases"><img alt="Release" src="https://img.shields.io/github/v/release/CaspianG/wavemind?style=for-the-badge&label=release&color=16A34A"></a>
 </p>
 
 ---
 
-<p align="center">
-  <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/wavemind-map.svg" alt="WaveMind system map" width="100%" />
-  </a>
-</p>
+## Current Focus
 
-## What I Am Building
+I am building [WaveMind](https://github.com/CaspianG/wavemind): a local-first memory layer for agents and applications.
 
-Most memory layers behave like static vector tables: embed text, search top-k, paste the nearest chunks back into context.
-
-**WaveMind** is built around a different idea: memory should be alive enough to change with usage. It should keep what matters, fade what is stale, isolate projects and users, and make retrieval useful instead of merely similar.
+Most memory systems stop at vector search. WaveMind adds lifecycle and behavior around memory: hotness, decay, TTL, namespaces, reinforcement, consolidation, service APIs, and benchmarks.
 
 ```python
 from wavemind import WaveMind
@@ -43,32 +39,38 @@ from wavemind import WaveMind
 memory = WaveMind()
 memory.remember("The user prefers short technical answers.", namespace="user")
 
-answer = memory.query("How should I answer?", namespace="user")[0].text
-print(answer)
+result = memory.query("How should I answer?", namespace="user")[0]
+print(result.text)
 ```
 
-## Current Direction
+<p align="center">
+  <a href="https://github.com/CaspianG/wavemind">
+    <img src="./assets/wavemind-map.svg" alt="WaveMind memory loop: store, retrieve, reinforce, decay, consolidate" width="100%" />
+  </a>
+</p>
 
-| Track | Direction |
+## What I Build
+
+| Area | Work |
 | --- | --- |
-| Memory OS | Background workers for priority prediction, prefetching, consolidation, and adaptive forgetting |
-| Production path | FastAPI service mode, Redis cache, sharding, replication, repair loops, and operator readiness |
-| Benchmarks | Living artifacts for memory quality, scale readiness, load profiles, and VectorDBBench export |
-| Future memory | Structured payloads, graph facts, temporal events, and multimodal-ready storage |
+| Dynamic memory | Agent memory that adapts with usage instead of staying a static vector table |
+| Retrieval systems | Vector search, reranking, namespaces, TTL, decay, and production query paths |
+| Benchmarks | Reproducible checks for recall, latency, scale readiness, and memory behavior |
+| Developer tools | Simple APIs, CLI flows, FastAPI services, examples, and integrations |
 
-## Project Focus
+## Featured Projects
 
-| Project | Why it exists |
-| --- | --- |
-| [WaveMind](https://github.com/CaspianG/wavemind) | Dynamic long-term memory for agents and applications: local-first by default, production-aware when needed |
-| [focus-flow](https://github.com/CaspianG/focus-flow) | A small desktop focus timer I use myself for deep-work blocks; simple, quiet, and effective |
+| Project | Status | Why it matters |
+| --- | --- | --- |
+| [WaveMind](https://github.com/CaspianG/wavemind) | Active | Dynamic long-term memory for agents and apps |
+| [focus-flow](https://github.com/CaspianG/focus-flow) | Stable | Minimal desktop focus timer for deep-work sessions |
 
 ## Principles
 
-- Useful recall beats nearest-neighbor recall.
-- Local-first should not block a real production path.
+- Useful recall is more important than nearest-neighbor recall.
+- Local-first should be easy, but production paths should be real.
 - Benchmarks should separate evidence from claims.
-- Developer experience should stay simple enough to try in minutes.
+- A good developer experience should fit in minutes, not days.
 
 ## Stack
 
@@ -85,4 +87,4 @@ print(answer)
 
 ## Start Here
 
-The main project is [CaspianG/wavemind](https://github.com/CaspianG/wavemind): a practical memory engine for software that should remember what matters, forget what expired, and adapt as usage changes.
+If you are looking for the main project, start with [CaspianG/wavemind](https://github.com/CaspianG/wavemind).

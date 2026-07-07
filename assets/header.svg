@@ -1,82 +1,77 @@
-<svg width="1440" height="460" viewBox="0 0 1440 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">CaspianG GitHub profile banner</title>
-  <desc id="desc">A dark modern WaveMind banner showing dynamic memory infrastructure for adaptive software.</desc>
+<svg width="1440" height="420" viewBox="0 0 1440 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">CaspianG profile banner</title>
+  <desc id="desc">A modern dark banner for CaspianG, focused on dynamic memory systems and WaveMind.</desc>
 
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1440" y2="460" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#071017"/>
-      <stop offset="0.45" stop-color="#0B0F18"/>
-      <stop offset="1" stop-color="#101522"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1440" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070B"/>
+      <stop offset="0.52" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#111827"/>
     </linearGradient>
-    <linearGradient id="accent" x1="108" y1="64" x2="1304" y2="380" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#39D0FF"/>
-      <stop offset="0.48" stop-color="#7CFFB2"/>
-      <stop offset="1" stop-color="#FFD166"/>
+    <linearGradient id="line" x1="90" y1="70" x2="1340" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.52" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#F59E0B"/>
     </linearGradient>
-    <linearGradient id="panel" x1="850" y1="78" x2="1322" y2="354" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFFFFF" stop-opacity="0.13"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    <linearGradient id="card" x1="870" y1="70" x2="1290" y2="315" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.045"/>
     </linearGradient>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="18"/>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="20"/>
     </filter>
   </defs>
 
-  <rect width="1440" height="460" rx="34" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1438" height="458" rx="33" stroke="#FFFFFF" stroke-opacity="0.11" stroke-width="2"/>
+  <rect width="1440" height="420" rx="34" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1438" height="418" rx="33" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
 
-  <g opacity="0.12">
-    <path d="M120 0V460M240 0V460M360 0V460M480 0V460M600 0V460M720 0V460M840 0V460M960 0V460M1080 0V460M1200 0V460M1320 0V460" stroke="#FFFFFF"/>
-    <path d="M0 92H1440M0 184H1440M0 276H1440M0 368H1440" stroke="#FFFFFF"/>
+  <g opacity="0.07">
+    <path d="M0 84H1440M0 168H1440M0 252H1440M0 336H1440" stroke="#FFFFFF"/>
+    <path d="M120 0V420M240 0V420M360 0V420M480 0V420M600 0V420M720 0V420M840 0V420M960 0V420M1080 0V420M1200 0V420M1320 0V420" stroke="#FFFFFF"/>
   </g>
 
-  <path d="M74 326C190 228 304 228 430 292C566 362 690 346 836 244C972 150 1116 137 1250 220C1320 263 1376 274 1434 266" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
-  <path d="M74 276C190 178 304 178 430 242C566 312 690 296 836 194C972 100 1116 87 1250 170C1320 213 1376 224 1434 216" stroke="url(#accent)" stroke-opacity="0.54" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M74 226C190 128 304 128 430 192C566 262 690 246 836 144C972 50 1116 37 1250 120C1320 163 1376 174 1434 166" stroke="url(#accent)" stroke-opacity="0.32" stroke-width="2" stroke-linecap="round"/>
+  <path d="M72 300C184 204 300 200 434 262C560 320 670 314 802 220C948 116 1098 110 1248 196C1320 238 1370 248 1428 238" stroke="url(#line)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M72 250C184 154 300 150 434 212C560 270 670 264 802 170C948 66 1098 60 1248 146C1320 188 1370 198 1428 188" stroke="url(#line)" stroke-opacity="0.42" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M90 302C224 210 346 222 480 284C618 348 754 316 898 216C1030 124 1150 120 1284 196" stroke="url(#line)" stroke-opacity="0.23" stroke-width="26" filter="url(#glow)"/>
 
-  <path d="M88 332C230 224 352 246 492 314C630 380 764 342 890 252C1016 162 1130 148 1264 225" stroke="url(#accent)" stroke-opacity="0.26" stroke-width="18" filter="url(#soft)"/>
-
-  <g transform="translate(88 68)">
-    <rect width="126" height="126" rx="30" fill="#F8FAFC"/>
-    <circle cx="63" cy="63" r="42" fill="#071017"/>
-    <path d="M49 35C42 48 39 57 39 64C39 72 42 81 49 94" stroke="#F8FAFC" stroke-width="6" stroke-linecap="round"/>
-    <path d="M77 35C84 48 87 57 87 64C87 72 84 81 77 94" stroke="#F8FAFC" stroke-width="6" stroke-linecap="round"/>
-    <path d="M36 64H90" stroke="#F8FAFC" stroke-width="6" stroke-linecap="round"/>
+  <g transform="translate(84 62)">
+    <rect width="112" height="112" rx="28" fill="#F8FAFC"/>
+    <circle cx="56" cy="56" r="37" fill="#05070B"/>
+    <path d="M43 32C37 44 35 52 35 58C35 66 38 75 43 86" stroke="#F8FAFC" stroke-width="6" stroke-linecap="round"/>
+    <path d="M69 32C75 44 77 52 77 58C77 66 74 75 69 86" stroke="#F8FAFC" stroke-width="6" stroke-linecap="round"/>
+    <path d="M34 58H78" stroke="#F8FAFC" stroke-width="6" stroke-linecap="round"/>
   </g>
 
-  <text x="88" y="266" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="86" font-weight="820" letter-spacing="0">CaspianG</text>
-  <text x="92" y="320" fill="#D8E2EA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="560" letter-spacing="0">WaveMind / dynamic memory infrastructure</text>
-  <text x="94" y="358" fill="#93A4B7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="500" letter-spacing="0">agents that remember, adapt, decay, consolidate, and stay useful</text>
+  <text x="84" y="256" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="74" font-weight="820" letter-spacing="0">CaspianG</text>
+  <text x="88" y="306" fill="#DCE6F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="29" font-weight="650" letter-spacing="0">dynamic memory systems</text>
+  <text x="90" y="344" fill="#98A8BA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="500" letter-spacing="0">WaveMind / retrieval / agent memory / local-first infrastructure</text>
 
-  <g transform="translate(850 76)">
-    <rect width="472" height="278" rx="30" fill="url(#panel)" stroke="#FFFFFF" stroke-opacity="0.17"/>
-    <text x="34" y="54" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="760" letter-spacing="0">Memory OS loop</text>
-    <text x="34" y="86" fill="#AFC0D1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="0">store -> recall -> reinforce -> decay -> consolidate</text>
+  <g transform="translate(874 70)">
+    <rect width="468" height="260" rx="30" fill="url(#card)" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <text x="34" y="54" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Memory should evolve</text>
+    <text x="34" y="86" fill="#B7C4D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="500">store context, recall it, reinforce what works, and let stale facts fade.</text>
 
-    <g transform="translate(36 122)">
-      <rect x="0" y="0" width="86" height="58" rx="18" fill="#FFFFFF" fill-opacity="0.13" stroke="#FFFFFF" stroke-opacity="0.20"/>
-      <text x="43" y="35" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="780">store</text>
-      <path d="M96 29H130" stroke="#7CFFB2" stroke-width="3" stroke-linecap="round"/>
-      <path d="M123 20L133 29L123 38" stroke="#7CFFB2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-
-      <rect x="144" y="0" width="86" height="58" rx="18" fill="#FFFFFF" fill-opacity="0.13" stroke="#FFFFFF" stroke-opacity="0.20"/>
-      <text x="187" y="35" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="780">recall</text>
-      <path d="M240 29H274" stroke="#39D0FF" stroke-width="3" stroke-linecap="round"/>
-      <path d="M267 20L277 29L267 38" stroke="#39D0FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-
-      <rect x="288" y="0" width="108" height="58" rx="18" fill="#FFFFFF" fill-opacity="0.13" stroke="#FFFFFF" stroke-opacity="0.20"/>
-      <text x="342" y="35" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="780">adapt</text>
+    <g transform="translate(34 122)">
+      <circle cx="30" cy="30" r="30" fill="#38BDF8" fill-opacity="0.18" stroke="#38BDF8" stroke-opacity="0.42"/>
+      <text x="30" y="36" text-anchor="middle" fill="#DDF7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">store</text>
+      <path d="M72 30H112" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="152" cy="30" r="30" fill="#22C55E" fill-opacity="0.16" stroke="#22C55E" stroke-opacity="0.42"/>
+      <text x="152" y="36" text-anchor="middle" fill="#DFFFE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">recall</text>
+      <path d="M194 30H234" stroke="#22C55E" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="274" cy="30" r="30" fill="#F59E0B" fill-opacity="0.16" stroke="#F59E0B" stroke-opacity="0.42"/>
+      <text x="274" y="36" text-anchor="middle" fill="#FFF2D7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">adapt</text>
+      <path d="M316 30H356" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="396" cy="30" r="30" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.24"/>
+      <text x="396" y="36" text-anchor="middle" fill="#E7EEF7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">fade</text>
     </g>
 
-    <g transform="translate(34 218)">
-      <rect width="98" height="32" rx="16" fill="#39D0FF" fill-opacity="0.16" stroke="#39D0FF" stroke-opacity="0.34"/>
-      <text x="49" y="21" text-anchor="middle" fill="#D9F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="720">local-first</text>
-      <rect x="112" width="112" height="32" rx="16" fill="#7CFFB2" fill-opacity="0.14" stroke="#7CFFB2" stroke-opacity="0.32"/>
-      <text x="168" y="21" text-anchor="middle" fill="#E4FFEF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="720">benchmarked</text>
-      <rect x="238" width="104" height="32" rx="16" fill="#FFD166" fill-opacity="0.14" stroke="#FFD166" stroke-opacity="0.32"/>
-      <text x="290" y="21" text-anchor="middle" fill="#FFF2CD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="720">production</text>
-      <rect x="356" width="74" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.22"/>
-      <text x="393" y="21" text-anchor="middle" fill="#E7EEF7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="720">agents</text>
+    <g transform="translate(34 214)">
+      <rect width="110" height="30" rx="15" fill="#38BDF8" fill-opacity="0.14" stroke="#38BDF8" stroke-opacity="0.36"/>
+      <text x="55" y="20" text-anchor="middle" fill="#DDF7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="750">local-first</text>
+      <rect x="124" width="122" height="30" rx="15" fill="#22C55E" fill-opacity="0.14" stroke="#22C55E" stroke-opacity="0.34"/>
+      <text x="185" y="20" text-anchor="middle" fill="#E2FFE9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="750">benchmarked</text>
+      <rect x="260" width="130" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.22"/>
+      <text x="325" y="20" text-anchor="middle" fill="#E7EEF7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="750">production path</text>
     </g>
   </g>
 </svg>
