@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/header.svg" alt="CaspianG - adaptive memory systems" width="100%" />
+    <img src="./assets/header.png" alt="CaspianG - dynamic memory systems for adaptive software" width="100%" />
   </a>
 </p>
 
@@ -68,7 +68,7 @@ print(result.text)</code></pre>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/wavemind-map.svg" alt="WaveMind adaptive memory loop" width="100%" />
+    <img src="./assets/wavemind-map.png" alt="WaveMind memory loop: store, retrieve, reinforce, decay, consolidate" width="100%" />
   </a>
 </p>
 
