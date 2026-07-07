@@ -1,13 +1,7 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="CaspianG profile banner" width="100%" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/CaspianG/wavemind"><img alt="WaveMind" src="https://img.shields.io/badge/WaveMind-dynamic_memory-0B0D10?style=for-the-badge&labelColor=0B0D10"></a>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
-  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+  <a href="https://github.com/CaspianG/wavemind">
+    <img src="./assets/header.svg" alt="CaspianG - memory infrastructure for software that adapts" width="100%" />
+  </a>
 </p>
 
 <h3 align="center">I build memory infrastructure for software that should remember, adapt, and stay useful over time.</h3>
@@ -17,64 +11,62 @@
   ·
   <a href="https://github.com/CaspianG?tab=repositories">Projects</a>
   ·
-  <a href="https://github.com/CaspianG/wavemind/issues">Open issues</a>
+  <a href="https://github.com/CaspianG/wavemind/issues">Issues</a>
+  ·
+  <a href="https://pypi.org/project/wavemind/">PyPI</a>
 </p>
 
 ---
 
-### Main Work
+## What I Am Building
 
-I am focused on **WaveMind**, a local-first dynamic memory engine. The idea is simple: memory should not behave like a static vector table. It should have namespaces, TTL, hotness, decay, feedback, consolidation, and benchmarked retrieval behavior.
+Most AI memory systems behave like a static vector table: embed text, search top-k, paste results into context.
 
-WaveMind is built as a practical developer tool first:
+I am building **WaveMind** as a dynamic memory layer: memory has namespaces, TTL, hotness, decay, feedback, consolidation, and benchmarked retrieval behavior. The goal is simple: software should remember what matters, forget what expired, and adapt as usage changes.
 
-| Layer | What it does |
+```python
+from wavemind import WaveMind
+
+memory = WaveMind()
+memory.remember("The user prefers short technical answers.", namespace="user")
+print(memory.query("How should I answer?", namespace="user")[0].text)
+```
+
+## Focus
+
+| Area | Direction |
 | --- | --- |
-| Library | Python API for `remember`, `query`, `forget`, namespaces, TTL, and persistence |
-| Server | FastAPI interface for agent services and internal tools |
-| Indexes | SQLite source of truth with vector candidates and dynamic re-ranking |
-| Memory OS | Background jobs for hot cache, decay, consolidation, and stale memory cleanup |
-| Benchmarks | LoCoMo, BEIR/SciFact, scale readiness, dynamic memory scenarios |
+| Dynamic memory | Hotness, decay, TTL, stale-fact suppression, consolidation |
+| Local-first systems | SQLite source of truth, simple Python API, FastAPI, Docker |
+| Production path | FAISS, Qdrant, pgvector, sharding, background workers, observability |
+| Evaluation | LoCoMo, LongMemEval, BEIR/SciFact, scale-readiness profiles |
+| Ecosystem | LangChain, LlamaIndex, agent frameworks, practical examples |
 
-### Featured Projects
+## Featured Work
 
-| Project | Status | Why it matters |
+| Project | What it is | Status |
 | --- | --- | --- |
-| [WaveMind](https://github.com/CaspianG/wavemind) | Active | Dynamic memory layer for agents and apps: persistence, TTL, namespaces, graph recall, benchmarks, API, CLI, Docker |
-| [focus-flow](https://github.com/CaspianG/focus-flow) | Stable | Minimal desktop focus timer for deep work, planning, light/dark themes, English/Russian UI |
-| [CORECITY](https://github.com/CaspianG/CORECITY) | Experimental | Online game concept around a live player-driven market |
+| [WaveMind](https://github.com/CaspianG/wavemind) | Dynamic long-term memory for agents and applications | Active |
+| [focus-flow](https://github.com/CaspianG/focus-flow) | Minimal desktop focus timer for deep-work sessions | Stable |
+| [CORECITY](https://github.com/CaspianG/CORECITY) | Online game concept around a live player-driven market | Experimental |
 
-### Current Direction
+## WaveMind In One Line
 
-- Make long-term memory more useful than plain top-k vector search.
-- Build production paths for local-first AI systems.
-- Compare memory engines on real benchmarks, not only demos.
-- Keep the interface simple enough that developers can try it in minutes.
+> A local-first memory engine where recall is not only similarity search, but a living state: reinforced, decayed, scoped, tested, and persisted.
 
-### Tech Stack
+## Current Priorities
 
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=white">
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-111111?style=flat-square&logo=fastapi&logoColor=white">
-  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-111111?style=flat-square&logo=sqlite&logoColor=white">
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql&logoColor=white">
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-111111?style=flat-square&logo=docker&logoColor=white">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=white">
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-111111?style=flat-square&logo=githubactions&logoColor=white">
-</p>
+- Make dynamic memory measurably better than plain vector search on long-running agent workloads.
+- Scale from local notebooks to production services without losing the simple API.
+- Keep benchmarks honest: publish what works, what fails, and what still needs tuning.
+- Build examples that developers can run in minutes, not only read about.
 
-### GitHub Snapshot
+## Stack
 
-<p align="center">
-  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=CaspianG&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" />
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CaspianG&layout=compact&hide_border=true&theme=transparent" />
-</p>
+`Python` · `FastAPI` · `SQLite` · `PostgreSQL` · `FAISS` · `Qdrant` · `Docker` · `GitHub Actions` · `TypeScript`
 
-### Contact
+## Open Collaboration
 
-The best place to follow the work or discuss technical ideas is GitHub.
+WaveMind is early, active, and practical. Useful contributions are especially welcome around benchmarks, integrations, production backends, documentation, and real agent-memory scenarios.
 
-<p>
-  <a href="https://github.com/CaspianG"><img alt="GitHub profile" src="https://img.shields.io/badge/GitHub-CaspianG-111111?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://github.com/CaspianG/wavemind"><img alt="WaveMind repository" src="https://img.shields.io/badge/Open-WaveMind-111111?style=for-the-badge&logo=github&logoColor=white"></a>
-</p>
+Start here: [CaspianG/wavemind](https://github.com/CaspianG/wavemind)
