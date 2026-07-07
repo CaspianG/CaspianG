@@ -1,14 +1,14 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/header.svg" alt="CaspianG - adaptive memory infrastructure" width="100%" />
+    <img src="./assets/header.svg" alt="CaspianG - adaptive memory systems" width="100%" />
   </a>
 </p>
 
-<h2 align="center">I build adaptive memory infrastructure for long-running software.</h2>
+<h1 align="center">Memory systems that adapt over time.</h1>
 
 <p align="center">
-  Local-first systems that remember useful context, rank what matters, explain recall,
-  and let stale state fade instead of growing into noise.
+  I build local-first infrastructure for software that needs memory with priority,
+  decay, provenance, feedback, and clean forgetting.
 </p>
 
 <p align="center">
@@ -34,31 +34,31 @@
 
 <table>
   <tr>
-    <td width="55%" valign="top">
-      <h3>Now Building</h3>
+    <td width="58%" valign="top">
+      <h3>Current focus</h3>
       <p>
         <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
         is an open-source memory layer for agents, copilots, research tools,
-        and products that need memory behavior instead of plain vector lookup.
+        and long-running products where plain vector lookup is not enough.
       </p>
       <p>
-        The system keeps durable storage as source of truth, retrieves candidates
-        through fast indexes, then applies adaptive memory dynamics: hotness, decay,
-        TTL, priority, namespaces, feedback, graph links, and provenance.
+        It stores durable memory as source of truth, retrieves candidates through
+        fast indexes, then applies adaptive dynamics: hotness, decay, priority,
+        TTL, namespaces, graph links, feedback, and provenance.
       </p>
-      <ul>
-        <li><strong>Local-first:</strong> SQLite by default, production backends when scale requires them.</li>
-        <li><strong>Benchmarked:</strong> public runner scripts, checked artifacts, and honest limitations.</li>
-        <li><strong>Integration-ready:</strong> Python, HTTP API, LangChain, LlamaIndex, CrewAI, AutoGen.</li>
-      </ul>
+      <p>
+        The goal is simple: useful memory should get easier to recall, stale
+        memory should lose weight, and every important retrieval should be
+        explainable.
+      </p>
     </td>
-    <td width="45%" valign="top">
-      <h3>Use It</h3>
+    <td width="42%" valign="top">
+      <h3>Try it</h3>
       <pre><code class="language-bash">pip install wavemind</code></pre>
       <pre><code class="language-python">from wavemind import WaveMind
 
 memory = WaveMind()
-memory.remember("The user prefers short technical answers.")
+memory.remember("The user prefers concise technical answers.")
 
 result = memory.query("How should I answer?")[0]
 print(result.text)</code></pre>
@@ -68,17 +68,17 @@ print(result.text)</code></pre>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/wavemind-map.svg" alt="WaveMind memory loop" width="100%" />
+    <img src="./assets/wavemind-map.svg" alt="WaveMind adaptive memory loop" width="100%" />
   </a>
 </p>
 
-## Focus Areas
+## What I Work On
 
-| Area | What I care about |
+| Area | Direction |
 | --- | --- |
-| Adaptive memory | Systems that update importance over time, handle corrections, and separate hot context from stale state. |
-| Retrieval evidence | Benchmarks, regression gates, latency profiles, and comparisons against static vector search. |
-| Developer tools | Small install surface, practical examples, framework adapters, and APIs that are easy to ship. |
+| Adaptive memory | Priority, decay, TTL, feedback, conflict handling, and memory that changes with use. |
+| Retrieval evidence | Public benchmarks, regression tests, latency profiles, and honest comparison with static vector search. |
+| Developer tools | Python API, HTTP API, CLI, examples, and framework adapters that are simple to install and ship. |
 | Production path | Persistence, backups, observability, access control, external indexes, and scale testing. |
 
 ## Selected Work
@@ -91,9 +91,9 @@ print(result.text)</code></pre>
 
 ## Principles
 
-- Prove claims with tests and benchmarks before turning them into marketing.
+- Prove claims with tests, reproducible artifacts, and benchmarks.
 - Keep the core useful locally before pushing users into hosted infrastructure.
-- Treat memory as state that evolves, not just text that was embedded once.
+- Treat memory as state that evolves, not only text that was embedded once.
 - Prefer clear interfaces over demos that only work in perfect conditions.
 
 ## Stack
@@ -111,8 +111,9 @@ print(result.text)</code></pre>
 
 ## Collaboration
 
-I am interested in practical memory systems, long-running agents, retrieval benchmarks,
-privacy-aware forgetting, production indexes, and real workloads where static vector search is not enough.
+I am interested in practical memory systems, long-running agents, retrieval
+benchmarks, privacy-aware forgetting, production indexes, and real workloads
+where static vector search breaks down.
 
-Start with [WaveMind issues](https://github.com/CaspianG/wavemind/issues) if you want to test an integration,
-benchmark a workload, or contribute an adapter.
+Start with [WaveMind issues](https://github.com/CaspianG/wavemind/issues) if you
+want to test an integration, benchmark a workload, or contribute an adapter.
