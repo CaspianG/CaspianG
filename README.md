@@ -1,37 +1,35 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/header.svg" alt="CaspianG - dynamic memory infrastructure" width="100%" />
+    <img src="./assets/header.svg" alt="CaspianG - dynamic memory systems" width="100%" />
   </a>
 </p>
 
-<h2 align="center">Building memory infrastructure for software that should remember, adapt, and forget.</h2>
+<h2 align="center">I build memory systems for software that should adapt instead of only store.</h2>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">WaveMind</a>
-  /
+  &nbsp;/&nbsp;
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
-  /
+  &nbsp;/&nbsp;
   <a href="https://github.com/CaspianG/wavemind#quick-start">Quick Start</a>
-  /
+  &nbsp;/&nbsp;
   <a href="https://github.com/CaspianG/wavemind#benchmarks">Benchmarks</a>
-  /
+  &nbsp;/&nbsp;
   <a href="https://github.com/CaspianG/wavemind/issues">Issues</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/CaspianG/wavemind"><img alt="WaveMind" src="https://img.shields.io/badge/WaveMind-dynamic%20memory-0B0F14?style=for-the-badge"></a>
-  <a href="https://pypi.org/project/wavemind/"><img alt="PyPI" src="https://img.shields.io/pypi/v/wavemind?style=for-the-badge&label=PyPI&color=111827"></a>
-  <a href="https://github.com/CaspianG/wavemind/actions"><img alt="Checks" src="https://img.shields.io/github/actions/workflow/status/CaspianG/wavemind/full-check.yml?branch=main&style=for-the-badge&label=checks"></a>
-  <a href="https://github.com/CaspianG/wavemind/releases"><img alt="Release" src="https://img.shields.io/github/v/release/CaspianG/wavemind?style=for-the-badge&label=release&color=111827"></a>
+  <a href="https://github.com/CaspianG/wavemind"><img alt="WaveMind" src="https://img.shields.io/badge/WaveMind-dynamic%20memory-111111?style=for-the-badge"></a>
+  <a href="https://pypi.org/project/wavemind/"><img alt="PyPI" src="https://img.shields.io/pypi/v/wavemind?style=for-the-badge&label=PyPI&color=111111"></a>
+  <a href="https://github.com/CaspianG/wavemind/actions"><img alt="Checks" src="https://img.shields.io/github/actions/workflow/status/CaspianG/wavemind/full-check.yml?branch=main&style=for-the-badge&label=checks&color=111111"></a>
+  <a href="https://github.com/CaspianG/wavemind/releases"><img alt="Release" src="https://img.shields.io/github/v/release/CaspianG/wavemind?style=for-the-badge&label=release&color=111111"></a>
 </p>
 
 ---
 
-## Current Work
+## Main Focus
 
-I am building [WaveMind](https://github.com/CaspianG/wavemind), a local-first memory layer for applications that need more than static vector search.
-
-Most retrieval systems answer one question: "what is closest?" WaveMind adds the behavior around memory: hotness, decay, TTL, namespaces, reinforcement, consolidation, APIs, benchmarks, and production readiness checks.
+[WaveMind](https://github.com/CaspianG/wavemind) is a local-first dynamic memory layer for agents and applications. It keeps SQLite as the source of truth, uses vector search for candidates, and adds memory behavior on top: hotness, decay, TTL, namespaces, feedback, consolidation, APIs, and benchmark gates.
 
 ```python
 from wavemind import WaveMind
@@ -49,16 +47,26 @@ print(result.text)
   </a>
 </p>
 
-## What I Care About
+## What I Am Building
 
-| Area | Focus |
-| --- | --- |
-| Dynamic memory | Memory that changes with usage instead of staying a passive vector table |
-| Retrieval quality | Recall, reranking, stale-fact suppression, namespaces, and query latency |
-| Local-first systems | SQLite source of truth, optional vector backends, reproducible installs |
-| Production evidence | Tests, benchmark reports, CI gates, packaging, and clear limitations |
+<table>
+  <tr>
+    <td width="33%">
+      <h3>Dynamic Memory</h3>
+      <p>Memory that changes with use: reinforce important facts, expire stale ones, isolate namespaces, and keep provenance.</p>
+    </td>
+    <td width="33%">
+      <h3>Production Evidence</h3>
+      <p>Benchmarks, CI gates, packaging checks, public limitations, and reproducible examples instead of vague claims.</p>
+    </td>
+    <td width="33%">
+      <h3>Local-First Tools</h3>
+      <p>Python, FastAPI, SQLite, Redis, optional vector backends, Docker, and simple install paths for real projects.</p>
+    </td>
+  </tr>
+</table>
 
-## Featured Projects
+## Featured Work
 
 | Project | What it is | Status |
 | --- | --- | --- |
@@ -69,27 +77,27 @@ print(result.text)
 ## Stack
 
 <p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=white">
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-111827?style=flat-square&logo=fastapi&logoColor=white">
-  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-111827?style=flat-square&logo=sqlite&logoColor=white">
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=white">
-  <img alt="Redis" src="https://img.shields.io/badge/Redis-111827?style=flat-square&logo=redis&logoColor=white">
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=white">
-  <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-111827?style=flat-square&logo=kubernetes&logoColor=white">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=white">
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-111111?style=flat-square&logo=fastapi&logoColor=white">
+  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-111111?style=flat-square&logo=sqlite&logoColor=white">
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql&logoColor=white">
+  <img alt="Redis" src="https://img.shields.io/badge/Redis-111111?style=flat-square&logo=redis&logoColor=white">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-111111?style=flat-square&logo=docker&logoColor=white">
+  <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-111111?style=flat-square&logo=kubernetes&logoColor=white">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=white">
 </p>
 
 ## Principles
 
 - Useful recall matters more than nearest-neighbor recall.
-- Memory should have lifecycle: reinforce, expire, consolidate, and forget.
-- Benchmarks should separate evidence from claims.
+- Memory needs lifecycle: reinforce, expire, consolidate, and forget.
+- A benchmark is stronger than a slogan.
 - Developer experience should fit in minutes, not days.
 
 ## Start Here
 
-The main project is [CaspianG/wavemind](https://github.com/CaspianG/wavemind).
-
 ```bash
 pip install wavemind
 ```
+
+Then open [CaspianG/wavemind](https://github.com/CaspianG/wavemind) for examples, API docs, benchmarks, and roadmap.
