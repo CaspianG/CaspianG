@@ -1,50 +1,53 @@
 <svg width="1440" height="460" viewBox="0 0 1440 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">WaveMind memory architecture</title>
-  <desc id="desc">Minimal black and white architecture diagram for WaveMind dynamic memory.</desc>
+  <title id="title">WaveMind memory loop</title>
+  <desc id="desc">A minimal black and white diagram showing WaveMind as durable storage, candidate retrieval, memory behavior, and feedback.</desc>
 
-  <rect width="1440" height="460" rx="30" fill="#FFFFFF"/>
-  <rect x="1" y="1" width="1438" height="458" rx="29" stroke="#111111" stroke-opacity="0.14" stroke-width="2"/>
+  <rect width="1440" height="460" rx="32" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="1438" height="458" rx="31" stroke="#111111" stroke-opacity="0.14" stroke-width="2"/>
 
-  <text x="72" y="82" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="850">WaveMind in one loop</text>
-  <text x="72" y="122" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="520">Durable memories, vector candidates, dynamic priority, and clean forgetting.</text>
+  <text x="72" y="78" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="39" font-weight="850">WaveMind in one loop</text>
+  <text x="72" y="118" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="520">Durable memories, fast candidate retrieval, dynamic priority, clean forgetting.</text>
 
-  <g transform="translate(74 178)">
-    <rect width="186" height="116" rx="22" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <text x="28" y="45" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="850">Input</text>
-    <text x="28" y="77" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">messages</text>
-    <text x="28" y="101" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">facts / events</text>
+  <g transform="translate(72 166)">
+    <rect width="204" height="128" rx="24" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="28" y="48" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="850">Remember</text>
+    <text x="28" y="82" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">messages</text>
+    <text x="28" y="106" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">facts / events / files</text>
   </g>
 
-  <path d="M292 236H354" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
-  <path d="M342 224L358 236L342 248" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M310 230H376" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <path d="M362 217L380 230L362 243" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <g transform="translate(388 160)">
-    <rect width="214" height="152" rx="24" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <text x="28" y="48" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="850">Source of truth</text>
-    <text x="28" y="82" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">SQLite / metadata</text>
-    <text x="28" y="108" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">TTL / namespaces</text>
+  <g transform="translate(412 146)">
+    <rect width="236" height="168" rx="26" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="30" y="54" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="850">Source of truth</text>
+    <text x="30" y="90" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">SQLite / metadata</text>
+    <text x="30" y="116" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">TTL / tags / namespaces</text>
+    <text x="30" y="142" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">provenance stays attached</text>
   </g>
 
-  <path d="M634 236H696" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
-  <path d="M684 224L700 236L684 248" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M682 230H748" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <path d="M734 217L752 230L734 243" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <g transform="translate(730 160)">
-    <rect width="226" height="152" rx="24" fill="#111111"/>
-    <text x="30" y="48" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="850">Candidate search</text>
-    <text x="30" y="82" fill="#D8D8D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">vectors / ANN</text>
-    <text x="30" y="108" fill="#D8D8D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">fast top-k recall</text>
+  <g transform="translate(784 146)">
+    <rect width="234" height="168" rx="26" fill="#111111"/>
+    <text x="30" y="54" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="850">Find candidates</text>
+    <text x="30" y="90" fill="#D7D7D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">vector search / ANN</text>
+    <text x="30" y="116" fill="#D7D7D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">fast top-k recall</text>
+    <text x="30" y="142" fill="#D7D7D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">optional FAISS / Qdrant</text>
   </g>
 
-  <path d="M988 236H1050" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
-  <path d="M1038 224L1054 236L1038 248" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1052 230H1118" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <path d="M1104 217L1122 230L1104 243" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <g transform="translate(1084 160)">
-    <rect width="282" height="152" rx="24" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <text x="30" y="48" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="850">Memory behavior</text>
-    <text x="30" y="82" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">hotness / decay / feedback</text>
-    <text x="30" y="108" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">fresh context with provenance</text>
+  <g transform="translate(1154 146)">
+    <rect width="214" height="168" rx="26" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="30" y="54" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="850">Adapt</text>
+    <text x="30" y="90" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">hotness / decay</text>
+    <text x="30" y="116" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">feedback / priority</text>
+    <text x="30" y="142" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">stale facts fade out</text>
   </g>
 
-  <path d="M1218 332C1050 388 806 392 618 338C512 308 396 312 254 358" stroke="#111111" stroke-opacity="0.34" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 14"/>
-  <text x="492" y="400" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="650">feedback strengthens useful memories; stale context fades</text>
+  <path d="M1260 342C1086 404 814 406 610 352C486 319 360 322 214 368" stroke="#111111" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 14"/>
+  <text x="470" y="404" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="650">feedback strengthens useful memory; time and correction suppress stale context</text>
 </svg>
