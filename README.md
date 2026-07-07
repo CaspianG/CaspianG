@@ -20,9 +20,9 @@
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind"><img alt="WaveMind" src="https://img.shields.io/badge/WaveMind-dynamic%20memory-0B0F14?style=for-the-badge"></a>
-  <a href="https://pypi.org/project/wavemind/"><img alt="PyPI" src="https://img.shields.io/pypi/v/wavemind?style=for-the-badge&label=PyPI&color=2563EB"></a>
+  <a href="https://pypi.org/project/wavemind/"><img alt="PyPI" src="https://img.shields.io/pypi/v/wavemind?style=for-the-badge&label=PyPI&color=111827"></a>
   <a href="https://github.com/CaspianG/wavemind/actions"><img alt="Checks" src="https://img.shields.io/github/actions/workflow/status/CaspianG/wavemind/full-check.yml?branch=main&style=for-the-badge&label=checks"></a>
-  <a href="https://github.com/CaspianG/wavemind/releases"><img alt="Release" src="https://img.shields.io/github/v/release/CaspianG/wavemind?style=for-the-badge&label=release&color=16A34A"></a>
+  <a href="https://github.com/CaspianG/wavemind/releases"><img alt="Release" src="https://img.shields.io/github/v/release/CaspianG/wavemind?style=for-the-badge&label=release&color=111827"></a>
 </p>
 
 ---
@@ -63,7 +63,7 @@ print(result.text)
 | Project | Status | Why it matters |
 | --- | --- | --- |
 | [WaveMind](https://github.com/CaspianG/wavemind) | Active | Dynamic long-term memory for agents and apps |
-| [focus-flow](https://github.com/CaspianG/focus-flow) | Stable | Minimal desktop focus timer for deep-work sessions |
+| [focus-flow](https://github.com/CaspianG/focus-flow) | Stable | Minimal desktop focus timer I use myself for focused work; simple and effective |
 
 ## Principles
 
