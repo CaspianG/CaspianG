@@ -4,7 +4,12 @@
   </a>
 </p>
 
-<h2 align="center">I build memory systems for software that should adapt instead of only store.</h2>
+<h1 align="center">Building memory systems for software that should adapt.</h1>
+
+<p align="center">
+  I work on local-first infrastructure for long-running agents and applications:
+  memory that can recall, rank, decay, consolidate, and forget.
+</p>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">WaveMind</a>
@@ -15,7 +20,7 @@
   &nbsp;/&nbsp;
   <a href="https://github.com/CaspianG/wavemind#benchmarks">Benchmarks</a>
   &nbsp;/&nbsp;
-  <a href="https://github.com/CaspianG/wavemind/issues">Issues</a>
+  <a href="https://github.com/CaspianG/wavemind/issues">Contribute</a>
 </p>
 
 <p align="center">
@@ -27,19 +32,31 @@
 
 ---
 
-## Main Focus
+<table>
+  <tr>
+    <td width="58%" valign="top">
+      <h2>Main project</h2>
+      <p>
+        <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
+        is a dynamic memory layer for agents and applications. It keeps durable storage as the source of truth, uses vector search for candidate retrieval, and adds memory behavior on top: hotness, decay, TTL, namespaces, feedback, consolidation, APIs, and benchmark gates.
+      </p>
+      <p>
+        The goal is simple: move beyond static top-k retrieval and make memory behave more like a living system with lifecycle, priority, and history.
+      </p>
+    </td>
+    <td width="42%" valign="top">
+      <h2>Try it</h2>
 
-[WaveMind](https://github.com/CaspianG/wavemind) is a local-first dynamic memory layer for agents and applications. It keeps SQLite as the source of truth, uses vector search for candidates, and adds memory behavior on top: hotness, decay, TTL, namespaces, feedback, consolidation, APIs, and benchmark gates.
+<pre><code class="language-bash">pip install wavemind</code></pre>
 
-```python
-from wavemind import WaveMind
+<pre><code class="language-python">from wavemind import WaveMind
 
 memory = WaveMind()
-memory.remember("The user prefers short technical answers.", namespace="user")
-
-result = memory.query("How should I answer?", namespace="user")[0]
-print(result.text)
-```
+memory.remember("The user prefers short technical answers.")
+print(memory.query("How should I answer?")[0].text)</code></pre>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
@@ -51,17 +68,17 @@ print(result.text)
 
 <table>
   <tr>
-    <td width="33%">
+    <td width="33%" valign="top">
       <h3>Dynamic Memory</h3>
-      <p>Memory that changes with use: reinforce important facts, expire stale ones, isolate namespaces, and keep provenance.</p>
+      <p>Memory that changes with use: reinforce useful facts, suppress stale ones, isolate namespaces, and keep provenance.</p>
     </td>
-    <td width="33%">
+    <td width="33%" valign="top">
       <h3>Production Evidence</h3>
       <p>Benchmarks, CI gates, packaging checks, public limitations, and reproducible examples instead of vague claims.</p>
     </td>
-    <td width="33%">
-      <h3>Local-First Tools</h3>
-      <p>Python, FastAPI, SQLite, Redis, optional vector backends, Docker, and simple install paths for real projects.</p>
+    <td width="33%" valign="top">
+      <h3>Developer UX</h3>
+      <p>Python, FastAPI, SQLite, Redis, optional vector backends, Docker, and examples that fit real integration work.</p>
     </td>
   </tr>
 </table>
@@ -73,6 +90,13 @@ print(result.text)
 | [WaveMind](https://github.com/CaspianG/wavemind) | Dynamic long-term memory for agents and applications | Active |
 | [focus-flow](https://github.com/CaspianG/focus-flow) | Minimal desktop focus timer for deep-work sessions | Stable |
 | [CORECITY](https://github.com/CaspianG/CORECITY) | Browser game concept built around a live market mechanic | Public archive |
+
+## Current Direction
+
+- Scale WaveMind from local memory sets to production-sized namespaces.
+- Improve dynamic-memory benchmarks against static vector retrieval.
+- Build first-class integrations for agent frameworks and real applications.
+- Keep the project honest: evidence, limitations, tests, and reproducible demos.
 
 ## Stack
 
@@ -87,17 +111,13 @@ print(result.text)
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=white">
 </p>
 
-## Principles
+## Collaboration
 
-- Useful recall matters more than nearest-neighbor recall.
-- Memory needs lifecycle: reinforce, expire, consolidate, and forget.
-- A benchmark is stronger than a slogan.
-- Developer experience should fit in minutes, not days.
+I am especially interested in practical memory work:
 
-## Start Here
+- agent memory benchmarks and evaluation datasets;
+- integrations with LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, and local agents;
+- production retrieval systems with TTL, feedback, privacy, and audit trails;
+- real examples where static vector search is not enough.
 
-```bash
-pip install wavemind
-```
-
-Then open [CaspianG/wavemind](https://github.com/CaspianG/wavemind) for examples, API docs, benchmarks, and roadmap.
+Open a discussion or issue in [WaveMind](https://github.com/CaspianG/wavemind/issues) if you want to test an integration, benchmark a memory workload, or contribute an adapter.

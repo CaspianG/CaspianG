@@ -46,5 +46,5 @@
   </g>
 
   <path d="M1178 336C1000 390 780 388 602 340C506 314 414 318 306 350" stroke="#111111" stroke-opacity="0.34" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 14"/>
-  <text x="546" y="388" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="650">feedback reinforces useful memories and lets stale ones fade</text>
+  <text x="522" y="388" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="650">feedback strengthens useful memories; stale context fades</text>
 </svg>
