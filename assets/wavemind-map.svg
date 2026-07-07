@@ -1,50 +1,50 @@
-<svg width="1440" height="430" viewBox="0 0 1440 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">WaveMind memory loop</title>
-  <desc id="desc">Minimal black and white diagram showing WaveMind turning events into evolving memory.</desc>
+<svg width="1440" height="460" viewBox="0 0 1440 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">WaveMind memory architecture</title>
+  <desc id="desc">Minimal black and white architecture diagram for WaveMind dynamic memory.</desc>
 
-  <rect width="1440" height="430" rx="30" fill="#FFFFFF"/>
-  <rect x="1" y="1" width="1438" height="428" rx="29" stroke="#111111" stroke-opacity="0.14" stroke-width="2"/>
+  <rect width="1440" height="460" rx="30" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="1438" height="458" rx="29" stroke="#111111" stroke-opacity="0.14" stroke-width="2"/>
 
-  <text x="72" y="78" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="36" font-weight="850">WaveMind memory loop</text>
-  <text x="72" y="116" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="520">Store facts, score usefulness, reinforce what works, and let stale memory fade.</text>
+  <text x="72" y="82" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="850">WaveMind in one loop</text>
+  <text x="72" y="122" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="520">Durable memories, vector candidates, dynamic priority, and clean forgetting.</text>
 
-  <g transform="translate(72 166)">
-    <rect width="232" height="138" rx="22" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <text x="28" y="48" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="850">Input</text>
-    <text x="28" y="82" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">messages</text>
-    <text x="28" y="110" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">facts / events</text>
+  <g transform="translate(74 178)">
+    <rect width="186" height="116" rx="22" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="28" y="45" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="850">Input</text>
+    <text x="28" y="77" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">messages</text>
+    <text x="28" y="101" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">facts / events</text>
   </g>
 
-  <path d="M340 235H434" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
-  <path d="M422 222L438 235L422 248" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M292 236H354" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <path d="M342 224L358 236L342 248" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <g transform="translate(474 138)">
-    <rect width="492" height="194" rx="28" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <text x="34" y="52" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="850">Dynamic memory</text>
-    <text x="34" y="84" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">retrieval plus lifecycle policy</text>
-
-    <g transform="translate(34 116)">
-      <rect width="100" height="46" rx="15" fill="#111111"/>
-      <text x="50" y="29" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="820">priority</text>
-      <rect x="120" width="88" height="46" rx="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
-      <text x="164" y="29" text-anchor="middle" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="820">decay</text>
-      <rect x="228" width="82" height="46" rx="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
-      <text x="269" y="29" text-anchor="middle" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="820">TTL</text>
-      <rect x="330" width="120" height="46" rx="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
-      <text x="390" y="29" text-anchor="middle" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="820">namespace</text>
-    </g>
+  <g transform="translate(388 160)">
+    <rect width="214" height="152" rx="24" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="28" y="48" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="850">Source of truth</text>
+    <text x="28" y="82" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">SQLite / metadata</text>
+    <text x="28" y="108" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">TTL / namespaces</text>
   </g>
 
-  <path d="M1000 235H1094" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
-  <path d="M1082 222L1098 235L1082 248" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M634 236H696" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <path d="M684 224L700 236L684 248" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <g transform="translate(1132 166)">
-    <rect width="236" height="138" rx="22" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <text x="28" y="48" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="850">Output</text>
-    <text x="28" y="82" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">useful recall</text>
-    <text x="28" y="110" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">fresh context</text>
+  <g transform="translate(730 160)">
+    <rect width="226" height="152" rx="24" fill="#111111"/>
+    <text x="30" y="48" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="850">Candidate search</text>
+    <text x="30" y="82" fill="#D8D8D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">vectors / ANN</text>
+    <text x="30" y="108" fill="#D8D8D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">fast top-k recall</text>
   </g>
 
-  <path d="M1178 336C1000 390 780 388 602 340C506 314 414 318 306 350" stroke="#111111" stroke-opacity="0.34" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 14"/>
-  <text x="522" y="388" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="650">feedback strengthens useful memories; stale context fades</text>
+  <path d="M988 236H1050" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <path d="M1038 224L1054 236L1038 248" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(1084 160)">
+    <rect width="282" height="152" rx="24" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="30" y="48" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="850">Memory behavior</text>
+    <text x="30" y="82" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">hotness / decay / feedback</text>
+    <text x="30" y="108" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">fresh context with provenance</text>
+  </g>
+
+  <path d="M1218 332C1050 388 806 392 618 338C512 308 396 312 254 358" stroke="#111111" stroke-opacity="0.34" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 14"/>
+  <text x="492" y="400" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="650">feedback strengthens useful memories; stale context fades</text>
 </svg>

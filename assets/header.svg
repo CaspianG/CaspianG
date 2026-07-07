@@ -1,75 +1,76 @@
-<svg width="1440" height="430" viewBox="0 0 1440 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1440" height="520" viewBox="0 0 1440 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">CaspianG profile banner</title>
-  <desc id="desc">Minimal black and white banner for CaspianG, focused on adaptive memory systems.</desc>
+  <desc id="desc">Minimal black and white banner for CaspianG, focused on adaptive memory infrastructure.</desc>
 
-  <rect width="1440" height="430" rx="34" fill="#FFFFFF"/>
-  <rect x="1" y="1" width="1438" height="428" rx="33" stroke="#111111" stroke-opacity="0.14" stroke-width="2"/>
+  <rect width="1440" height="520" rx="34" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="1438" height="518" rx="33" stroke="#111111" stroke-opacity="0.14" stroke-width="2"/>
 
-  <g opacity="0.045">
-    <path d="M0 86H1440M0 172H1440M0 258H1440M0 344H1440" stroke="#111111"/>
-    <path d="M120 0V430M240 0V430M360 0V430M480 0V430M600 0V430M720 0V430M840 0V430M960 0V430M1080 0V430M1200 0V430M1320 0V430" stroke="#111111"/>
+  <g opacity="0.04">
+    <path d="M0 104H1440M0 208H1440M0 312H1440M0 416H1440" stroke="#111111"/>
+    <path d="M120 0V520M240 0V520M360 0V520M480 0V520M600 0V520M720 0V520M840 0V520M960 0V520M1080 0V520M1200 0V520M1320 0V520" stroke="#111111"/>
   </g>
 
-  <g transform="translate(78 70)">
-    <rect width="94" height="94" rx="25" fill="#111111"/>
-    <circle cx="47" cy="47" r="31" fill="#FFFFFF"/>
-    <path d="M35 25C30 33 28 40 28 47C28 54 30 61 35 69" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
-    <path d="M59 25C64 33 66 40 66 47C66 54 64 61 59 69" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
-    <path d="M28 47H66" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+  <g transform="translate(84 70)">
+    <rect width="92" height="92" rx="25" fill="#111111"/>
+    <circle cx="46" cy="46" r="30" fill="#FFFFFF"/>
+    <path d="M34 25C29 32 27 39 27 46C27 53 29 60 34 67" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+    <path d="M58 25C63 32 65 39 65 46C65 53 63 60 58 67" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+    <path d="M28 46H64" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
   </g>
 
-  <text x="78" y="236" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="82" font-weight="850" letter-spacing="0">CaspianG</text>
-  <text x="82" y="286" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="760" letter-spacing="0">adaptive memory infrastructure</text>
-  <text x="82" y="326" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="520" letter-spacing="0">remembers what matters, adapts with use, forgets cleanly</text>
+  <text x="84" y="245" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="88" font-weight="850" letter-spacing="0">CaspianG</text>
+  <text x="88" y="298" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="780" letter-spacing="0">memory infrastructure for adaptive software</text>
+  <text x="88" y="340" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="520" letter-spacing="0">recall useful context, adapt priority, keep provenance, forget stale state</text>
 
-  <g transform="translate(82 356)">
-    <rect width="118" height="34" rx="17" fill="#111111"/>
-    <text x="59" y="22" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="760">local-first</text>
+  <g transform="translate(88 382)">
+    <rect width="122" height="38" rx="19" fill="#111111"/>
+    <text x="61" y="24" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="780">local-first</text>
 
-    <rect x="132" width="138" height="34" rx="17" fill="#FFFFFF" stroke="#111111" stroke-opacity="0.22" stroke-width="2"/>
-    <text x="201" y="22" text-anchor="middle" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="760">benchmarked</text>
+    <rect x="136" width="134" height="38" rx="19" fill="#FFFFFF" stroke="#111111" stroke-opacity="0.22" stroke-width="2"/>
+    <text x="203" y="24" text-anchor="middle" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="780">benchmarked</text>
 
-    <rect x="284" width="166" height="34" rx="17" fill="#FFFFFF" stroke="#111111" stroke-opacity="0.22" stroke-width="2"/>
-    <text x="367" y="22" text-anchor="middle" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="760">production-aware</text>
+    <rect x="284" width="162" height="38" rx="19" fill="#FFFFFF" stroke="#111111" stroke-opacity="0.22" stroke-width="2"/>
+    <text x="365" y="24" text-anchor="middle" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="780">production path</text>
   </g>
 
-  <g transform="translate(760 62)">
-    <rect width="586" height="306" rx="32" fill="#FFFFFF" stroke="#111111" stroke-opacity="0.16" stroke-width="2"/>
+  <g transform="translate(780 70)">
+    <rect width="570" height="374" rx="34" fill="#FFFFFF" stroke="#111111" stroke-opacity="0.16" stroke-width="2"/>
 
-    <g transform="translate(54 46)">
-      <text x="0" y="0" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="840">memory field</text>
-      <text x="0" y="30" fill="#666666" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="520">retrieve, reinforce, decay, consolidate</text>
+    <g transform="translate(48 44)">
+      <text x="0" y="0" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="840">dynamic memory field</text>
+      <text x="0" y="31" fill="#666666" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="520">retrieval plus lifecycle, feedback, and decay</text>
     </g>
 
-    <g transform="translate(62 108)">
-      <path d="M36 88C92 42 154 42 210 88C266 134 328 134 384 88C422 58 458 48 502 58" stroke="#111111" stroke-width="3.4" stroke-linecap="round"/>
-      <path d="M36 126C92 80 154 80 210 126C266 172 328 172 384 126C422 96 458 86 502 96" stroke="#111111" stroke-opacity="0.25" stroke-width="2.4" stroke-linecap="round"/>
+    <g transform="translate(62 115)">
+      <path d="M24 108C80 48 144 45 204 100C264 155 328 154 388 96C430 55 464 43 512 54" stroke="#111111" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M24 148C80 88 144 85 204 140C264 195 328 194 388 136C430 95 464 83 512 94" stroke="#111111" stroke-opacity="0.22" stroke-width="2.4" stroke-linecap="round"/>
 
-      <circle cx="36" cy="88" r="13" fill="#111111"/>
-      <circle cx="120" cy="62" r="9" fill="#111111"/>
-      <circle cx="210" cy="88" r="15" fill="#111111"/>
-      <circle cx="300" cy="122" r="9" fill="#111111"/>
-      <circle cx="384" cy="88" r="13" fill="#111111"/>
-      <circle cx="502" cy="58" r="10" fill="#111111"/>
+      <path d="M24 108L112 66L204 100L292 142L388 96L512 54" stroke="#111111" stroke-opacity="0.16" stroke-width="2"/>
+      <path d="M112 66L292 142M204 100L388 96" stroke="#111111" stroke-opacity="0.12" stroke-width="2"/>
 
-      <path d="M36 88L120 62L210 88L300 122L384 88L502 58" stroke="#111111" stroke-opacity="0.18" stroke-width="2"/>
+      <circle cx="24" cy="108" r="13" fill="#111111"/>
+      <circle cx="112" cy="66" r="10" fill="#111111"/>
+      <circle cx="204" cy="100" r="17" fill="#111111"/>
+      <circle cx="292" cy="142" r="10" fill="#111111"/>
+      <circle cx="388" cy="96" r="14" fill="#111111"/>
+      <circle cx="512" cy="54" r="11" fill="#111111"/>
     </g>
 
-    <g transform="translate(46 248)">
-      <rect width="128" height="42" rx="15" fill="#111111"/>
-      <text x="64" y="27" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">remember</text>
+    <g transform="translate(48 292)">
+      <rect width="118" height="44" rx="15" fill="#111111"/>
+      <text x="59" y="28" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="820">remember</text>
 
-      <path d="M196 21H238" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
-      <path d="M226 10L240 21L226 32" stroke="#111111" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M188 22H226" stroke="#111111" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M216 11L230 22L216 33" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 
-      <rect x="268" width="96" height="42" rx="15" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-      <text x="316" y="27" text-anchor="middle" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">recall</text>
+      <rect x="260" width="92" height="44" rx="15" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+      <text x="306" y="28" text-anchor="middle" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="820">recall</text>
 
-      <path d="M392 21H434" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
-      <path d="M422 10L436 21L422 32" stroke="#111111" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M374 22H412" stroke="#111111" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M402 11L416 22L402 33" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 
-      <rect x="464" width="78" height="42" rx="15" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-      <text x="503" y="27" text-anchor="middle" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">adapt</text>
+      <rect x="446" width="76" height="44" rx="15" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+      <text x="484" y="28" text-anchor="middle" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="820">adapt</text>
     </g>
   </g>
 </svg>
