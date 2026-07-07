@@ -1,0 +1,40 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">CaspianG GitHub profile header</title>
+  <desc id="desc">Minimal black and white banner about dynamic memory systems and WaveMind.</desc>
+  <rect width="1280" height="360" rx="28" fill="#0B0D10"/>
+  <g opacity="0.16">
+    <path d="M84 279C172 205 247 198 340 251C437 307 526 297 634 217C732 144 831 139 928 203C1018 262 1098 258 1196 190" stroke="white" stroke-width="2.5"/>
+    <path d="M84 230C172 156 247 149 340 202C437 258 526 248 634 168C732 95 831 90 928 154C1018 213 1098 209 1196 141" stroke="white" stroke-width="2.5"/>
+    <path d="M84 181C172 107 247 100 340 153C437 209 526 199 634 119C732 46 831 41 928 105C1018 164 1098 160 1196 92" stroke="white" stroke-width="2.5"/>
+  </g>
+  <g opacity="0.94">
+    <circle cx="814" cy="172" r="7" fill="white"/>
+    <circle cx="878" cy="133" r="5" fill="white"/>
+    <circle cx="946" cy="185" r="6" fill="white"/>
+    <circle cx="1015" cy="202" r="4" fill="white"/>
+    <circle cx="1080" cy="178" r="5" fill="white"/>
+    <circle cx="1134" cy="134" r="7" fill="white"/>
+    <path d="M814 172L878 133L946 185L1015 202L1080 178L1134 134" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="72" y="70" width="124" height="124" rx="26" fill="white"/>
+    <path d="M108 134C108 114.118 124.118 98 144 98C163.882 98 180 114.118 180 134C180 153.882 163.882 170 144 170C124.118 170 108 153.882 108 134Z" fill="#0B0D10"/>
+    <path d="M134 104C134 104 125 119 125 134C125 149 134 164 134 164" stroke="white" stroke-width="5" stroke-linecap="round"/>
+    <path d="M154 104C154 104 163 119 163 134C163 149 154 164 154 164" stroke="white" stroke-width="5" stroke-linecap="round"/>
+    <path d="M119 134H169" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="72" y="246" fill="white" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="70" font-weight="800" letter-spacing="0">CaspianG</text>
+  <text x="76" y="294" fill="#C9D1D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="500" letter-spacing="0">Dynamic memory systems for local-first AI</text>
+  <g transform="translate(760 245)">
+    <rect width="152" height="38" rx="19" fill="white" fill-opacity="0.10" stroke="white" stroke-opacity="0.22"/>
+    <text x="76" y="25" fill="white" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0">WaveMind</text>
+  </g>
+  <g transform="translate(928 245)">
+    <rect width="170" height="38" rx="19" fill="white" fill-opacity="0.10" stroke="white" stroke-opacity="0.22"/>
+    <text x="85" y="25" fill="white" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0">Agent Memory</text>
+  </g>
+  <g transform="translate(1114 245)">
+    <rect width="100" height="38" rx="19" fill="white" fill-opacity="0.10" stroke="white" stroke-opacity="0.22"/>
+    <text x="50" y="25" fill="white" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0">RAG</text>
+  </g>
+</svg>
