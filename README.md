@@ -16,11 +16,11 @@
   &nbsp;/&nbsp;
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
   &nbsp;/&nbsp;
-  <a href="https://github.com/CaspianG/wavemind#quick-start">Quick Start</a>
+  <a href="https://github.com/CaspianG/wavemind?tab=readme-ov-file#quick-start">Quick Start</a>
   &nbsp;/&nbsp;
-  <a href="https://github.com/CaspianG/wavemind#benchmarks">Benchmarks</a>
+  <a href="https://github.com/CaspianG/wavemind?tab=readme-ov-file#benchmark">Benchmarks</a>
   &nbsp;/&nbsp;
-  <a href="https://github.com/CaspianG/wavemind/issues">Contribute</a>
+  <a href="https://github.com/CaspianG/wavemind?tab=readme-ov-file#contributing">Contribute</a>
 </p>
 
 <p align="center">
