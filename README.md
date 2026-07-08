@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/header.svg" alt="CaspianG builds dynamic memory systems" width="100%" />
+    <img src="./assets/header.png" alt="CaspianG builds dynamic memory systems" width="100%" />
   </a>
 </p>
 
@@ -22,11 +22,11 @@
   &nbsp;&middot;&nbsp;
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
   &nbsp;&middot;&nbsp;
-  <a href="https://github.com/CaspianG/wavemind#quick-start">Quick Start</a>
+  <a href="https://github.com/CaspianG/wavemind#user-content-quick-start">Quick Start</a>
   &nbsp;&middot;&nbsp;
-  <a href="https://github.com/CaspianG/wavemind#benchmarks">Benchmarks</a>
+  <a href="https://github.com/CaspianG/wavemind#user-content-benchmark">Benchmarks</a>
   &nbsp;&middot;&nbsp;
-  <a href="https://github.com/CaspianG/wavemind/issues">Contribute</a>
+  <a href="https://github.com/CaspianG/wavemind/issues">Issues</a>
 </p>
 
 ---
@@ -68,7 +68,7 @@ print(hit.text)</code></pre>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/system.svg" alt="WaveMind memory architecture" width="100%" />
+    <img src="./assets/wavemind-map.png" alt="WaveMind memory architecture" width="100%" />
   </a>
 </p>
 
