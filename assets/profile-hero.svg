@@ -37,22 +37,22 @@
     <text x="42" y="70" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="850">WaveMind</text>
     <text x="42" y="101" fill="#C8CBD2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="650">memory that changes with use</text>
 
-    <g transform="translate(42 142)" font-family="Inter, Segoe UI, Arial, sans-serif">
-      <rect x="0" y="0" width="440" height="60" rx="18" fill="#FFFFFF"/>
-      <text x="24" y="38" fill="#050505" font-size="18" font-weight="850">remember</text>
-      <text x="166" y="38" fill="#4D515A" font-size="15" font-weight="650">facts, metadata, namespace</text>
+    <g transform="translate(42 132)" font-family="Inter, Segoe UI, Arial, sans-serif">
+      <rect x="0" y="0" width="440" height="56" rx="17" fill="#FFFFFF"/>
+      <text x="24" y="36" fill="#050505" font-size="18" font-weight="850">remember</text>
+      <text x="166" y="36" fill="#4D515A" font-size="15" font-weight="650">facts, metadata, namespace</text>
 
-      <rect x="0" y="78" width="440" height="60" rx="18" fill="#1D1F24" stroke="#3D414A" stroke-width="1.2"/>
-      <text x="24" y="116" fill="#FFFFFF" font-size="18" font-weight="850">retrieve</text>
-      <text x="166" y="116" fill="#B9BDC6" font-size="15" font-weight="650">vector candidates, top-k</text>
+      <rect x="0" y="72" width="440" height="56" rx="17" fill="#1D1F24" stroke="#3D414A" stroke-width="1.2"/>
+      <text x="24" y="108" fill="#FFFFFF" font-size="18" font-weight="850">retrieve</text>
+      <text x="166" y="108" fill="#B9BDC6" font-size="15" font-weight="650">vector candidates, top-k</text>
 
-      <rect x="0" y="156" width="440" height="60" rx="18" fill="#1D1F24" stroke="#3D414A" stroke-width="1.2"/>
-      <text x="24" y="194" fill="#FFFFFF" font-size="18" font-weight="850">adapt</text>
-      <text x="166" y="194" fill="#B9BDC6" font-size="15" font-weight="650">hotness, decay, corrections</text>
+      <rect x="0" y="144" width="440" height="56" rx="17" fill="#1D1F24" stroke="#3D414A" stroke-width="1.2"/>
+      <text x="24" y="180" fill="#FFFFFF" font-size="18" font-weight="850">adapt</text>
+      <text x="166" y="180" fill="#B9BDC6" font-size="15" font-weight="650">hotness, decay, corrections</text>
 
-      <rect x="0" y="234" width="440" height="60" rx="18" fill="#1D1F24" stroke="#3D414A" stroke-width="1.2"/>
-      <text x="24" y="272" fill="#FFFFFF" font-size="18" font-weight="850">explain</text>
-      <text x="166" y="272" fill="#B9BDC6" font-size="15" font-weight="650">scores, provenance, evidence</text>
+      <rect x="0" y="216" width="440" height="56" rx="17" fill="#1D1F24" stroke="#3D414A" stroke-width="1.2"/>
+      <text x="24" y="252" fill="#FFFFFF" font-size="18" font-weight="850">explain</text>
+      <text x="166" y="252" fill="#B9BDC6" font-size="15" font-weight="650">scores, provenance, evidence</text>
     </g>
 
   </g>
