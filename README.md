@@ -44,7 +44,7 @@ wavemind quickstart
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/memory-loop.svg" alt="WaveMind memory loop" width="100%" />
+    <img src="https://raw.githubusercontent.com/CaspianG/CaspianG/main/assets/memory-loop.svg" alt="WaveMind memory loop" width="100%" />
   </a>
 </p>
 
