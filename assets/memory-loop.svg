@@ -1,12 +1,12 @@
 <svg width="1440" height="420" viewBox="0 0 1440 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">WaveMind memory loop</title>
-  <desc id="desc">A clean black and white diagram showing retrieval plus adaptive memory state.</desc>
+  <desc id="desc">A clean diagram showing retrieval plus adaptive memory state.</desc>
 
-  <rect x="1.5" y="1.5" width="1437" height="417" rx="32.5" fill="#FFFFFF" stroke="#DCE1EA" stroke-width="3"/>
+  <rect x="1.5" y="1.5" width="1437" height="417" rx="34.5" fill="#FFFFFF" stroke="#DCE1EA" stroke-width="3"/>
 
   <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="72" y="74" fill="#07080A" font-size="38" font-weight="900">WaveMind turns retrieval into memory</text>
-    <text x="74" y="113" fill="#5C6470" font-size="18" font-weight="650">Vector search finds candidates. Memory state decides what should still matter.</text>
+    <text x="72" y="76" fill="#07080A" font-size="38" font-weight="900">WaveMind turns retrieval into memory</text>
+    <text x="74" y="116" fill="#5C6470" font-size="18" font-weight="650">Vector search finds candidates. Memory state decides what should still matter.</text>
   </g>
 
   <g transform="translate(70 154)" font-family="Inter, Segoe UI, Arial, sans-serif">
