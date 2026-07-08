@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/profile-hero-v3.svg" alt="CaspianG builds adaptive memory systems" width="100%" />
+    <img src="https://raw.githubusercontent.com/CaspianG/CaspianG/main/assets/profile-hero-v3.svg" alt="CaspianG builds adaptive memory systems" width="100%" />
   </a>
 </p>
 
