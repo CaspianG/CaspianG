@@ -22,11 +22,11 @@
   &nbsp;&middot;&nbsp;
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
   &nbsp;&middot;&nbsp;
-  <a href="https://www.github.com/CaspianG/wavemind#user-content-quick-start">Quick Start</a>
+  <a href="https://www.github.com/CaspianG/wavemind#quick-start">Quick Start</a>
   &nbsp;&middot;&nbsp;
-  <a href="https://www.github.com/CaspianG/wavemind#user-content-benchmark">Benchmarks</a>
+  <a href="https://www.github.com/CaspianG/wavemind#benchmark">Benchmarks</a>
   &nbsp;&middot;&nbsp;
-  <a href="https://github.com/CaspianG/wavemind/issues">Issues</a>
+  <a href="https://www.github.com/CaspianG/wavemind#contributing">Contributing</a>
 </p>
 
 ---
