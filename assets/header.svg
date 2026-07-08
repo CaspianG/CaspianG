@@ -1,6 +1,6 @@
 <svg width="1440" height="520" viewBox="0 0 1440 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">CaspianG profile banner</title>
-  <desc id="desc">A modern black and white banner about dynamic memory systems.</desc>
+  <desc id="desc">A modern black and white banner about memory infrastructure for durable software.</desc>
 
   <rect width="1440" height="520" rx="34" fill="#070707"/>
   <rect x="1" y="1" width="1438" height="518" rx="33" stroke="#FFFFFF" stroke-opacity="0.13" stroke-width="2"/>
@@ -19,9 +19,9 @@
   </g>
 
   <text x="84" y="206" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="760">CASPIANG</text>
-  <text x="84" y="278" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="62" font-weight="860">Dynamic memory</text>
-  <text x="84" y="343" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="62" font-weight="860">for durable systems.</text>
-  <text x="88" y="398" fill="#C9CBD1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="520">durable state / adaptive retrieval / decay / feedback / evidence</text>
+  <text x="84" y="278" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="62" font-weight="860">Memory infrastructure</text>
+  <text x="84" y="343" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="62" font-weight="860">for durable software.</text>
+  <text x="88" y="398" fill="#C9CBD1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="520">local-first / adaptive retrieval / decay / feedback / evidence</text>
 
   <g transform="translate(88 442)">
     <rect width="128" height="38" rx="19" fill="#FFFFFF"/>
