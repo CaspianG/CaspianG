@@ -1,82 +1,85 @@
 <svg width="1440" height="540" viewBox="0 0 1440 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">CaspianG GitHub profile banner</title>
-  <desc id="desc">A modern black and white banner for dynamic memory infrastructure.</desc>
+  <desc id="desc">A modern black and white banner for dynamic memory systems.</desc>
 
   <rect width="1440" height="540" rx="36" fill="#070707"/>
-  <rect x="1" y="1" width="1438" height="538" rx="35" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="2"/>
+  <rect x="1.5" y="1.5" width="1437" height="537" rx="34.5" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="3"/>
 
-  <g opacity="0.06">
+  <g opacity="0.07">
     <path d="M0 108H1440M0 216H1440M0 324H1440M0 432H1440" stroke="#FFFFFF"/>
     <path d="M120 0V540M240 0V540M360 0V540M480 0V540M600 0V540M720 0V540M840 0V540M960 0V540M1080 0V540M1200 0V540M1320 0V540" stroke="#FFFFFF"/>
   </g>
 
   <g transform="translate(78 62)">
-    <rect width="86" height="86" rx="26" fill="#FFFFFF"/>
+    <rect width="86" height="86" rx="24" fill="#FFFFFF"/>
     <circle cx="43" cy="43" r="25" fill="#070707"/>
-    <path d="M28 28C21 36 20 45 28 58" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
-    <path d="M58 28C65 36 66 45 58 58" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+    <path d="M28 29C21 37 21 47 29 58" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+    <path d="M58 29C65 37 65 47 57 58" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
     <path d="M29 43H57" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
   </g>
 
-  <text x="78" y="194" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">CASPIANG</text>
-  <text x="78" y="270" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="68" font-weight="860">Dynamic memory</text>
-  <text x="78" y="342" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="68" font-weight="860">for durable software.</text>
-  <text x="82" y="400" fill="#C7C9D1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="520">local-first systems / adaptive retrieval / graph recall / production evidence</text>
+  <text x="78" y="190" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="3">CASPIANG</text>
+  <text x="78" y="268" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="860">Dynamic memory</text>
+  <text x="78" y="338" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="860">systems for software.</text>
+  <text x="82" y="398" fill="#C8CAD2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="520">local-first / adaptive retrieval / graph recall / production evidence</text>
 
   <g transform="translate(78 450)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">
-    <rect width="130" height="38" rx="19" fill="#FFFFFF"/>
-    <text x="65" y="25" text-anchor="middle" fill="#070707">WaveMind</text>
+    <rect width="134" height="38" rx="19" fill="#FFFFFF"/>
+    <text x="67" y="25" text-anchor="middle" fill="#070707">WaveMind</text>
 
-    <rect x="146" width="118" height="38" rx="19" fill="#070707" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="2"/>
-    <text x="205" y="25" text-anchor="middle" fill="#FFFFFF">SQLite</text>
+    <rect x="150" width="122" height="38" rx="19" fill="#070707" stroke="#FFFFFF" stroke-opacity="0.30" stroke-width="2"/>
+    <text x="211" y="25" text-anchor="middle" fill="#FFFFFF">SQLite</text>
 
-    <rect x="280" width="112" height="38" rx="19" fill="#070707" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="2"/>
-    <text x="336" y="25" text-anchor="middle" fill="#FFFFFF">FAISS</text>
+    <rect x="288" width="112" height="38" rx="19" fill="#070707" stroke="#FFFFFF" stroke-opacity="0.30" stroke-width="2"/>
+    <text x="344" y="25" text-anchor="middle" fill="#FFFFFF">FAISS</text>
 
-    <rect x="408" width="136" height="38" rx="19" fill="#070707" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="2"/>
-    <text x="476" y="25" text-anchor="middle" fill="#FFFFFF">Open source</text>
+    <rect x="416" width="146" height="38" rx="19" fill="#070707" stroke="#FFFFFF" stroke-opacity="0.30" stroke-width="2"/>
+    <text x="489" y="25" text-anchor="middle" fill="#FFFFFF">Open source</text>
   </g>
 
-  <g transform="translate(818 58)">
-    <rect width="544" height="424" rx="34" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="2"/>
-    <text x="42" y="62" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="850">memory control plane</text>
-    <text x="42" y="94" fill="#B7BAC2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="520">persistent context that can change, fade, strengthen, and explain itself</text>
+  <g transform="translate(802 58)">
+    <rect width="560" height="424" rx="34" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="2"/>
+    <text x="44" y="64" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="850">memory control plane</text>
+    <text x="44" y="96" fill="#B9BCC5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="520">persistent context that can strengthen, fade, adapt, and explain itself</text>
 
-    <g transform="translate(42 130)" font-family="Inter, Segoe UI, Arial, sans-serif">
-      <rect width="460" height="64" rx="20" fill="#FFFFFF"/>
-      <text x="28" y="39" fill="#070707" font-size="15" font-weight="850">remember</text>
-      <text x="174" y="39" fill="#070707" font-size="15" font-weight="850">retrieve</text>
-      <text x="302" y="39" fill="#070707" font-size="15" font-weight="850">adapt</text>
-      <text x="396" y="39" fill="#070707" font-size="15" font-weight="850">prove</text>
+    <g transform="translate(44 132)" font-family="Inter, Segoe UI, Arial, sans-serif">
+      <rect width="472" height="64" rx="20" fill="#FFFFFF"/>
+      <text x="34" y="40" fill="#070707" font-size="15" font-weight="850">remember</text>
+      <text x="178" y="40" fill="#070707" font-size="15" font-weight="850">retrieve</text>
+      <text x="306" y="40" fill="#070707" font-size="15" font-weight="850">adapt</text>
+      <text x="404" y="40" fill="#070707" font-size="15" font-weight="850">prove</text>
     </g>
 
-    <g transform="translate(68 236)">
-      <path d="M0 100C52 28 120 34 170 72C228 116 272 164 372 34" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
-      <path d="M0 144C52 72 120 78 170 116C228 160 272 208 372 78" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="3" stroke-linecap="round"/>
+    <g transform="translate(78 236)">
+      <path d="M0 102C52 32 118 34 170 72C230 116 276 164 388 34" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M0 146C52 76 118 78 170 116C230 160 276 208 388 78" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="3" stroke-linecap="round"/>
 
-      <path d="M0 100L104 42L170 72L258 142L372 34" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/>
-      <path d="M104 42L258 142M170 72L372 34M0 100L170 72" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+      <path d="M0 102L108 42L170 72L260 142L388 34" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/>
+      <path d="M108 42L260 142M170 72L388 34M0 102L170 72" stroke="#FFFFFF" stroke-opacity="0.13" stroke-width="2"/>
 
-      <circle cx="0" cy="100" r="11" fill="#FFFFFF"/>
-      <circle cx="104" cy="42" r="18" fill="#FFFFFF"/>
+      <circle cx="0" cy="102" r="11" fill="#FFFFFF"/>
+      <circle cx="108" cy="42" r="18" fill="#FFFFFF"/>
       <circle cx="170" cy="72" r="32" fill="#FFFFFF"/>
-      <circle cx="258" cy="142" r="15" fill="#FFFFFF"/>
-      <circle cx="372" cy="34" r="24" fill="#FFFFFF"/>
+      <circle cx="260" cy="142" r="15" fill="#FFFFFF"/>
+      <circle cx="388" cy="34" r="24" fill="#FFFFFF"/>
 
-      <circle cx="104" cy="42" r="42" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="2"/>
+      <circle cx="108" cy="42" r="42" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="2"/>
       <circle cx="170" cy="72" r="70" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="2"/>
-      <circle cx="372" cy="34" r="56" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="2"/>
+      <circle cx="388" cy="34" r="56" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="2"/>
     </g>
 
     <g transform="translate(70 390)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="780">
-      <rect width="86" height="30" rx="15" fill="#FFFFFF"/>
-      <text x="43" y="20" text-anchor="middle" fill="#070707">hotness</text>
-      <rect x="102" width="78" height="30" rx="15" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.30" stroke-width="2"/>
-      <text x="141" y="20" text-anchor="middle" fill="#FFFFFF">decay</text>
-      <rect x="196" width="96" height="30" rx="15" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.30" stroke-width="2"/>
-      <text x="244" y="20" text-anchor="middle" fill="#FFFFFF">feedback</text>
-      <rect x="308" width="110" height="30" rx="15" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.30" stroke-width="2"/>
-      <text x="363" y="20" text-anchor="middle" fill="#FFFFFF">provenance</text>
+      <rect width="88" height="30" rx="15" fill="#FFFFFF"/>
+      <text x="44" y="20" text-anchor="middle" fill="#070707">hotness</text>
+
+      <rect x="104" width="82" height="30" rx="15" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.30" stroke-width="2"/>
+      <text x="145" y="20" text-anchor="middle" fill="#FFFFFF">decay</text>
+
+      <rect x="202" width="102" height="30" rx="15" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.30" stroke-width="2"/>
+      <text x="253" y="20" text-anchor="middle" fill="#FFFFFF">feedback</text>
+
+      <rect x="320" width="118" height="30" rx="15" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.30" stroke-width="2"/>
+      <text x="379" y="20" text-anchor="middle" fill="#FFFFFF">provenance</text>
     </g>
   </g>
 </svg>
