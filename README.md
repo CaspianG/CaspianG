@@ -1,14 +1,14 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/header.png" alt="CaspianG - adaptive memory for long-running software" width="100%" />
+    <img src="./assets/header.png" alt="CaspianG - adaptive memory for software that runs long" width="100%" />
   </a>
 </p>
 
-<h1 align="center">I build adaptive memory systems for software that runs for a long time.</h1>
+<h1 align="center">Adaptive memory infrastructure for long-running software.</h1>
 
 <p align="center">
-  Local-first infrastructure, dynamic retrieval, durable state, clean forgetting,
-  and benchmarks for memory that changes with use.
+  I build local-first systems that preserve useful context, rank what matters,
+  forget stale state, and keep memory behavior measurable.
 </p>
 
 <p align="center">
@@ -16,11 +16,11 @@
   &nbsp;/&nbsp;
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
   &nbsp;/&nbsp;
-  <a href="https://github.com/CaspianG/wavemind#user-content-quick-start">Quick Start</a>
+  <a href="https://github.com/CaspianG/wavemind#quick-start">Quick Start</a>
   &nbsp;/&nbsp;
-  <a href="https://github.com/CaspianG/wavemind#user-content-benchmark">Benchmarks</a>
+  <a href="https://github.com/CaspianG/wavemind#benchmark">Benchmarks</a>
   &nbsp;/&nbsp;
-  <a href="https://github.com/CaspianG/wavemind/issues">Issues</a>
+  <a href="https://github.com/CaspianG/wavemind/issues">Contribute</a>
 </p>
 
 <p align="center">
@@ -34,33 +34,33 @@
 
 <table>
   <tr>
-    <td width="56%" valign="top">
-      <h2>Now building</h2>
+    <td width="58%" valign="top">
+      <h2>Now building: WaveMind</h2>
       <p>
         <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
-        is an open-source memory layer for agents, copilots, research notebooks,
+        is an open-source dynamic memory layer for agents, copilots, research notebooks,
         support systems, and products that accumulate context over time.
       </p>
       <p>
-        It keeps durable memory as the source of truth, retrieves candidates
-        through fast indexes, then applies adaptive behavior on top: priority,
-        decay, TTL, namespaces, feedback, graph links, provenance, and forgetting.
+        It keeps durable state as the source of truth, uses vector search for candidate recall,
+        then applies memory behavior on top: priority, decay, TTL, namespaces, feedback,
+        graph links, provenance, and explicit forgetting.
       </p>
       <p>
-        The direction is practical: useful memory should become easier to recall,
-        stale memory should fade, and important answers should be traceable.
+        The goal is not another vector database. The goal is memory that behaves like
+        a living system while staying inspectable, testable, and practical to ship.
       </p>
     </td>
-    <td width="44%" valign="top">
-      <h2>Try WaveMind</h2>
+    <td width="42%" valign="top">
+      <h2>Use it in 30 seconds</h2>
       <pre><code class="language-bash">pip install wavemind</code></pre>
       <pre><code class="language-python">from wavemind import WaveMind
 
 memory = WaveMind()
 memory.remember("The user prefers concise technical answers.")
 
-result = memory.query("How should I answer?")[0]
-print(result.text)</code></pre>
+hit = memory.query("How should I answer?")[0]
+print(hit.text)</code></pre>
     </td>
   </tr>
 </table>
@@ -71,39 +71,41 @@ print(result.text)</code></pre>
   </a>
 </p>
 
-## Why This Matters
+## What Makes It Different
 
-| Static vector search | Adaptive memory |
+| Static retrieval | Adaptive memory |
 | --- | --- |
-| Finds nearby text. | Tracks memory state over time. |
-| Treats old, corrected, and noisy facts as equally searchable unless manually filtered. | Uses TTL, decay, feedback, priority, and forgetting to reduce stale or wrong memories. |
-| Works well for document lookup. | Targets long-running systems that need context, preferences, corrections, and history. |
-| Usually explains similarity. | Keeps provenance, recall evidence, benchmark artifacts, and lifecycle state close to the result. |
+| Finds similar text. | Finds useful memory. |
+| Old facts remain searchable until manually filtered. | TTL, decay, feedback, and corrections reduce stale recall. |
+| Similarity is usually the main signal. | Similarity is only the candidate step; memory state changes ranking. |
+| Great for document lookup. | Built for products that need preferences, history, corrections, and context over time. |
+| Often treated as a black box. | Keeps provenance, benchmark artifacts, audit events, and lifecycle state close to the result. |
 
-## Current Work
+## Current Direction
 
-| Area | What I am pushing toward |
+| Area | Focus |
 | --- | --- |
-| Dynamic memory | Hotness, decay, TTL, feedback, conflict handling, consolidation, and graph dynamics. |
-| Evidence | Public benchmarks, latency profiles, regression tests, and comparison with static vector retrieval. |
-| Developer experience | Python API, FastAPI server, CLI, Docker, examples, and framework adapters. |
-| Production path | Persistence, backups, observability, access control, external indexes, sharding, and scale testing. |
+| Dynamic memory | Hotness, decay, feedback, conflict handling, consolidation, graph dynamics. |
+| Scale | FAISS, Qdrant, pgvector, sharding, backups, operator readiness, production load profiles. |
+| Evidence | LoCoMo, LongMemEval-style runs, local regression benchmarks, latency and recall gates. |
+| Developer UX | Python API, FastAPI server, CLI, Studio, Docker, examples, framework integrations. |
+| Trust | Clear limitations, reproducible commands, CI, releases, and public result artifacts. |
 
 ## Projects
 
-| Project | Focus | Status |
+| Project | What it is | Status |
 | --- | --- | --- |
 | [WaveMind](https://github.com/CaspianG/wavemind) | Dynamic long-term memory for agents and applications | Active |
 | [focus-flow](https://github.com/CaspianG/focus-flow) | Minimal desktop focus timer for deep-work sessions | Stable |
 | [CORECITY](https://github.com/CaspianG/CORECITY) | Browser game concept built around a live market mechanic | Public archive |
 
-## How I Build
+## Principles
 
 - Local-first before hosted-first.
 - Reproducible benchmarks before broad claims.
-- Clear interfaces before impressive demos.
 - Memory as evolving state, not only embedded text.
-- Privacy-aware forgetting as a core primitive.
+- Explicit forgetting as a core primitive.
+- Simple integration paths before impressive architecture diagrams.
 
 ## Stack
 
