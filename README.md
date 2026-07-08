@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/header.png" alt="CaspianG builds adaptive memory systems" width="100%" />
+    <img src="./assets/header.png" alt="CaspianG builds memory systems for durable context" width="100%" />
   </a>
 </p>
 
 <h1 align="center">CaspianG</h1>
 
 <p align="center">
-  <strong>I build memory infrastructure for software that has to keep context, adapt over time, and stay inspectable.</strong>
+  <strong>Building local-first memory infrastructure for software that needs durable context, adaptive recall, and inspectable behavior.</strong>
 </p>
 
 <p align="center">
@@ -19,13 +19,13 @@
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
-  &nbsp;|&nbsp;
+  &nbsp;/&nbsp;
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
-  &nbsp;|&nbsp;
+  &nbsp;/&nbsp;
   <a href="https://github.com/CaspianG/wavemind#user-content-quick-start">Quick Start</a>
-  &nbsp;|&nbsp;
+  &nbsp;/&nbsp;
   <a href="https://github.com/CaspianG/wavemind#user-content-benchmark">Benchmarks</a>
-  &nbsp;|&nbsp;
+  &nbsp;/&nbsp;
   <a href="https://github.com/CaspianG/wavemind/issues">Issues</a>
 </p>
 
@@ -33,52 +33,58 @@
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h3>Adaptive Memory</h3>
+    <td width="50%" valign="top">
+      <h2>What I build</h2>
       <p>
-        Memory should not be a static top-k lookup. Useful context should get easier
-        to recall. Stale context should fade. Corrections should suppress old facts.
+        I work on systems where memory is not just storage. Useful context should
+        become easier to recall, stale context should lose priority, and every
+        important decision should stay inspectable.
+      </p>
+      <p>
+        The current flagship is <a href="https://github.com/CaspianG/wavemind">WaveMind</a>:
+        an open-source memory engine for assistants, notebooks, internal copilots,
+        research tools, support systems, and products that need context to survive
+        beyond one session.
       </p>
     </td>
-    <td width="33%" valign="top">
-      <h3>Local First</h3>
-      <p>
-        I prefer tools that can run on one machine, expose clear data files, and scale
-        only when the workload proves it needs scale.
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Evidence Driven</h3>
-      <p>
-        Benchmarks, packaging checks, CI gates, reproducible artifacts, and honest
-        limits are part of the product, not an afterthought.
-      </p>
+    <td width="50%" valign="top">
+      <h2>Current focus</h2>
+      <ul>
+        <li>Dynamic long-term memory for software with durable context.</li>
+        <li>Hotness, decay, TTL, feedback, namespaces, and graph-aware recall.</li>
+        <li>SQLite source of truth with optional ANN and service backends.</li>
+        <li>Benchmarks, CI gates, reproducible artifacts, and honest limits.</li>
+      </ul>
     </td>
   </tr>
 </table>
 
-## Flagship Project
+## Start Here
 
 <table>
   <tr>
-    <td width="56%" valign="top">
+    <td width="54%" valign="top">
       <h3><a href="https://github.com/CaspianG/wavemind">WaveMind</a></h3>
       <p>
-        WaveMind is an open-source memory engine for long-running software:
-        assistants, notebooks, internal copilots, support systems, research tools,
-        and products that need context to survive beyond one session.
+        WaveMind is a local-first memory layer for long-running software. It stores
+        facts, retrieves candidates, applies dynamic priority, explains recalls,
+        and learns from usage.
       </p>
       <p>
-        The core loop is simple: store facts, search candidates, apply dynamic
-        priority, return explainable recalls, then learn from usage.
+        It is designed for projects where ordinary vector search is useful, but not
+        enough: user preferences, corrections, stale facts, private namespaces,
+        research notes, agent memory, and operational context.
       </p>
       <p>
-        Current work: production-scale planning, ANN backends, graph recall,
-        observability, benchmark evidence, and framework integrations.
+        <a href="https://github.com/CaspianG/wavemind"><strong>Open the repository</strong></a>
+        &nbsp;/&nbsp;
+        <a href="https://github.com/CaspianG/wavemind#user-content-quick-start">Run the quick start</a>
+        &nbsp;/&nbsp;
+        <a href="https://github.com/CaspianG/wavemind#user-content-benchmark">Read the benchmarks</a>
       </p>
     </td>
-    <td width="44%" valign="top">
-      <h3>Try it in 30 seconds</h3>
+    <td width="46%" valign="top">
+      <h3>Try it</h3>
       <pre><code class="language-bash">pip install wavemind</code></pre>
       <pre><code class="language-python">from wavemind import WaveMind
 
@@ -97,16 +103,16 @@ print(hit.text)</code></pre>
   </a>
 </p>
 
-## What I Am Building
+## Workstreams
 
-| Direction | Why it matters |
+| Area | What it means |
 | --- | --- |
-| Dynamic recall | Hotness, decay, TTL, feedback, conflict handling, consolidation, and graph-aware recall. |
-| Production memory | SQLite source of truth, optional ANN indexes, service mode, backups, auth, and observable APIs. |
-| Benchmark evidence | LoCoMo, LongMemEval, BEIR-style retrieval, scale plans, artifact audits, and CI-backed regression checks. |
-| Developer adoption | Small APIs, CLI, FastAPI, LangChain, LlamaIndex, migration guides, and examples that run without guesswork. |
+| Memory systems | Adaptive recall, decay, feedback, conflict handling, consolidation, and graph memory. |
+| Production path | Local development first, then service mode, backups, auth, observability, and scalable indexes. |
+| Evidence | LoCoMo, LongMemEval, BEIR-style retrieval, scale plans, artifact audits, and CI-backed regression checks. |
+| Developer experience | Small APIs, CLI, FastAPI, LangChain, LlamaIndex, migration guides, and examples that run without guesswork. |
 
-## Projects
+## Repositories
 
 | Project | Focus | Status |
 | --- | --- | --- |
@@ -114,13 +120,13 @@ print(hit.text)</code></pre>
 | [focus-flow](https://github.com/CaspianG/focus-flow) | Minimal desktop focus timer for deep-work sessions with English/Russian UI. | Stable |
 | [CORECITY](https://github.com/CaspianG/CORECITY) | Browser game concept built around a living market mechanic. | Public archive |
 
-## Working Principles
+## Principles
 
 - Build the useful path first, then prove it under real workloads.
 - Keep local development fast, inspectable, and easy to run.
-- Treat forgetting, provenance, and namespace isolation as first-class primitives.
-- Prefer simple APIs over clever abstractions that make systems harder to operate.
-- Avoid claims that do not have runnable artifacts behind them.
+- Treat forgetting, provenance, and namespace isolation as core product behavior.
+- Prefer simple APIs over abstractions that make systems harder to operate.
+- Do not publish claims without runnable artifacts behind them.
 
 ## Stack
 
@@ -135,11 +141,11 @@ print(hit.text)</code></pre>
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=white">
 </p>
 
-## Open To
+## Collaboration
 
-I am interested in practical memory systems, long-running software, retrieval
-benchmarks, privacy-aware forgetting, production indexes, graph recall, and real
-workloads where static vector search starts to break down.
+I am interested in practical memory systems, retrieval benchmarks, privacy-aware
+forgetting, production indexes, graph recall, and real workloads where static
+vector search starts to break down.
 
 Start with [WaveMind issues](https://github.com/CaspianG/wavemind/issues) if you
 want to test an integration, benchmark a workload, or contribute an adapter.
