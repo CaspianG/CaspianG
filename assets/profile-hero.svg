@@ -1,0 +1,82 @@
+<svg width="1440" height="560" viewBox="0 0 1440 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">CaspianG builds adaptive memory systems</title>
+  <desc id="desc">A minimal black and white profile hero for CaspianG and WaveMind.</desc>
+
+  <rect width="1440" height="560" rx="40" fill="#07080A"/>
+  <rect x="1.5" y="1.5" width="1437" height="557" rx="38.5" stroke="#252932" stroke-width="3"/>
+
+  <g opacity="0.16" stroke="#FFFFFF" stroke-width="1">
+    <path d="M76 112H650M76 184H650M76 256H650M76 328H650M76 400H650M76 472H650"/>
+    <path d="M148 72V496M268 72V496M388 72V496M508 72V496M628 72V496"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="80" y="72" width="184" height="44" rx="22" fill="#FFFFFF"/>
+    <text x="172" y="100" text-anchor="middle" fill="#07080A" font-size="15" font-weight="850">CASPIANG</text>
+
+    <text x="80" y="204" fill="#FFFFFF" font-size="64" font-weight="850">Adaptive memory</text>
+    <text x="80" y="278" fill="#FFFFFF" font-size="64" font-weight="850">systems</text>
+    <text x="84" y="336" fill="#D7DAE2" font-size="22" font-weight="650">open-source infrastructure for durable, inspectable context</text>
+
+    <g transform="translate(80 414)">
+      <rect width="146" height="48" rx="24" fill="#FFFFFF"/>
+      <text x="73" y="31" text-anchor="middle" fill="#07080A" font-size="15" font-weight="850">WaveMind</text>
+
+      <rect x="166" width="146" height="48" rx="24" fill="#121419" stroke="#555C69" stroke-width="1.4"/>
+      <text x="239" y="31" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">benchmarks</text>
+
+      <rect x="332" width="104" height="48" rx="24" fill="#121419" stroke="#555C69" stroke-width="1.4"/>
+      <text x="384" y="31" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">APIs</text>
+
+      <rect x="456" width="142" height="48" rx="24" fill="#121419" stroke="#555C69" stroke-width="1.4"/>
+      <text x="527" y="31" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">local-first</text>
+    </g>
+  </g>
+
+  <g transform="translate(746 58)">
+    <rect width="620" height="444" rx="36" fill="#0B0D11" stroke="#343944" stroke-width="1.5"/>
+    <rect x="30" y="30" width="560" height="384" rx="28" fill="#101319" stroke="#262B35" stroke-width="1.2"/>
+
+    <g opacity="0.22" stroke="#FFFFFF" stroke-width="1.1">
+      <circle cx="310" cy="222" r="168"/>
+      <circle cx="310" cy="222" r="118"/>
+      <circle cx="310" cy="222" r="68"/>
+      <path d="M142 222H478"/>
+      <path d="M310 54V390"/>
+      <path d="M191 103L429 341"/>
+      <path d="M429 103L191 341"/>
+    </g>
+
+    <path d="M144 158C198 182 253 210 310 222C367 234 422 262 476 286" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M144 286C198 262 253 234 310 222C367 210 422 182 476 158" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M230 104C252 154 282 192 310 222C338 252 368 290 390 340" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round" opacity="0.75"/>
+
+    <g fill="#FFFFFF">
+      <circle cx="310" cy="222" r="25"/>
+      <circle cx="144" cy="158" r="14"/>
+      <circle cx="476" cy="158" r="14"/>
+      <circle cx="144" cy="286" r="14"/>
+      <circle cx="476" cy="286" r="14"/>
+      <circle cx="230" cy="104" r="11"/>
+      <circle cx="390" cy="340" r="11"/>
+    </g>
+
+    <g font-family="Inter, Segoe UI, Arial, sans-serif">
+      <rect x="64" y="58" width="146" height="46" rx="16" fill="#FFFFFF"/>
+      <text x="137" y="87" text-anchor="middle" fill="#07080A" font-size="14" font-weight="850">remember</text>
+
+      <rect x="410" y="58" width="146" height="46" rx="16" fill="#1A1E26" stroke="#555C69" stroke-width="1.2"/>
+      <text x="483" y="87" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="850">prioritize</text>
+
+      <rect x="64" y="340" width="146" height="46" rx="16" fill="#1A1E26" stroke="#555C69" stroke-width="1.2"/>
+      <text x="137" y="369" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="850">forget</text>
+
+      <rect x="410" y="340" width="146" height="46" rx="16" fill="#1A1E26" stroke="#555C69" stroke-width="1.2"/>
+      <text x="483" y="369" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="850">recall</text>
+
+      <rect x="236" y="184" width="148" height="76" rx="24" fill="#FFFFFF"/>
+      <text x="310" y="216" text-anchor="middle" fill="#07080A" font-size="18" font-weight="900">memory</text>
+      <text x="310" y="239" text-anchor="middle" fill="#444B57" font-size="13" font-weight="800">field</text>
+    </g>
+  </g>
+</svg>

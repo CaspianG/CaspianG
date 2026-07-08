@@ -1,16 +1,16 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="https://raw.githubusercontent.com/CaspianG/CaspianG/main/assets/profile-hero-v3.svg" alt="CaspianG builds adaptive memory systems" width="100%" />
+    <img src="https://raw.githubusercontent.com/CaspianG/CaspianG/main/assets/profile-hero.svg" alt="CaspianG builds adaptive memory systems" width="100%" />
   </a>
 </p>
 
 <h1 align="center">CaspianG</h1>
 
 <p align="center">
-  <strong>Building adaptive memory systems, agent infrastructure, and local-first developer tools.</strong><br />
-  Main work:
+  <strong>I build adaptive memory infrastructure for software that needs context to survive beyond a single prompt, run, or session.</strong><br />
+  Current focus:
   <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>,
-  a memory engine for software that needs durable, inspectable context.
+  an open-source memory engine with persistence, namespaces, decay, graph recall, APIs, benchmarks, and production-scale work.
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/CaspianG/wavemind"><strong>Repository</strong></a>
+  <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
   &nbsp;/&nbsp;
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
   &nbsp;/&nbsp;
@@ -29,27 +29,31 @@
   &nbsp;/&nbsp;
   <a href="https://github.com/CaspianG/wavemind#user-content-benchmark">Benchmarks</a>
   &nbsp;/&nbsp;
-  <a href="https://github.com/CaspianG/wavemind/issues">Contribute</a>
+  <a href="https://github.com/CaspianG/wavemind/issues">Issues</a>
 </p>
 
 ---
 
 <table>
   <tr>
-    <td width="58%" valign="top">
-      <h2>What I build</h2>
+    <td width="56%" valign="top">
+      <h2>Now building</h2>
       <p>
-        I work on systems that preserve useful context after a request, chat,
-        job, or session ends.
+        <strong>WaveMind</strong> is a memory layer for agents, tools, research notebooks,
+        internal copilots, and long-running systems that need more than static vector search.
       </p>
       <p>
-        The current focus is dynamic memory: retrieval that can account for
-        freshness, priority, namespaces, TTL, graph links, corrections, and
-        evidence instead of treating memory as static top-k search.
+        It keeps the source of truth inspectable, tracks freshness and priority,
+        supports namespaces and TTL, and uses dynamic memory state to decide what
+        should still matter.
+      </p>
+      <p>
+        The goal is simple: durable memory that can be queried, audited, adapted,
+        forgotten, benchmarked, and deployed.
       </p>
     </td>
-    <td width="42%" valign="top">
-      <h2>Run WaveMind</h2>
+    <td width="44%" valign="top">
+      <h2>Run it</h2>
       <pre><code>pip install wavemind
 wavemind quickstart</code></pre>
       <pre><code>from wavemind import WaveMind
@@ -63,19 +67,28 @@ print(memory.query("How should I answer?"))</code></pre>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/memory-system-v2.svg" alt="WaveMind memory system diagram" width="100%" />
+    <img src="./assets/memory-loop.svg" alt="WaveMind adaptive memory loop" width="100%" />
   </a>
 </p>
 
 ## Featured Work
 
-| Project | Focus | Status |
+| Project | What it is | Status |
 | --- | --- | --- |
-| [**WaveMind**](https://github.com/CaspianG/wavemind) | Adaptive memory layer with persistence, APIs, benchmarks, namespaces, decay, graph recall, and production-scale work. | Active |
-| [**focus-flow**](https://github.com/CaspianG/focus-flow) | Minimal desktop focus timer for deep-work sessions with English and Russian UI. | Public |
+| [**WaveMind**](https://github.com/CaspianG/wavemind) | Adaptive memory engine with SQLite, FAISS-style indexing work, graph recall, Memory OS workers, Studio, HTTP API, CLI, Docker, benchmarks, and LangChain/LlamaIndex examples. | Active |
+| [**focus-flow**](https://github.com/CaspianG/focus-flow) | Minimal desktop focus timer for 50/10 and 90/15 deep-work sessions with English and Russian UI. | Public |
 | [**CORECITY**](https://github.com/CaspianG/CORECITY) | Browser game concept around a living market mechanic. | Public |
 
-## Current Direction
+## What I Care About
+
+| Area | Direction |
+| --- | --- |
+| Dynamic memory | Hotness, decay, priority, corrections, graph recall, TTL, and long-term context. |
+| Local-first systems | Tools that run on a developer machine first, then scale to services when needed. |
+| Evidence | Real benchmarks, reproducible scripts, public limitations, and clear tradeoffs. |
+| Product polish | Interfaces that make complex systems visible, testable, and understandable. |
+
+## Current Roadmap
 
 ```text
 static retrieval:
@@ -85,13 +98,12 @@ adaptive memory:
 remember -> retrieve -> adapt -> explain -> improve
 ```
 
-| Track | Work |
+| Track | Work in progress |
 | --- | --- |
-| Scale | FAISS, sharding, persisted indexes, service-backed load tests, predictable latency. |
-| Memory dynamics | Decay, priority, graph recall, consolidation, corrections, and feedback loops. |
-| Evidence | LoCoMo, LongMemEval-style retrieval, stale-fact suppression, and competitor baselines. |
-| Integrations | LangChain, LlamaIndex, HTTP API, CLI, Docker, and production examples. |
-| Product surface | Studio, dashboards, memory inspection, imports, backups, and operator workflows. |
+| Scale | Persisted indexes, sharding, service-backed load tests, and predictable latency. |
+| Memory dynamics | Graph recall, consolidation, conflict handling, feedback loops, and field simulation. |
+| Evaluation | LoCoMo, LongMemEval-style retrieval, stale-fact suppression, and competitor baselines. |
+| Ecosystem | LangChain, LlamaIndex, CLI, HTTP API, Docker, Studio, and production examples. |
 
 ## Stack
 
@@ -108,7 +120,7 @@ remember -> retrieve -> adapt -> explain -> improve
 
 ## Collaboration
 
-I am interested in long-term memory, local-first software, retrieval systems,
+I am interested in long-term memory, local-first developer tools, retrieval systems,
 agent infrastructure, graph recall, privacy-aware forgetting, and production
 workloads where static vector search is not enough.
 
