@@ -1,14 +1,14 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/profile-hero.svg" alt="CaspianG builds adaptive memory infrastructure" width="100%" />
+    <img src="./assets/profile-hero.svg" alt="CaspianG builds adaptive memory systems" width="100%" />
   </a>
 </p>
 
 <h1 align="center">CaspianG</h1>
 
 <p align="center">
-  <strong>I build memory infrastructure for software that needs durable context.</strong><br />
-  WaveMind is the main project: local-first adaptive memory with retrieval, decay, priority, TTL, namespaces, provenance, and reproducible benchmarks.
+  <strong>Building adaptive memory systems for software that needs durable context.</strong><br />
+  Main project: <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>, a local-first memory layer with retrieval, decay, priority, namespaces, provenance, and reproducible benchmarks.
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
+  <a href="https://github.com/CaspianG/wavemind"><strong>Repository</strong></a>
   &nbsp;/&nbsp;
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
   &nbsp;/&nbsp;
@@ -34,71 +34,64 @@
 
 <table>
   <tr>
-    <td width="58%" valign="top">
-      <h2>What I am building</h2>
+    <td width="57%" valign="top">
+      <h2>Current Focus</h2>
       <p>
-        <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
-        is a memory engine for long-running software: assistants, research
-        notebooks, internal copilots, analyst tools, support systems, and
-        developer workflows.
+        I am working on memory infrastructure that behaves less like a static
+        vector search box and more like a living context layer.
       </p>
       <p>
-        It begins with normal vector retrieval, then adds memory behavior:
-        hotness, decay, TTL, tags, namespaces, feedback, corrections,
-        provenance, graph recall, and operational benchmark checks.
+        WaveMind stores facts, retrieves candidates, then applies memory state:
+        hotness, decay, TTL, feedback, corrections, graph recall, and namespace
+        isolation.
       </p>
       <p>
-        The goal is simple: memory that can adapt over time instead of only
-        returning the nearest vector.
+        The practical goal is simple: long-running software should remember
+        useful context, suppress stale context, and make recall inspectable.
       </p>
     </td>
-    <td width="42%" valign="top">
+    <td width="43%" valign="top">
       <h2>Try WaveMind</h2>
       <p><strong>Install</strong></p>
       <pre><code>pip install wavemind</code></pre>
-      <p><strong>Run locally</strong></p>
+      <p><strong>Run a local demo</strong></p>
       <pre><code>wavemind quickstart</code></pre>
       <p><strong>Use from Python</strong></p>
       <pre><code>from wavemind import WaveMind
+
 memory = WaveMind()
 memory.remember("Andrey prefers concise answers")
-print(memory.query("What style does Andrey like?"))</code></pre>
+print(memory.query("How should I answer Andrey?"))</code></pre>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/memory-system.svg" alt="WaveMind adaptive memory system" width="100%" />
+    <img src="./assets/memory-system.svg" alt="WaveMind memory loop" width="100%" />
   </a>
 </p>
 
-## Why This Matters
+## Why WaveMind
 
-Most retrieval systems answer one question: "which text is most similar?"
-
-Long-running software needs more than that. It needs memory that can change
-importance, suppress stale facts, isolate namespaces, preserve provenance, and
-show why something was recalled.
-
-| Static retrieval | Adaptive memory |
+| Static vector search | WaveMind memory layer |
 | --- | --- |
-| Similarity decides the top result. | Similarity finds candidates, then memory state changes ranking. |
-| Old or corrected facts can keep winning. | TTL, decay, feedback, and corrections reduce stale priority. |
-| Context is hard to inspect. | Returned memories include metadata, provenance, and scoring signals. |
-| Benchmarks often stop at retrieval. | WaveMind tests stale facts, namespace leaks, latency, and coherence. |
+| Returns nearest vectors. | Finds candidates, then re-ranks with memory state. |
+| Old facts can keep winning. | TTL, decay, feedback, and corrections lower stale priority. |
+| Context is hard to audit. | Results include metadata, provenance, and scoring signals. |
+| Benchmarks often stop at top-k retrieval. | Tests include stale facts, namespace isolation, latency, and coherence. |
 
-## Current Focus
+## Workbench
 
-| Area | What I am pushing forward |
+| Track | What is being built |
 | --- | --- |
-| Scale | ANN indexes, sharding by namespace, cache-aware recall, and production load tests. |
-| Memory OS | Background consolidation, hot-query prewarm, forgetting policies, and priority learning. |
+| Scale | ANN indexes, namespace sharding, cache-aware recall, and production load tests. |
+| Memory OS | Background consolidation, forgetting policies, graph dynamics, and priority learning. |
 | Benchmarks | LoCoMo, LongMemEval-style retrieval, agent coherence, latency curves, and competitor baselines. |
-| Integrations | LangChain, LlamaIndex, HTTP API, CLI, Docker, and examples for real workflows. |
-| Product surface | Clear local demos first, then tools for inspecting memory behavior. |
+| Integrations | LangChain, LlamaIndex, HTTP API, CLI, Docker, and practical workflow examples. |
+| Product surface | Local demos first, then tools for inspecting and debugging memory behavior. |
 
-## Selected Work
+## Selected Projects
 
 | Project | Focus | Status |
 | --- | --- | --- |
@@ -119,7 +112,7 @@ show why something was recalled.
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=white">
 </p>
 
-## Open To
+## Collaboration
 
 I am interested in practical memory systems, retrieval benchmarks, local-first
 software, privacy-aware forgetting, graph recall, production indexes, and real

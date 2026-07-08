@@ -1,65 +1,59 @@
-<svg width="1440" height="520" viewBox="0 0 1440 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">CaspianG builds adaptive memory infrastructure</title>
-  <desc id="desc">A minimal black and white hero graphic for the CaspianG GitHub profile.</desc>
-  <rect width="1440" height="520" rx="34" fill="#050505"/>
-  <path d="M80 70H1360M80 174H1360M80 278H1360M80 382H1360M160 54V466M300 54V466M440 54V466M580 54V466M720 54V466M860 54V466M1000 54V466M1140 54V466M1280 54V466" stroke="#202126" stroke-width="1"/>
-  <rect x="1.5" y="1.5" width="1437" height="517" rx="32.5" stroke="#3A3D44" stroke-width="3"/>
+<svg width="1440" height="560" viewBox="0 0 1440 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">CaspianG builds adaptive memory systems</title>
+  <desc id="desc">A minimal monochrome GitHub profile hero for WaveMind and adaptive memory infrastructure.</desc>
 
-  <g transform="translate(82 69)">
-    <rect x="0" y="0" width="76" height="76" rx="23" fill="#FFFFFF"/>
-    <circle cx="38" cy="38" r="20" fill="#050505"/>
-    <rect x="26" y="32" width="24" height="12" rx="6" fill="#FFFFFF"/>
-    <rect x="31" y="36" width="14" height="4" rx="2" fill="#050505"/>
+  <rect width="1440" height="560" rx="36" fill="#050505"/>
+  <rect x="1.5" y="1.5" width="1437" height="557" rx="34.5" stroke="#34373E" stroke-width="3"/>
+
+  <g opacity="0.22">
+    <path d="M80 92H1360M80 186H1360M80 280H1360M80 374H1360M80 468H1360" stroke="#FFFFFF" stroke-width="1"/>
+    <path d="M158 70V492M306 70V492M454 70V492M602 70V492M750 70V492M898 70V492M1046 70V492M1194 70V492M1342 70V492" stroke="#FFFFFF" stroke-width="1"/>
   </g>
 
-  <text x="84" y="194" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="1.5">CASPIANG</text>
-  <text x="84" y="278" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="850">Memory infrastructure</text>
-  <text x="84" y="346" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="850">for durable context.</text>
-  <text x="86" y="386" fill="#C9CCD3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">WaveMind / local-first / adaptive recall / reproducible benchmarks</text>
-
-  <g transform="translate(84 420)">
-    <rect x="0" y="0" width="145" height="40" rx="20" fill="#FFFFFF"/>
-    <text x="72.5" y="26" text-anchor="middle" fill="#050505" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">WaveMind</text>
-    <rect x="160" y="0" width="142" height="40" rx="20" stroke="#777B85" stroke-width="1.5"/>
-    <text x="231" y="26" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="750">open source</text>
-    <rect x="318" y="0" width="145" height="40" rx="20" stroke="#777B85" stroke-width="1.5"/>
-    <text x="390.5" y="26" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="750">benchmarked</text>
-    <rect x="480" y="0" width="145" height="40" rx="20" stroke="#777B85" stroke-width="1.5"/>
-    <text x="552.5" y="26" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="750">inspectable</text>
+  <g transform="translate(80 72)">
+    <rect x="0" y="0" width="92" height="92" rx="28" fill="#FFFFFF"/>
+    <circle cx="46" cy="46" r="25" fill="#050505"/>
+    <path d="M30 49C39 37 53 37 62 49" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="36" cy="42" r="3.5" fill="#FFFFFF"/>
+    <circle cx="56" cy="42" r="3.5" fill="#FFFFFF"/>
   </g>
 
-  <g transform="translate(808 64)">
-    <rect x="0" y="0" width="548" height="392" rx="32" fill="#121316" stroke="#3A3D44" stroke-width="1.4"/>
-    <text x="40" y="68" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="850">adaptive memory system</text>
-    <text x="40" y="96" fill="#C9CCD3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">retrieve / prioritize / decay / explain</text>
+  <text x="80" y="218" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="2.2">CASPIANG</text>
+  <text x="80" y="304" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="72" font-weight="850">Adaptive memory</text>
+  <text x="80" y="384" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="72" font-weight="850">systems.</text>
+  <text x="84" y="428" fill="#D6D8DE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="600">local-first / inspectable / benchmarked / built for durable context</text>
 
-    <g opacity="0.95">
-      <path d="M82 266C142 205 190 181 248 220C306 259 333 274 390 209C428 165 457 174 512 258" stroke="#E8EAED" stroke-width="3"/>
-      <path d="M84 266C145 151 219 132 289 222C358 312 421 295 510 256" stroke="#31343B" stroke-width="2"/>
-      <path d="M82 266C150 283 190 306 257 247C318 193 362 159 420 203C464 236 484 250 512 258" stroke="#31343B" stroke-width="2"/>
+  <g transform="translate(80 466)">
+    <rect x="0" y="0" width="146" height="42" rx="21" fill="#FFFFFF"/>
+    <text x="73" y="27" text-anchor="middle" fill="#050505" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="850">WaveMind</text>
+    <rect x="162" y="0" width="158" height="42" rx="21" stroke="#8D929D" stroke-width="1.5"/>
+    <text x="241" y="27" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">open source</text>
+    <rect x="336" y="0" width="176" height="42" rx="21" stroke="#8D929D" stroke-width="1.5"/>
+    <text x="424" y="27" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">memory engine</text>
+  </g>
 
-      <circle cx="82" cy="266" r="35" fill="#FFFFFF"/>
-      <circle cx="190" cy="188" r="52" fill="#FFFFFF"/>
-      <circle cx="274" cy="246" r="62" fill="#FFFFFF"/>
-      <circle cx="390" cy="176" r="55" fill="#FFFFFF"/>
-      <circle cx="512" cy="258" r="42" fill="#FFFFFF"/>
+  <g transform="translate(836 72)">
+    <rect x="0" y="0" width="524" height="416" rx="34" fill="#111215" stroke="#42464F" stroke-width="1.5"/>
+    <text x="42" y="70" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="850">WaveMind</text>
+    <text x="42" y="101" fill="#C8CBD2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="650">memory that changes with use</text>
 
-      <circle cx="82" cy="266" r="35" stroke="#3A3D44" stroke-width="28" opacity="0.65"/>
-      <circle cx="190" cy="188" r="52" stroke="#3A3D44" stroke-width="24" opacity="0.65"/>
-      <circle cx="274" cy="246" r="62" stroke="#3A3D44" stroke-width="24" opacity="0.65"/>
-      <circle cx="390" cy="176" r="55" stroke="#3A3D44" stroke-width="24" opacity="0.65"/>
-      <circle cx="512" cy="258" r="42" stroke="#3A3D44" stroke-width="24" opacity="0.65"/>
+    <g transform="translate(42 142)" font-family="Inter, Segoe UI, Arial, sans-serif">
+      <rect x="0" y="0" width="440" height="60" rx="18" fill="#FFFFFF"/>
+      <text x="24" y="38" fill="#050505" font-size="18" font-weight="850">remember</text>
+      <text x="166" y="38" fill="#4D515A" font-size="15" font-weight="650">facts, metadata, namespace</text>
+
+      <rect x="0" y="78" width="440" height="60" rx="18" fill="#1D1F24" stroke="#3D414A" stroke-width="1.2"/>
+      <text x="24" y="116" fill="#FFFFFF" font-size="18" font-weight="850">retrieve</text>
+      <text x="166" y="116" fill="#B9BDC6" font-size="15" font-weight="650">vector candidates, top-k</text>
+
+      <rect x="0" y="156" width="440" height="60" rx="18" fill="#1D1F24" stroke="#3D414A" stroke-width="1.2"/>
+      <text x="24" y="194" fill="#FFFFFF" font-size="18" font-weight="850">adapt</text>
+      <text x="166" y="194" fill="#B9BDC6" font-size="15" font-weight="650">hotness, decay, corrections</text>
+
+      <rect x="0" y="234" width="440" height="60" rx="18" fill="#1D1F24" stroke="#3D414A" stroke-width="1.2"/>
+      <text x="24" y="272" fill="#FFFFFF" font-size="18" font-weight="850">explain</text>
+      <text x="166" y="272" fill="#B9BDC6" font-size="15" font-weight="650">scores, provenance, evidence</text>
     </g>
 
-    <g transform="translate(40 318)">
-      <rect x="0" y="0" width="130" height="38" rx="19" fill="#FFFFFF"/>
-      <text x="65" y="25" text-anchor="middle" fill="#050505" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="850">hotness</text>
-      <rect x="142" y="0" width="118" height="38" rx="19" stroke="#717681" stroke-width="1.4"/>
-      <text x="201" y="25" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">decay</text>
-      <rect x="272" y="0" width="126" height="38" rx="19" stroke="#717681" stroke-width="1.4"/>
-      <text x="335" y="25" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">TTL</text>
-      <rect x="410" y="0" width="76" height="38" rx="19" stroke="#717681" stroke-width="1.4"/>
-      <text x="448" y="25" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">proof</text>
-    </g>
   </g>
 </svg>
