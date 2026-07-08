@@ -1,14 +1,14 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/header.svg" alt="CaspianG - dynamic memory systems" width="100%" />
+    <img src="./assets/header.svg" alt="CaspianG builds dynamic memory infrastructure" width="100%" />
   </a>
 </p>
 
-<h1 align="center">I build dynamic memory systems for software that needs to keep context alive.</h1>
+<h1 align="center">I build memory infrastructure for long-running software.</h1>
 
 <p align="center">
-  Local-first infrastructure, adaptive retrieval, durable state, graph recall,
-  privacy-aware forgetting, and benchmarks that keep the claims honest.
+  Systems that keep context alive: local-first storage, adaptive recall,
+  graph memory, forgetting, provenance, benchmarks, and production packaging.
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
   &nbsp;/&nbsp;
   <a href="https://github.com/CaspianG/wavemind#benchmarks">Benchmarks</a>
   &nbsp;/&nbsp;
-  <a href="https://github.com/CaspianG/wavemind/issues">Issues</a>
+  <a href="https://github.com/CaspianG/wavemind/issues">Contribute</a>
 </p>
 
 <p align="center">
@@ -34,70 +34,68 @@
 
 <table>
   <tr>
-    <td width="58%" valign="top">
-      <h2>Current Focus</h2>
+    <td width="52%" valign="top">
+      <h2>Now building</h2>
       <p>
         <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
-        is an open-source memory layer for long-running applications: agents,
-        copilots, research notebooks, support systems, internal tools, and
-        products that accumulate context over time.
+        is an open-source dynamic memory layer for applications that accumulate
+        context over time.
       </p>
       <p>
-        The core idea is simple: memory should not be static text lookup.
-        Useful memories should become easier to recall, stale memories should
-        fade, corrected memories should stop misleading the system, and every
-        important answer should remain traceable.
+        It treats memory as state, not just search results: useful information
+        gets stronger, stale facts fade, corrections suppress old context, and
+        every recall path stays inspectable.
       </p>
       <p>
-        I am pushing it toward production-scale dynamic memory: persistent state,
-        external indexes, namespaces, TTL, decay, feedback, graph links,
-        observability, benchmarks, and clean integration paths.
+        The current focus is production scale: persisted indexes, namespaces,
+        graph recall, Memory OS planning, Kubernetes packaging, observability,
+        and public benchmark evidence.
       </p>
     </td>
-    <td width="42%" valign="top">
-      <h2>Try WaveMind</h2>
+    <td width="48%" valign="top">
+      <h2>Use it in 30 seconds</h2>
       <pre><code class="language-bash">pip install wavemind</code></pre>
       <pre><code class="language-python">from wavemind import WaveMind
 
 memory = WaveMind()
 memory.remember("The user prefers concise answers.")
 
-result = memory.query("How should I answer?")[0]
-print(result.text)</code></pre>
+hit = memory.query("How should I respond?")[0]
+print(hit.text)</code></pre>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/system.svg" alt="WaveMind memory system map" width="100%" />
+    <img src="./assets/system.svg" alt="WaveMind system map" width="100%" />
   </a>
 </p>
 
-## What I Build
+## What I Care About
 
-| Direction | What it means in practice |
+| Area | What that means |
 | --- | --- |
-| Dynamic memory | Hotness, decay, TTL, feedback, conflict handling, consolidation, and graph-aware recall. |
-| Local-first systems | SQLite as source of truth, optional ANN/vector backends, CLI, API, Docker, and reproducible artifacts. |
-| Production evidence | Benchmarks, latency profiles, packaging checks, CI gates, and honest scale limits. |
-| Developer adoption | Small APIs, framework examples, migration guides, issue hygiene, and contributor-friendly work. |
+| Dynamic memory | Hotness, decay, TTL, feedback, conflict handling, consolidation, graph-aware recall. |
+| Local-first systems | SQLite as source of truth, optional vector indexes, simple APIs, offline demos, reproducible artifacts. |
+| Production evidence | Benchmarks, latency profiles, packaging checks, CI gates, and clearly documented limits. |
+| Developer adoption | Small APIs, framework adapters, migration guides, issue hygiene, and contributor-friendly tasks. |
 
-## Projects
+## Featured Work
 
-| Project | Focus | Status |
+| Project | Why it matters | Status |
 | --- | --- | --- |
-| [WaveMind](https://github.com/CaspianG/wavemind) | Dynamic long-term memory for agents, apps, notebooks, and internal tools. | Active |
+| [WaveMind](https://github.com/CaspianG/wavemind) | Dynamic long-term memory for agents, notebooks, internal tools, support systems, and products with durable context. | Active |
 | [focus-flow](https://github.com/CaspianG/focus-flow) | Minimal desktop focus timer for deep-work sessions with English/Russian UI. | Stable |
-| [CORECITY](https://github.com/CaspianG/CORECITY) | Browser game concept built around a living market mechanic. | Public archive |
+| [CORECITY](https://github.com/CaspianG/CORECITY) | Browser game concept around a living market mechanic. | Public archive |
 
 ## Working Principles
 
-- Build useful systems first, then prove them under real workloads.
-- Keep local paths fast, inspectable, and easy to run.
-- Treat benchmarks and reproducibility as part of the product.
-- Make forgetting, provenance, and namespaces first-class primitives.
-- Avoid broad claims without runnable artifacts behind them.
+- Build the useful path first, then prove it under real workloads.
+- Keep local development fast, inspectable, and easy to run.
+- Treat benchmarks, tests, and reproducibility as part of the product.
+- Make forgetting, provenance, and namespace isolation first-class primitives.
+- Avoid claims that do not have runnable artifacts behind them.
 
 ## Stack
 

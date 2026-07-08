@@ -1,79 +1,84 @@
 <svg width="1440" height="470" viewBox="0 0 1440 470" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">WaveMind memory system map</title>
-  <desc id="desc">A black and white system map showing persistent memory, candidate retrieval, adaptive field dynamics, graph recall, APIs, and benchmarks.</desc>
+  <desc id="desc">A minimal black and white diagram showing source of truth, vector index, adaptive field, graph recall, APIs, and benchmarks.</desc>
 
   <rect width="1440" height="470" rx="30" fill="#FFFFFF"/>
-  <rect x="1.5" y="1.5" width="1437" height="467" rx="28.5" stroke="#111111" stroke-opacity="0.14" stroke-width="3"/>
+  <rect x="1.5" y="1.5" width="1437" height="467" rx="28.5" stroke="#111111" stroke-opacity="0.16" stroke-width="3"/>
 
-  <text x="72" y="76" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="860">From stored facts to adaptive memory</text>
-  <text x="72" y="116" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="520">Durable state stays inspectable. Recall changes with use, feedback, age, graph links, and evidence.</text>
+  <g opacity="0.06">
+    <path d="M70 126H1370M70 238H1370M70 350H1370" stroke="#111111"/>
+    <path d="M220 48V420M440 48V420M660 48V420M880 48V420M1100 48V420M1320 48V420" stroke="#111111"/>
+  </g>
+
+  <text x="72" y="76" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="860">Memory as a control system</text>
+  <text x="72" y="116" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="520">Durable storage remains the source of truth. Recall adapts through use, age, feedback, graph links, and evidence.</text>
 
   <g transform="translate(72 166)" font-family="Inter, Segoe UI, Arial, sans-serif">
-    <rect width="182" height="144" rx="24" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <text x="28" y="50" fill="#111111" font-size="22" font-weight="850">Source</text>
+    <rect width="190" height="146" rx="24" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="28" y="50" fill="#111111" font-size="22" font-weight="850">Store</text>
     <text x="28" y="82" fill="#555555" font-size="14">SQLite</text>
     <text x="28" y="108" fill="#555555" font-size="14">metadata</text>
     <text x="28" y="132" fill="#555555" font-size="14">namespaces</text>
   </g>
 
-  <path d="M284 238H340" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
-  <path d="M326 225L344 238L326 251" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M292 239H344" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <path d="M330 226L348 239L330 252" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <g transform="translate(378 146)" font-family="Inter, Segoe UI, Arial, sans-serif">
-    <rect width="198" height="184" rx="26" fill="#111111"/>
-    <text x="30" y="56" fill="#FFFFFF" font-size="22" font-weight="850">Index</text>
-    <text x="30" y="92" fill="#DADADD" font-size="14">vectors</text>
-    <text x="30" y="118" fill="#DADADD" font-size="14">FAISS / Annoy</text>
-    <text x="30" y="144" fill="#DADADD" font-size="14">top-k candidates</text>
+  <g transform="translate(382 146)" font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect width="210" height="186" rx="26" fill="#111111"/>
+    <text x="30" y="58" fill="#FFFFFF" font-size="22" font-weight="850">Retrieve</text>
+    <text x="30" y="94" fill="#DADADD" font-size="14">embeddings</text>
+    <text x="30" y="120" fill="#DADADD" font-size="14">FAISS / Annoy</text>
+    <text x="30" y="146" fill="#DADADD" font-size="14">top-k candidates</text>
   </g>
 
-  <path d="M606 238H662" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
-  <path d="M648 225L666 238L648 251" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M622 239H674" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <path d="M660 226L678 239L660 252" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <g transform="translate(700 146)" font-family="Inter, Segoe UI, Arial, sans-serif">
-    <rect width="214" height="184" rx="26" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <text x="30" y="56" fill="#111111" font-size="22" font-weight="850">Field</text>
-    <text x="30" y="92" fill="#555555" font-size="14">hotness</text>
-    <text x="30" y="118" fill="#555555" font-size="14">decay</text>
-    <text x="30" y="144" fill="#555555" font-size="14">feedback</text>
+  <g transform="translate(712 146)" font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect width="218" height="186" rx="26" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="30" y="58" fill="#111111" font-size="22" font-weight="850">Adapt</text>
+    <text x="30" y="94" fill="#555555" font-size="14">hotness</text>
+    <text x="30" y="120" fill="#555555" font-size="14">decay</text>
+    <text x="30" y="146" fill="#555555" font-size="14">feedback</text>
   </g>
 
-  <path d="M944 238H1000" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
-  <path d="M986 225L1004 238L986 251" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M960 239H1012" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <path d="M998 226L1016 239L998 252" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <g transform="translate(1038 146)" font-family="Inter, Segoe UI, Arial, sans-serif">
-    <rect width="182" height="184" rx="26" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <text x="30" y="56" fill="#111111" font-size="22" font-weight="850">Graph</text>
-    <text x="30" y="92" fill="#555555" font-size="14">links</text>
-    <text x="30" y="118" fill="#555555" font-size="14">clusters</text>
-    <text x="30" y="144" fill="#555555" font-size="14">recall paths</text>
+  <g transform="translate(1050 146)" font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect width="206" height="186" rx="26" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="30" y="58" fill="#111111" font-size="22" font-weight="850">Explain</text>
+    <text x="30" y="94" fill="#555555" font-size="14">graph links</text>
+    <text x="30" y="120" fill="#555555" font-size="14">provenance</text>
+    <text x="30" y="146" fill="#555555" font-size="14">benchmarks</text>
   </g>
 
-  <path d="M1250 238H1298" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
-  <path d="M1284 225L1302 238L1284 251" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1286 239H1330" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <path d="M1316 226L1334 239L1316 252" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <g transform="translate(1330 176)" font-family="Inter, Segoe UI, Arial, sans-serif">
-    <rect width="54" height="124" rx="27" fill="#111111"/>
-    <text x="27" y="74" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="850" transform="rotate(-90 27 74)">recall</text>
+  <g transform="translate(1348 176)" font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect width="52" height="126" rx="26" fill="#111111"/>
+    <text x="26" y="76" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="850" transform="rotate(-90 26 76)">recall</text>
   </g>
 
   <g transform="translate(72 374)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="760">
-    <rect width="190" height="40" rx="20" fill="#111111"/>
-    <text x="95" y="26" text-anchor="middle" fill="#FFFFFF">Python API</text>
+    <rect width="188" height="40" rx="20" fill="#111111"/>
+    <text x="94" y="26" text-anchor="middle" fill="#FFFFFF">Python API</text>
 
-    <rect x="210" width="178" height="40" rx="20" fill="#FFFFFF" stroke="#111111" stroke-opacity="0.24" stroke-width="2"/>
-    <text x="299" y="26" text-anchor="middle" fill="#111111">FastAPI</text>
+    <rect x="208" width="176" height="40" rx="20" fill="#FFFFFF" stroke="#111111" stroke-opacity="0.24" stroke-width="2"/>
+    <text x="296" y="26" text-anchor="middle" fill="#111111">FastAPI</text>
 
-    <rect x="408" width="160" height="40" rx="20" fill="#FFFFFF" stroke="#111111" stroke-opacity="0.24" stroke-width="2"/>
-    <text x="488" y="26" text-anchor="middle" fill="#111111">CLI</text>
+    <rect x="404" width="154" height="40" rx="20" fill="#FFFFFF" stroke="#111111" stroke-opacity="0.24" stroke-width="2"/>
+    <text x="481" y="26" text-anchor="middle" fill="#111111">CLI</text>
 
-    <rect x="588" width="198" height="40" rx="20" fill="#FFFFFF" stroke="#111111" stroke-opacity="0.24" stroke-width="2"/>
-    <text x="687" y="26" text-anchor="middle" fill="#111111">LangChain</text>
+    <rect x="578" width="194" height="40" rx="20" fill="#FFFFFF" stroke="#111111" stroke-opacity="0.24" stroke-width="2"/>
+    <text x="675" y="26" text-anchor="middle" fill="#111111">LangChain</text>
 
-    <rect x="806" width="198" height="40" rx="20" fill="#FFFFFF" stroke="#111111" stroke-opacity="0.24" stroke-width="2"/>
-    <text x="905" y="26" text-anchor="middle" fill="#111111">LlamaIndex</text>
+    <rect x="792" width="194" height="40" rx="20" fill="#FFFFFF" stroke="#111111" stroke-opacity="0.24" stroke-width="2"/>
+    <text x="889" y="26" text-anchor="middle" fill="#111111">LlamaIndex</text>
 
-    <rect x="1024" width="244" height="40" rx="20" fill="#FFFFFF" stroke="#111111" stroke-opacity="0.24" stroke-width="2"/>
-    <text x="1146" y="26" text-anchor="middle" fill="#111111">benchmark artifacts</text>
+    <rect x="1006" width="252" height="40" rx="20" fill="#FFFFFF" stroke="#111111" stroke-opacity="0.24" stroke-width="2"/>
+    <text x="1132" y="26" text-anchor="middle" fill="#111111">benchmark artifacts</text>
   </g>
 </svg>
