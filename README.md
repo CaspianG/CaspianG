@@ -1,15 +1,16 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/profile-hero-v2.svg" alt="CaspianG builds durable memory systems" width="100%" />
+    <img src="./assets/profile-hero-v2.svg" alt="CaspianG builds adaptive memory systems" width="100%" />
   </a>
 </p>
 
 <h1 align="center">CaspianG</h1>
 
 <p align="center">
-  <strong>Building memory systems, agent infrastructure, and local-first tools.</strong><br />
-  Main project: <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>,
-  an adaptive memory engine for software that needs durable, inspectable context.
+  <strong>Building adaptive memory systems, agent infrastructure, and local-first developer tools.</strong><br />
+  Main work:
+  <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>,
+  a memory engine for software that needs durable, inspectable context.
 </p>
 
 <p align="center">
@@ -20,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
+  <a href="https://github.com/CaspianG/wavemind"><strong>Repository</strong></a>
   &nbsp;/&nbsp;
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
   &nbsp;/&nbsp;
@@ -35,27 +36,27 @@
 
 <table>
   <tr>
-    <td width="52%" valign="top">
-      <h2>What I am working on</h2>
+    <td width="58%" valign="top">
+      <h2>What I build</h2>
       <p>
-        I build software that keeps useful context alive after a single request,
-        chat, or session ends.
+        I work on systems that preserve useful context after a request, chat,
+        job, or session ends.
       </p>
       <p>
-        The current focus is dynamic memory: recall that can use freshness,
-        priority, feedback, namespaces, TTL, graph links, and evidence instead
-        of treating memory as a static top-k vector search.
+        The current focus is dynamic memory: retrieval that can account for
+        freshness, priority, namespaces, TTL, graph links, corrections, and
+        evidence instead of treating memory as static top-k search.
       </p>
     </td>
-    <td width="48%" valign="top">
-      <h2>Try WaveMind</h2>
+    <td width="42%" valign="top">
+      <h2>Run WaveMind</h2>
       <pre><code>pip install wavemind
 wavemind quickstart</code></pre>
       <pre><code>from wavemind import WaveMind
 
 memory = WaveMind()
 memory.remember("Andrey prefers concise answers")
-print(memory.query("How should I answer Andrey?"))</code></pre>
+print(memory.query("How should I answer?"))</code></pre>
     </td>
   </tr>
 </table>
@@ -70,32 +71,27 @@ print(memory.query("How should I answer Andrey?"))</code></pre>
 
 | Project | Focus | Status |
 | --- | --- | --- |
-| [**WaveMind**](https://github.com/CaspianG/wavemind) | Adaptive memory layer for durable context, retrieval, decay, namespaces, evidence, and production benchmarks. | Active |
-| [**focus-flow**](https://github.com/CaspianG/focus-flow) | Minimal desktop focus timer for 50/10 and 90/15 deep-work sessions. | Public |
+| [**WaveMind**](https://github.com/CaspianG/wavemind) | Adaptive memory layer with persistence, APIs, benchmarks, namespaces, decay, graph recall, and production-scale work. | Active |
+| [**focus-flow**](https://github.com/CaspianG/focus-flow) | Minimal desktop focus timer for deep-work sessions with English and Russian UI. | Public |
 | [**CORECITY**](https://github.com/CaspianG/CORECITY) | Browser game concept around a living market mechanic. | Public |
 
-## Direction
+## Current Direction
 
 ```text
-static search:
-embed -> search -> top-k -> prompt
+static retrieval:
+embed -> vector search -> top-k -> prompt
 
-dynamic memory:
-remember -> retrieve -> adapt -> explain
+adaptive memory:
+remember -> retrieve -> adapt -> explain -> improve
 ```
-
-The long-term goal is a practical memory layer that can be queried, corrected,
-scoped, benchmarked, backed up, and inspected.
-
-## Current Focus
 
 | Track | Work |
 | --- | --- |
-| Scale | FAISS, sharding, persisted indexes, service-backed load tests, and predictable latency. |
+| Scale | FAISS, sharding, persisted indexes, service-backed load tests, predictable latency. |
 | Memory dynamics | Decay, priority, graph recall, consolidation, corrections, and feedback loops. |
-| Benchmarks | LoCoMo, LongMemEval-style retrieval, stale-fact suppression, and competitor baselines. |
-| Integrations | LangChain, LlamaIndex, HTTP API, CLI, Docker, and practical examples. |
-| Product surface | Local demos and tools for seeing how memory behaves. |
+| Evidence | LoCoMo, LongMemEval-style retrieval, stale-fact suppression, and competitor baselines. |
+| Integrations | LangChain, LlamaIndex, HTTP API, CLI, Docker, and production examples. |
+| Product surface | Studio, dashboards, memory inspection, imports, backups, and operator workflows. |
 
 ## Stack
 
@@ -116,6 +112,7 @@ I am interested in long-term memory, local-first software, retrieval systems,
 agent infrastructure, graph recall, privacy-aware forgetting, and production
 workloads where static vector search is not enough.
 
-If you want to contribute, start with
-[WaveMind issues](https://github.com/CaspianG/wavemind/issues) or run the
-quickstart on your own workload.
+The best entry point is
+[WaveMind issues](https://github.com/CaspianG/wavemind/issues), or the
+[quick start](https://github.com/CaspianG/wavemind#user-content-quick-start)
+if you want to test it on your own data.
