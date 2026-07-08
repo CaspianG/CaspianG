@@ -4,11 +4,11 @@
   </a>
 </p>
 
-<h1 align="center">Building adaptive memory for software that needs to remember.</h1>
+<h1 align="center">I build adaptive memory systems for software that runs for a long time.</h1>
 
 <p align="center">
-  I work on local-first memory infrastructure: durable storage, retrieval,
-  priority, decay, feedback, provenance, and clean forgetting.
+  Local-first infrastructure, dynamic retrieval, durable state, clean forgetting,
+  and benchmarks for memory that changes with use.
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
   &nbsp;/&nbsp;
   <a href="https://github.com/CaspianG/wavemind?tab=readme-ov-file#benchmark">Benchmarks</a>
   &nbsp;/&nbsp;
-  <a href="https://github.com/CaspianG/wavemind?tab=readme-ov-file#contributing">Contribute</a>
+  <a href="https://github.com/CaspianG/wavemind/issues">Issues</a>
 </p>
 
 <p align="center">
@@ -34,26 +34,25 @@
 
 <table>
   <tr>
-    <td width="58%" valign="top">
-      <h3>Now shipping</h3>
+    <td width="56%" valign="top">
+      <h2>Now building</h2>
       <p>
         <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
-        is an open-source memory layer for agents, copilots, research tools,
-        support systems, and long-running products.
+        is an open-source memory layer for agents, copilots, research notebooks,
+        support systems, and products that accumulate context over time.
       </p>
       <p>
-        It keeps SQLite as the source of truth, uses vector indexes for fast
-        candidate retrieval, then applies dynamic memory behavior on top:
-        hotness, decay, TTL, namespaces, feedback, graph links, and provenance.
+        It keeps durable memory as the source of truth, retrieves candidates
+        through fast indexes, then applies adaptive behavior on top: priority,
+        decay, TTL, namespaces, feedback, graph links, provenance, and forgetting.
       </p>
       <p>
-        The practical goal is simple: useful memory becomes easier to recall,
-        stale memory loses weight, and important answers can be traced back to
-        the facts that produced them.
+        The direction is practical: useful memory should become easier to recall,
+        stale memory should fade, and important answers should be traceable.
       </p>
     </td>
-    <td width="42%" valign="top">
-      <h3>Try it in 30 seconds</h3>
+    <td width="44%" valign="top">
+      <h2>Try WaveMind</h2>
       <pre><code class="language-bash">pip install wavemind</code></pre>
       <pre><code class="language-python">from wavemind import WaveMind
 
@@ -68,31 +67,31 @@ print(result.text)</code></pre>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/wavemind-map.png" alt="WaveMind memory loop: ingest, persist, retrieve, adapt, recall" width="100%" />
+    <img src="./assets/wavemind-map.png" alt="WaveMind memory loop: capture, score, recall, adapt" width="100%" />
   </a>
 </p>
 
-## What Makes It Different
+## Why This Matters
 
-| Static vector search | WaveMind |
+| Static vector search | Adaptive memory |
 | --- | --- |
-| Stores embeddings and returns nearest neighbors. | Stores memory state and lets retrieval quality change with use. |
-| Old, corrected, and noisy facts remain equally searchable unless manually filtered. | TTL, decay, feedback, and forgetting reduce stale or wrong memories. |
-| Good for document lookup. | Built for long-running software that accumulates user context over time. |
-| Usually explains similarity, not lifecycle. | Keeps provenance, priority, recall evidence, and benchmark artifacts close to the result. |
+| Finds nearby text. | Tracks memory state over time. |
+| Treats old, corrected, and noisy facts as equally searchable unless manually filtered. | Uses TTL, decay, feedback, priority, and forgetting to reduce stale or wrong memories. |
+| Works well for document lookup. | Targets long-running systems that need context, preferences, corrections, and history. |
+| Usually explains similarity. | Keeps provenance, recall evidence, benchmark artifacts, and lifecycle state close to the result. |
 
-## Current Focus
+## Current Work
 
-| Area | Direction |
+| Area | What I am pushing toward |
 | --- | --- |
-| Adaptive memory | Priority, decay, TTL, feedback, conflict handling, consolidation, and graph dynamics. |
-| Retrieval evidence | Public benchmarks, regression tests, latency profiles, and honest comparison with static vector search. |
-| Developer experience | Python API, FastAPI server, CLI, LangChain/LlamaIndex examples, Docker, and one-command demos. |
+| Dynamic memory | Hotness, decay, TTL, feedback, conflict handling, consolidation, and graph dynamics. |
+| Evidence | Public benchmarks, latency profiles, regression tests, and comparison with static vector retrieval. |
+| Developer experience | Python API, FastAPI server, CLI, Docker, examples, and framework adapters. |
 | Production path | Persistence, backups, observability, access control, external indexes, sharding, and scale testing. |
 
-## Selected Work
+## Projects
 
-| Project | What it is | Status |
+| Project | Focus | Status |
 | --- | --- | --- |
 | [WaveMind](https://github.com/CaspianG/wavemind) | Dynamic long-term memory for agents and applications | Active |
 | [focus-flow](https://github.com/CaspianG/focus-flow) | Minimal desktop focus timer for deep-work sessions | Stable |
@@ -104,7 +103,7 @@ print(result.text)</code></pre>
 - Reproducible benchmarks before broad claims.
 - Clear interfaces before impressive demos.
 - Memory as evolving state, not only embedded text.
-- Privacy-aware forgetting as a core primitive, not an afterthought.
+- Privacy-aware forgetting as a core primitive.
 
 ## Stack
 
