@@ -1,6 +1,6 @@
 <svg width="1440" height="470" viewBox="0 0 1440 470" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">WaveMind memory system map</title>
-  <desc id="desc">A minimal black and white diagram showing source of truth, vector index, adaptive field, graph recall, APIs, and benchmarks.</desc>
+  <title id="title">WaveMind memory architecture</title>
+  <desc id="desc">A black and white architecture diagram showing storage, retrieval, field ranking, graph memory, and evidence.</desc>
 
   <rect width="1440" height="470" rx="30" fill="#FFFFFF"/>
   <rect x="1.5" y="1.5" width="1437" height="467" rx="28.5" stroke="#111111" stroke-opacity="0.16" stroke-width="3"/>
@@ -10,13 +10,13 @@
     <path d="M220 48V420M440 48V420M660 48V420M880 48V420M1100 48V420M1320 48V420" stroke="#111111"/>
   </g>
 
-  <text x="72" y="76" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="860">Memory as a control system</text>
-  <text x="72" y="116" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="520">Durable storage remains the source of truth. Recall adapts through use, age, feedback, graph links, and evidence.</text>
+  <text x="72" y="78" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="860">Memory as a control system</text>
+  <text x="72" y="118" fill="#555555" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="520">Durable storage is the source of truth. Recall adapts through use, age, feedback, graph links, and evidence.</text>
 
   <g transform="translate(72 166)" font-family="Inter, Segoe UI, Arial, sans-serif">
     <rect width="190" height="146" rx="24" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <text x="28" y="50" fill="#111111" font-size="22" font-weight="850">Store</text>
-    <text x="28" y="82" fill="#555555" font-size="14">SQLite</text>
+    <text x="28" y="49" fill="#111111" font-size="22" font-weight="850">Store</text>
+    <text x="28" y="82" fill="#555555" font-size="14">SQLite truth</text>
     <text x="28" y="108" fill="#555555" font-size="14">metadata</text>
     <text x="28" y="132" fill="#555555" font-size="14">namespaces</text>
   </g>
@@ -26,7 +26,7 @@
 
   <g transform="translate(382 146)" font-family="Inter, Segoe UI, Arial, sans-serif">
     <rect width="210" height="186" rx="26" fill="#111111"/>
-    <text x="30" y="58" fill="#FFFFFF" font-size="22" font-weight="850">Retrieve</text>
+    <text x="30" y="58" fill="#FFFFFF" font-size="22" font-weight="850">Search</text>
     <text x="30" y="94" fill="#DADADD" font-size="14">embeddings</text>
     <text x="30" y="120" fill="#DADADD" font-size="14">FAISS / Annoy</text>
     <text x="30" y="146" fill="#DADADD" font-size="14">top-k candidates</text>

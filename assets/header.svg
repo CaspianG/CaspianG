@@ -1,83 +1,83 @@
 <svg width="1440" height="520" viewBox="0 0 1440 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">CaspianG profile banner</title>
-  <desc id="desc">A minimal black and white banner about dynamic memory infrastructure.</desc>
+  <desc id="desc">A black and white banner about dynamic memory systems.</desc>
 
   <rect width="1440" height="520" rx="34" fill="#070707"/>
-  <rect x="1.5" y="1.5" width="1437" height="517" rx="32.5" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="3"/>
+  <rect x="1.5" y="1.5" width="1437" height="517" rx="32.5" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="3"/>
 
-  <g opacity="0.07">
-    <path d="M88 96H1352M88 190H1352M88 284H1352M88 378H1352" stroke="#FFFFFF"/>
-    <path d="M208 54V466M348 54V466M488 54V466M628 54V466M768 54V466M908 54V466M1048 54V466M1188 54V466M1328 54V466" stroke="#FFFFFF"/>
+  <g opacity="0.06">
+    <path d="M80 98H1360M80 188H1360M80 278H1360M80 368H1360" stroke="#FFFFFF"/>
+    <path d="M180 54V466M332 54V466M484 54V466M636 54V466M788 54V466M940 54V466M1092 54V466M1244 54V466" stroke="#FFFFFF"/>
   </g>
 
-  <g transform="translate(82 68)">
-    <rect width="70" height="70" rx="20" fill="#FFFFFF"/>
-    <circle cx="35" cy="35" r="22" fill="#070707"/>
-    <path d="M22 35H48" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
-    <path d="M26 25C18 34 19 45 28 53" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
-    <path d="M44 25C52 34 51 45 42 53" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <g transform="translate(84 70)">
+    <rect width="74" height="74" rx="22" fill="#FFFFFF"/>
+    <circle cx="37" cy="37" r="23" fill="#070707"/>
+    <path d="M24 37H50" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+    <path d="M29 26C20 36 21 48 31 56" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+    <path d="M45 26C54 36 53 48 43 56" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
   </g>
 
-  <text x="82" y="176" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="4">CASPIANG</text>
-  <text x="82" y="250" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="60" font-weight="850">Dynamic memory</text>
-  <text x="82" y="318" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="60" font-weight="850">systems.</text>
-  <text x="84" y="376" fill="#C9CAD1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="520">software that remembers, adapts, and explains itself</text>
+  <text x="84" y="184" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="850" letter-spacing="4">CASPIANG</text>
+  <text x="84" y="258" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="61" font-weight="850">Memory systems</text>
+  <text x="84" y="326" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="61" font-weight="850">for durable context.</text>
+  <text x="87" y="382" fill="#C9CAD1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="520">open-source infrastructure for adaptive recall, evidence, and long-running software</text>
 
-  <g transform="translate(82 424)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">
-    <rect width="136" height="38" rx="19" fill="#FFFFFF"/>
-    <text x="68" y="25" text-anchor="middle" fill="#070707">WaveMind</text>
+  <g transform="translate(84 428)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="850">
+    <rect width="142" height="38" rx="19" fill="#FFFFFF"/>
+    <text x="71" y="25" text-anchor="middle" fill="#070707">WaveMind</text>
 
-    <rect x="154" width="128" height="38" rx="19" fill="#070707" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="2"/>
-    <text x="218" y="25" text-anchor="middle" fill="#FFFFFF">local-first</text>
+    <rect x="158" width="128" height="38" rx="19" fill="#070707" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="2"/>
+    <text x="222" y="25" text-anchor="middle" fill="#FFFFFF">local-first</text>
 
-    <rect x="300" width="128" height="38" rx="19" fill="#070707" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="2"/>
-    <text x="364" y="25" text-anchor="middle" fill="#FFFFFF">benchmarked</text>
+    <rect x="302" width="136" height="38" rx="19" fill="#070707" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="2"/>
+    <text x="370" y="25" text-anchor="middle" fill="#FFFFFF">benchmarked</text>
 
-    <rect x="446" width="130" height="38" rx="19" fill="#070707" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="2"/>
-    <text x="511" y="25" text-anchor="middle" fill="#FFFFFF">open source</text>
+    <rect x="454" width="136" height="38" rx="19" fill="#070707" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="2"/>
+    <text x="522" y="25" text-anchor="middle" fill="#FFFFFF">inspectable</text>
   </g>
 
-  <g transform="translate(808 64)">
-    <rect width="548" height="392" rx="32" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="2"/>
+  <g transform="translate(842 64)">
+    <rect width="514" height="392" rx="32" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="2"/>
 
-    <g transform="translate(42 38)" font-family="Inter, Segoe UI, Arial, sans-serif">
-      <text x="0" y="26" fill="#FFFFFF" font-size="23" font-weight="850">memory control loop</text>
-      <text x="0" y="58" fill="#B9BBC3" font-size="14" font-weight="520">retrieve candidates, adapt priority, keep provenance</text>
+    <g transform="translate(38 38)" font-family="Inter, Segoe UI, Arial, sans-serif">
+      <text x="0" y="26" fill="#FFFFFF" font-size="23" font-weight="850">adaptive recall loop</text>
+      <text x="0" y="58" fill="#B9BBC3" font-size="14" font-weight="520">store facts, search candidates, update priority</text>
     </g>
 
-    <g transform="translate(54 124)">
-      <path d="M36 166C90 92 152 80 220 116C284 150 322 214 440 56" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
-      <path d="M36 224C90 150 152 138 220 174C284 208 322 272 440 114" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="4" stroke-linecap="round"/>
+    <g transform="translate(52 128)">
+      <path d="M28 170C82 104 136 90 204 118C278 149 318 220 424 58" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M28 224C82 158 136 144 204 172C278 203 318 274 424 112" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="4" stroke-linecap="round"/>
 
-      <path d="M36 166L142 86L220 116L318 182L440 56" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/>
-      <path d="M142 86L318 182M220 116L440 56M36 166L220 116" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+      <path d="M28 170L128 92L204 118L304 184L424 58" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/>
+      <path d="M128 92L304 184M204 118L424 58M28 170L204 118" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
 
-      <circle cx="36" cy="166" r="12" fill="#FFFFFF"/>
-      <circle cx="142" cy="86" r="24" fill="#FFFFFF"/>
-      <circle cx="220" cy="116" r="38" fill="#FFFFFF"/>
-      <circle cx="318" cy="182" r="18" fill="#FFFFFF"/>
-      <circle cx="440" cy="56" r="28" fill="#FFFFFF"/>
+      <circle cx="28" cy="170" r="12" fill="#FFFFFF"/>
+      <circle cx="128" cy="92" r="25" fill="#FFFFFF"/>
+      <circle cx="204" cy="118" r="39" fill="#FFFFFF"/>
+      <circle cx="304" cy="184" r="18" fill="#FFFFFF"/>
+      <circle cx="424" cy="58" r="29" fill="#FFFFFF"/>
 
-      <circle cx="142" cy="86" r="52" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="2"/>
-      <circle cx="220" cy="116" r="86" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="2"/>
-      <circle cx="440" cy="56" r="62" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="2"/>
+      <circle cx="128" cy="92" r="52" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="2"/>
+      <circle cx="204" cy="118" r="86" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="2"/>
+      <circle cx="424" cy="58" r="62" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="2"/>
     </g>
 
-    <g transform="translate(44 334)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">
-      <rect width="86" height="30" rx="15" fill="#FFFFFF"/>
-      <text x="43" y="20" text-anchor="middle" fill="#070707">recall</text>
+    <g transform="translate(36 336)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="850">
+      <rect width="84" height="30" rx="15" fill="#FFFFFF"/>
+      <text x="42" y="20" text-anchor="middle" fill="#070707">recall</text>
 
-      <rect x="102" width="88" height="30" rx="15" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="2"/>
-      <text x="146" y="20" text-anchor="middle" fill="#FFFFFF">hotness</text>
+      <rect x="98" width="88" height="30" rx="15" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="2"/>
+      <text x="142" y="20" text-anchor="middle" fill="#FFFFFF">hotness</text>
 
-      <rect x="206" width="84" height="30" rx="15" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="2"/>
-      <text x="248" y="20" text-anchor="middle" fill="#FFFFFF">decay</text>
+      <rect x="200" width="82" height="30" rx="15" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="2"/>
+      <text x="241" y="20" text-anchor="middle" fill="#FFFFFF">decay</text>
 
-      <rect x="306" width="108" height="30" rx="15" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="2"/>
-      <text x="360" y="20" text-anchor="middle" fill="#FFFFFF">feedback</text>
+      <rect x="296" width="104" height="30" rx="15" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="2"/>
+      <text x="348" y="20" text-anchor="middle" fill="#FFFFFF">feedback</text>
 
-      <rect x="430" width="78" height="30" rx="15" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="2"/>
-      <text x="469" y="20" text-anchor="middle" fill="#FFFFFF">TTL</text>
+      <rect x="414" width="60" height="30" rx="15" fill="#101113" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="2"/>
+      <text x="444" y="20" text-anchor="middle" fill="#FFFFFF">TTL</text>
     </g>
   </g>
 </svg>
