@@ -1,48 +1,48 @@
 <svg width="1440" height="430" viewBox="0 0 1440 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">WaveMind memory loop</title>
-  <desc id="desc">A minimal diagram showing how WaveMind turns retrieval candidates into adaptive memory recall.</desc>
+  <title id="title">WaveMind memory system diagram</title>
+  <desc id="desc">A monochrome diagram showing how WaveMind turns retrieval into adaptive memory recall.</desc>
 
-  <rect x="1.5" y="1.5" width="1437" height="427" rx="32.5" fill="#FFFFFF" stroke="#D7DAE0" stroke-width="3"/>
+  <rect x="1.5" y="1.5" width="1437" height="427" rx="32.5" fill="#FFFFFF" stroke="#D9DCE2" stroke-width="3"/>
 
-  <text x="76" y="88" fill="#07080A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="40" font-weight="850">From retrieval to memory</text>
-  <text x="78" y="122" fill="#555963" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="650">Vector search finds candidates. Memory state decides what remains important.</text>
+  <text x="76" y="88" fill="#07080A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="40" font-weight="850">From search to memory</text>
+  <text x="78" y="122" fill="#555963" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="650">Search finds candidates. Memory state decides what should still matter.</text>
 
-  <g transform="translate(76 170)" font-family="Inter, Segoe UI, Arial, sans-serif">
-    <rect x="0" y="0" width="235" height="144" rx="26" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <text x="30" y="52" fill="#111111" font-size="25" font-weight="850">Input</text>
-    <text x="30" y="88" fill="#555963" font-size="16" font-weight="650">facts, events, docs</text>
-    <text x="30" y="116" fill="#555963" font-size="16" font-weight="650">tags, TTL, namespace</text>
+  <g transform="translate(76 174)" font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="0" y="0" width="232" height="138" rx="24" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="28" y="50" fill="#111111" font-size="25" font-weight="850">Remember</text>
+    <text x="28" y="86" fill="#555963" font-size="16" font-weight="650">facts, docs, events</text>
+    <text x="28" y="113" fill="#555963" font-size="16" font-weight="650">tags and namespaces</text>
 
-    <path d="M262 72H335M335 72L316 54M335 72L316 90" stroke="#111111" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M259 69H330M330 69L312 51M330 69L312 87" stroke="#111111" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <rect x="362" y="0" width="245" height="144" rx="26" fill="#111111"/>
-    <text x="392" y="52" fill="#FFFFFF" font-size="25" font-weight="850">Candidate search</text>
-    <text x="392" y="88" fill="#C9CCD3" font-size="16" font-weight="650">ANN or exact search</text>
-    <text x="392" y="116" fill="#C9CCD3" font-size="16" font-weight="650">fast top-k retrieval</text>
+    <rect x="358" y="0" width="232" height="138" rx="24" fill="#111111"/>
+    <text x="386" y="50" fill="#FFFFFF" font-size="25" font-weight="850">Retrieve</text>
+    <text x="386" y="86" fill="#C9CCD3" font-size="16" font-weight="650">ANN or exact search</text>
+    <text x="386" y="113" fill="#C9CCD3" font-size="16" font-weight="650">fast candidate set</text>
 
-    <path d="M634 72H707M707 72L688 54M707 72L688 90" stroke="#111111" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M617 69H688M688 69L670 51M688 69L670 87" stroke="#111111" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <rect x="734" y="0" width="245" height="144" rx="26" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <text x="764" y="52" fill="#111111" font-size="25" font-weight="850">Memory field</text>
-    <text x="764" y="88" fill="#555963" font-size="16" font-weight="650">hotness, decay, feedback</text>
-    <text x="764" y="116" fill="#555963" font-size="16" font-weight="650">corrections, graph links</text>
+    <rect x="716" y="0" width="232" height="138" rx="24" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="744" y="50" fill="#111111" font-size="25" font-weight="850">Adapt</text>
+    <text x="744" y="86" fill="#555963" font-size="16" font-weight="650">decay, hotness, TTL</text>
+    <text x="744" y="113" fill="#555963" font-size="16" font-weight="650">feedback and graph links</text>
 
-    <path d="M1006 72H1079M1079 72L1060 54M1079 72L1060 90" stroke="#111111" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M975 69H1046M1046 69L1028 51M1046 69L1028 87" stroke="#111111" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <rect x="1106" y="0" width="235" height="144" rx="26" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <text x="1136" y="52" fill="#111111" font-size="25" font-weight="850">Recall</text>
-    <text x="1136" y="88" fill="#555963" font-size="16" font-weight="650">ranked, scoped</text>
-    <text x="1136" y="116" fill="#555963" font-size="16" font-weight="650">inspectable output</text>
+    <rect x="1074" y="0" width="232" height="138" rx="24" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="1102" y="50" fill="#111111" font-size="25" font-weight="850">Explain</text>
+    <text x="1102" y="86" fill="#555963" font-size="16" font-weight="650">ranked evidence</text>
+    <text x="1102" y="113" fill="#555963" font-size="16" font-weight="650">scores and provenance</text>
   </g>
 
-  <g transform="translate(268 342)">
-    <path d="M0 0C108 -34 219 -34 329 0C439 34 548 34 658 0C767 -34 877 -34 988 0" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
+  <g transform="translate(250 344)">
+    <path d="M0 0C111 -36 224 -36 336 0C448 36 560 36 672 0C784 -36 896 -36 1008 0" stroke="#111111" stroke-width="3" stroke-linecap="round"/>
     <circle cx="0" cy="0" r="7" fill="#111111"/>
-    <circle cx="329" cy="0" r="7" fill="#111111"/>
-    <circle cx="658" cy="0" r="7" fill="#111111"/>
-    <circle cx="988" cy="0" r="7" fill="#111111"/>
+    <circle cx="336" cy="0" r="7" fill="#111111"/>
+    <circle cx="672" cy="0" r="7" fill="#111111"/>
+    <circle cx="1008" cy="0" r="7" fill="#111111"/>
   </g>
 
-  <rect x="414" y="382" width="612" height="28" rx="14" fill="#FFFFFF"/>
-  <text x="720" y="402" text-anchor="middle" fill="#555963" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="750">useful memories gain priority; stale or corrected memories fade</text>
+  <rect x="410" y="382" width="620" height="30" rx="15" fill="#F3F4F6"/>
+  <text x="720" y="403" text-anchor="middle" fill="#555963" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="750">useful memories gain priority; stale or corrected memories fade</text>
 </svg>

@@ -1,25 +1,27 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/profile-hero-v2.svg" alt="CaspianG builds adaptive memory systems" width="100%" />
+    <img src="./assets/profile-hero-v2.svg" alt="CaspianG builds memory systems" width="100%" />
   </a>
 </p>
 
 <h1 align="center">CaspianG</h1>
 
 <p align="center">
-  <strong>Building adaptive memory systems for software that needs durable context.</strong><br />
-  Main project: <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>, a local-first memory layer with retrieval, decay, priority, namespaces, provenance, and reproducible benchmarks.
+  <strong>Building memory infrastructure for long-running software.</strong><br />
+  My main work is <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>:
+  a local-first memory engine where recall is shaped by freshness, priority,
+  feedback, namespaces, and evidence.
 </p>
 
 <p align="center">
-  <a href="https://github.com/CaspianG/wavemind"><img alt="WaveMind" src="https://img.shields.io/badge/WaveMind-adaptive%20memory-111111?style=for-the-badge"></a>
+  <a href="https://github.com/CaspianG/wavemind"><img alt="WaveMind" src="https://img.shields.io/badge/WaveMind-memory%20engine-111111?style=for-the-badge"></a>
   <a href="https://pypi.org/project/wavemind/"><img alt="PyPI" src="https://img.shields.io/pypi/v/wavemind?style=for-the-badge&label=PyPI&color=111111"></a>
   <a href="https://github.com/CaspianG/wavemind/actions/workflows/full-check.yml"><img alt="Checks" src="https://img.shields.io/github/actions/workflow/status/CaspianG/wavemind/full-check.yml?branch=main&style=for-the-badge&label=checks&color=111111"></a>
   <a href="https://github.com/CaspianG/wavemind/releases"><img alt="Release" src="https://img.shields.io/github/v/release/CaspianG/wavemind?style=for-the-badge&label=release&color=111111"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/CaspianG/wavemind"><strong>Repository</strong></a>
+  <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
   &nbsp;/&nbsp;
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
   &nbsp;/&nbsp;
@@ -34,29 +36,22 @@
 
 <table>
   <tr>
-    <td width="57%" valign="top">
-      <h2>Current Focus</h2>
+    <td width="50%" valign="top">
+      <h2>What I am building</h2>
       <p>
-        I am working on memory infrastructure that behaves less like a static
-        vector search box and more like a living context layer.
+        I work on systems that keep context alive after a single prompt, request,
+        or session ends.
       </p>
       <p>
-        WaveMind stores facts, retrieves candidates, then applies memory state:
-        hotness, decay, TTL, feedback, corrections, graph recall, and namespace
-        isolation.
-      </p>
-      <p>
-        The practical goal is simple: long-running software should remember
-        useful context, suppress stale context, and make recall inspectable.
+        The current focus is dynamic memory: not just storing vectors, but
+        deciding which memories should stay important, which ones should fade,
+        and which ones need evidence.
       </p>
     </td>
-    <td width="43%" valign="top">
-      <h2>Try WaveMind</h2>
-      <p><strong>Install</strong></p>
-      <pre><code>pip install wavemind</code></pre>
-      <p><strong>Run a local demo</strong></p>
-      <pre><code>wavemind quickstart</code></pre>
-      <p><strong>Use from Python</strong></p>
+    <td width="50%" valign="top">
+      <h2>Try the main project</h2>
+      <pre><code>pip install wavemind
+wavemind quickstart</code></pre>
       <pre><code>from wavemind import WaveMind
 
 memory = WaveMind()
@@ -68,36 +63,44 @@ print(memory.query("How should I answer Andrey?"))</code></pre>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/memory-system-v2.svg" alt="WaveMind memory loop" width="100%" />
+    <img src="./assets/memory-system-v2.svg" alt="WaveMind memory system diagram" width="100%" />
   </a>
 </p>
 
-## Why WaveMind
+## Main Work
 
-| Static vector search | WaveMind memory layer |
-| --- | --- |
-| Returns nearest vectors. | Finds candidates, then re-ranks with memory state. |
-| Old facts can keep winning. | TTL, decay, feedback, and corrections lower stale priority. |
-| Context is hard to audit. | Results include metadata, provenance, and scoring signals. |
-| Benchmarks often stop at top-k retrieval. | Tests include stale facts, namespace isolation, latency, and coherence. |
-
-## Workbench
-
-| Track | What is being built |
-| --- | --- |
-| Scale | ANN indexes, namespace sharding, cache-aware recall, and production load tests. |
-| Memory OS | Background consolidation, forgetting policies, graph dynamics, and priority learning. |
-| Benchmarks | LoCoMo, LongMemEval-style retrieval, agent coherence, latency curves, and competitor baselines. |
-| Integrations | LangChain, LlamaIndex, HTTP API, CLI, Docker, and practical workflow examples. |
-| Product surface | Local demos first, then tools for inspecting and debugging memory behavior. |
-
-## Selected Projects
-
-| Project | Focus | Status |
+| Project | What it does | Links |
 | --- | --- | --- |
-| [WaveMind](https://github.com/CaspianG/wavemind) | Adaptive long-term memory for software with durable context. | Active |
-| [focus-flow](https://github.com/CaspianG/focus-flow) | Minimal desktop focus timer for deep-work sessions. | Stable |
-| [CORECITY](https://github.com/CaspianG/CORECITY) | Browser game concept around a living market mechanic. | Public archive |
+| **WaveMind** | Adaptive memory layer for software that needs durable, inspectable context. | [repo](https://github.com/CaspianG/wavemind) / [PyPI](https://pypi.org/project/wavemind/) / [benchmarks](https://github.com/CaspianG/wavemind#user-content-benchmark) |
+| **focus-flow** | Minimal desktop focus timer for 50/10 and 90/15 deep-work sessions. | [repo](https://github.com/CaspianG/focus-flow) |
+| **CORECITY** | Browser game concept around a living market mechanic. | [repo](https://github.com/CaspianG/CORECITY) |
+
+## Why This Direction
+
+Most software memory still behaves like a static search box:
+
+```text
+embed -> search -> top-k -> prompt
+```
+
+WaveMind is built around a different loop:
+
+```text
+remember -> retrieve -> adapt -> explain
+```
+
+The goal is memory that can be queried, corrected, scoped, benchmarked, and
+audited instead of treated as an invisible prompt appendage.
+
+## Current Focus
+
+| Track | Direction |
+| --- | --- |
+| Scale | FAISS, sharding, service-backed load tests, and predictable latency. |
+| Memory dynamics | Decay, priority, corrections, graph recall, consolidation, and feedback. |
+| Benchmarks | LoCoMo, LongMemEval-style retrieval, stale-fact suppression, and competitor baselines. |
+| Integrations | LangChain, LlamaIndex, HTTP API, CLI, Docker, and practical examples. |
+| Product surface | Local demos and tools for inspecting how memory behaves. |
 
 ## Stack
 
@@ -114,9 +117,10 @@ print(memory.query("How should I answer Andrey?"))</code></pre>
 
 ## Collaboration
 
-I am interested in practical memory systems, retrieval benchmarks, local-first
-software, privacy-aware forgetting, graph recall, production indexes, and real
-workloads where static vector search starts to break down.
+I am interested in retrieval, long-term memory, local-first software,
+benchmarking, privacy-aware forgetting, graph recall, and production workloads
+where static vector search is not enough.
 
-Start with [WaveMind issues](https://github.com/CaspianG/wavemind/issues) if you
-want to test an integration, benchmark a workload, or contribute an adapter.
+If you want to contribute, start with
+[WaveMind issues](https://github.com/CaspianG/wavemind/issues) or test the
+quickstart on your own workload.
