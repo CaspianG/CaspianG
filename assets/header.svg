@@ -21,7 +21,7 @@
   <text x="84" y="184" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="850" letter-spacing="4">CASPIANG</text>
   <text x="84" y="258" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="61" font-weight="850">Memory systems</text>
   <text x="84" y="326" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="61" font-weight="850">for durable context.</text>
-  <text x="87" y="382" fill="#C9CAD1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="520">open-source infrastructure for adaptive recall, evidence, and long-running software</text>
+  <text x="87" y="382" fill="#C9CAD1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="520">open-source infrastructure for adaptive recall and evidence</text>
 
   <g transform="translate(84 428)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="850">
     <rect width="142" height="38" rx="19" fill="#FFFFFF"/>
