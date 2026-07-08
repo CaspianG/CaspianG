@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/profile-hero.svg" alt="CaspianG builds adaptive memory systems" width="100%" />
+    <img src="./assets/profile-hero-v2.svg" alt="CaspianG builds adaptive memory systems" width="100%" />
   </a>
 </p>
 
@@ -68,7 +68,7 @@ print(memory.query("How should I answer Andrey?"))</code></pre>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/memory-system.svg" alt="WaveMind memory loop" width="100%" />
+    <img src="./assets/memory-system-v2.svg" alt="WaveMind memory loop" width="100%" />
   </a>
 </p>
 
