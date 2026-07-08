@@ -1,14 +1,14 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/header.png" alt="CaspianG builds memory infrastructure for durable context" width="100%" />
+    <img src="./assets/profile-hero.svg" alt="CaspianG builds adaptive memory infrastructure" width="100%" />
   </a>
 </p>
 
 <h1 align="center">CaspianG</h1>
 
 <p align="center">
-  <strong>Building open-source memory infrastructure for software that needs durable context.</strong><br />
-  Local-first systems, adaptive recall, reproducible benchmarks, and practical developer tools.
+  <strong>I build memory infrastructure for software that needs durable context.</strong><br />
+  WaveMind is the main project: local-first adaptive memory with retrieval, decay, priority, TTL, namespaces, provenance, and reproducible benchmarks.
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@
 
 <table>
   <tr>
-    <td width="61%" valign="top">
+    <td width="58%" valign="top">
       <h2>What I am building</h2>
       <p>
         <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
@@ -43,54 +43,60 @@
         developer workflows.
       </p>
       <p>
-        It starts with normal retrieval, then adds memory behavior on top:
+        It begins with normal vector retrieval, then adds memory behavior:
         hotness, decay, TTL, tags, namespaces, feedback, corrections,
-        provenance, graph recall, and benchmarked failure cases.
+        provenance, graph recall, and operational benchmark checks.
+      </p>
+      <p>
+        The goal is simple: memory that can adapt over time instead of only
+        returning the nearest vector.
       </p>
     </td>
-    <td width="39%" valign="top">
-      <h2>Start here</h2>
+    <td width="42%" valign="top">
+      <h2>Try WaveMind</h2>
       <p><strong>Install</strong></p>
       <pre><code>pip install wavemind</code></pre>
-      <p><strong>Run a local demo</strong></p>
-      <pre><code>wavemind demo</code></pre>
-      <p>
-        <a href="https://github.com/CaspianG/wavemind#user-content-quick-start">Read the 3-command Quick Start</a>
-      </p>
+      <p><strong>Run locally</strong></p>
+      <pre><code>wavemind quickstart</code></pre>
+      <p><strong>Use from Python</strong></p>
+      <pre><code>from wavemind import WaveMind
+memory = WaveMind()
+memory.remember("Andrey prefers concise answers")
+print(memory.query("What style does Andrey like?"))</code></pre>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/wavemind-map.png" alt="WaveMind adaptive memory loop" width="100%" />
+    <img src="./assets/memory-system.svg" alt="WaveMind adaptive memory system" width="100%" />
   </a>
 </p>
 
-## Why WaveMind Exists
+## Why This Matters
 
-Static vector search is a base layer. It can find similar text, but it does not
-decide what should stay important, what should fade, what was corrected, or why
-a memory was returned.
+Most retrieval systems answer one question: "which text is most similar?"
 
-WaveMind is built around a different contract:
+Long-running software needs more than that. It needs memory that can change
+importance, suppress stale facts, isolate namespaces, preserve provenance, and
+show why something was recalled.
 
 | Static retrieval | Adaptive memory |
 | --- | --- |
 | Similarity decides the top result. | Similarity finds candidates, then memory state changes ranking. |
-| Old and corrected facts can keep winning. | TTL, decay, feedback, and corrections can reduce priority. |
+| Old or corrected facts can keep winning. | TTL, decay, feedback, and corrections reduce stale priority. |
 | Context is hard to inspect. | Returned memories include metadata, provenance, and scoring signals. |
-| Benchmarks often stop at retrieval. | Agent-memory scenarios test stale facts, namespace leaks, latency, and coherence. |
+| Benchmarks often stop at retrieval. | WaveMind tests stale facts, namespace leaks, latency, and coherence. |
 
 ## Current Focus
 
-| Area | Direction |
+| Area | What I am pushing forward |
 | --- | --- |
 | Scale | ANN indexes, sharding by namespace, cache-aware recall, and production load tests. |
-| Memory OS | Background consolidation, hot-query prewarm, forgetting plans, and operational policies. |
+| Memory OS | Background consolidation, hot-query prewarm, forgetting policies, and priority learning. |
 | Benchmarks | LoCoMo, LongMemEval-style retrieval, agent coherence, latency curves, and competitor baselines. |
 | Integrations | LangChain, LlamaIndex, HTTP API, CLI, Docker, and examples for real workflows. |
-| Product surface | Simple local demos first, then deeper tooling for inspecting memory behavior. |
+| Product surface | Clear local demos first, then tools for inspecting memory behavior. |
 
 ## Selected Work
 
