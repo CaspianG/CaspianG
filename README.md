@@ -16,9 +16,9 @@
   &nbsp;/&nbsp;
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
   &nbsp;/&nbsp;
-  <a href="https://github.com/CaspianG/wavemind/blob/main/README.md#quick-start">Quick Start</a>
+  <a href="https://github.com/CaspianG/wavemind#user-content-quick-start">Quick Start</a>
   &nbsp;/&nbsp;
-  <a href="https://github.com/CaspianG/wavemind/blob/main/README.md#benchmark">Benchmarks</a>
+  <a href="https://github.com/CaspianG/wavemind#user-content-benchmark">Benchmarks</a>
   &nbsp;/&nbsp;
   <a href="https://github.com/CaspianG/wavemind/issues">Issues</a>
 </p>
