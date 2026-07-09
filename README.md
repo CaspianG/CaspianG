@@ -7,12 +7,13 @@
 <h1 align="center">CaspianG</h1>
 
 <p align="center">
-  <strong>I build memory infrastructure for software that needs to remember, adapt, forget, and explain.</strong>
+  <strong>I build infrastructure for software that needs memory, state, and long-term context.</strong>
 </p>
 
 <p align="center">
-  Main project: <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>, a local-first dynamic memory engine for long-running software.
-  It combines durable storage, vector retrieval, hotness, decay, TTL, namespaces, graph signals, provenance, and benchmarks.
+  Main project:
+  <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>,
+  a local-first dynamic memory engine where recall is not just similarity search, but an evolving memory state.
 </p>
 
 <p align="center">
@@ -23,14 +24,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
-  &nbsp;/&nbsp;
+  <a href="https://github.com/CaspianG/wavemind"><strong>Repository</strong></a>
+  &nbsp;&middot;&nbsp;
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
-  &nbsp;/&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="https://github.com/CaspianG/wavemind#user-content-quick-start">Quick Start</a>
-  &nbsp;/&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="https://github.com/CaspianG/wavemind#user-content-benchmark">Benchmarks</a>
-  &nbsp;/&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="https://github.com/CaspianG/wavemind/issues">Issues</a>
 </p>
 
@@ -38,25 +39,27 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="58%" valign="top">
       <h2>What I am building</h2>
       <p>
-        Most retrieval systems treat memory as a static vector lookup. WaveMind adds state:
-        useful memories become stronger, stale facts fade, corrections stay traceable,
-        and recall can be inspected instead of trusted blindly.
+        Most memory systems retrieve the nearest vectors and stop there.
+        WaveMind adds state on top of retrieval: useful memories get stronger,
+        stale facts fade, corrections remain traceable, and recall can be inspected.
       </p>
+      <p>
+        The goal is a practical memory layer for long-running software:
+        local by default, durable, benchmarked, and ready to grow into production deployments.
+      </p>
+    </td>
+    <td width="42%" valign="top">
+      <h2>Try it</h2>
       <pre><code>pip install wavemind
 wavemind quickstart
 wavemind studio</code></pre>
-    </td>
-    <td width="50%" valign="top">
-      <h2>Current focus</h2>
-      <ul>
-        <li>Production-scale memory benchmarks.</li>
-        <li>FAISS, Qdrant, pgvector, and hybrid retrieval paths.</li>
-        <li>Graph memory, consolidation, feedback, and stale-fact suppression.</li>
-        <li>Studio UI, observability, framework integrations, and real deployment evidence.</li>
-      </ul>
+      <p>
+        CLI, Python API, HTTP API, Studio UI, SQLite/Postgres persistence,
+        FAISS/Qdrant paths, workers, telemetry, and benchmarks.
+      </p>
     </td>
   </tr>
 </table>
@@ -67,35 +70,21 @@ wavemind studio</code></pre>
   </a>
 </p>
 
-## Work Areas
+## Current Focus
 
-<table>
-  <tr>
-    <td width="25%" valign="top">
-      <h3>Memory engines</h3>
-      <p>Persistent, inspectable memory for long-running software: namespaces, TTL, forgetting, feedback, graph links, and recall scoring.</p>
-    </td>
-    <td width="25%" valign="top">
-      <h3>Evaluation</h3>
-      <p>Benchmarks for long-memory recall, dynamic behavior, latency, cost efficiency, production load, and agent impact.</p>
-    </td>
-    <td width="25%" valign="top">
-      <h3>Local-first systems</h3>
-      <p>Tools that work on a developer machine first, then scale into services when the workflow proves itself.</p>
-    </td>
-    <td width="25%" valign="top">
-      <h3>Product infrastructure</h3>
-      <p>APIs, docs, dashboards, examples, and integrations that make complex systems usable by real developers.</p>
-    </td>
-  </tr>
-</table>
+| Area | Direction |
+| --- | --- |
+| **Scale** | Persisted indexes, service-backed retrieval, sharding, production-load profiles, and honest claim boundaries. |
+| **Memory dynamics** | Hotness, decay, TTL, feedback, graph signals, consolidation, stale-fact suppression, and explainable recall. |
+| **Developer adoption** | Simple install, Studio UI, agent/framework integrations, examples, migration guides, and public benchmark reports. |
+| **Reliability** | Backups, observability, auth/RBAC, rate limiting, reproducible tests, and CI-backed benchmark artifacts. |
 
 ## Selected Projects
 
 | Project | What it is | Status |
 | --- | --- | --- |
-| [**WaveMind**](https://github.com/CaspianG/wavemind) | Dynamic memory engine with CLI, HTTP API, Studio, workers, SQLite/Postgres persistence, vector backends, benchmarks, and framework integrations. | Active |
-| [**focus-flow**](https://github.com/CaspianG/focus-flow) | Desktop focus timer for deep-work sessions with planning, session tracking, themes, and English/Russian UI. | Public |
+| [**WaveMind**](https://github.com/CaspianG/wavemind) | Dynamic memory engine with CLI, HTTP API, Studio, workers, persistent storage, vector backends, benchmark suite, and framework integrations. | Active |
+| [**focus-flow**](https://github.com/CaspianG/focus-flow) | Minimal desktop focus timer for deep-work sessions with planning, session tracking, themes, and English/Russian UI. | Public |
 | [**CORECITY**](https://github.com/CaspianG/CORECITY) | Browser game concept built around a living market mechanic driven by players. | Public |
 
 ## Stack
@@ -117,9 +106,9 @@ wavemind studio</code></pre>
 
 | Collaboration | Good fit |
 | --- | --- |
-| Benchmarks | Long-memory evaluation, stale-fact suppression, retrieval quality, latency, cost-efficiency, and agent-impact tests. |
-| Integrations | LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, notebooks, local-first apps, and migration paths from static vector search. |
-| Product feedback | Real workflows where memory needs to evolve, forget, explain, or preserve user-specific context over time. |
+| **Benchmarks** | Long-memory evaluation, stale-fact suppression, retrieval quality, latency, cost efficiency, and agent-impact tests. |
+| **Integrations** | LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, notebooks, local apps, and migration paths from static vector search. |
+| **Product feedback** | Real workflows where memory needs to evolve, forget, explain, or preserve user-specific context over time. |
 
 ## Contact
 

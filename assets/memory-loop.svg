@@ -1,58 +1,52 @@
-<svg width="1440" height="420" viewBox="0 0 1440 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1440" height="430" viewBox="0 0 1440 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">WaveMind memory architecture</title>
-  <desc id="desc">A monochrome architecture diagram showing durable storage, candidate retrieval, memory dynamics, and explainable recall.</desc>
+  <desc id="desc">A clean architecture diagram comparing static vector search with WaveMind stateful recall.</desc>
 
-  <rect x="1.5" y="1.5" width="1437" height="417" rx="34.5" fill="#FFFFFF" stroke="#DCE1EA" stroke-width="3"/>
+  <rect x="1.5" y="1.5" width="1437" height="427" rx="34.5" fill="#FFFFFF" stroke="#DCE1EA" stroke-width="3"/>
 
   <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="72" y="74" fill="#050505" font-size="38" font-weight="900">Memory is not only similarity search</text>
-    <text x="74" y="114" fill="#59616F" font-size="18" font-weight="650">WaveMind keeps facts durable, retrieves candidates, then lets memory state change what gets recalled.</text>
+    <text x="72" y="74" fill="#050505" font-size="38" font-weight="900">Memory should change when reality changes</text>
+    <text x="74" y="114" fill="#59616F" font-size="18" font-weight="650">WaveMind keeps the database durable, then adds time, priority, feedback, and provenance to recall.</text>
   </g>
 
-  <g transform="translate(60 154)" font-family="Inter, Segoe UI, Arial, sans-serif">
-    <rect x="0" y="0" width="246" height="126" rx="24" fill="#FFFFFF" stroke="#050505" stroke-width="2"/>
-    <text x="28" y="42" fill="#050505" font-size="23" font-weight="900">Remember</text>
-    <text x="28" y="77" fill="#555D69" font-size="16" font-weight="650">SQLite / Postgres</text>
-    <text x="28" y="101" fill="#555D69" font-size="16" font-weight="650">text, tags, metadata</text>
+  <g transform="translate(68 158)" font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="0" y="0" width="286" height="164" rx="28" fill="#F5F7FA" stroke="#D8DEE8" stroke-width="2"/>
+    <text x="28" y="45" fill="#050505" font-size="24" font-weight="900">Static vector DB</text>
+    <text x="28" y="82" fill="#586170" font-size="16" font-weight="700">embed -> search -> top-k</text>
+    <text x="28" y="116" fill="#717B89" font-size="15" font-weight="650">fast, useful, but memory state is</text>
+    <text x="28" y="140" fill="#717B89" font-size="15" font-weight="650">usually outside the retrieval layer</text>
 
-    <path d="M276 63H330M330 63L314 47M330 63L314 79" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M330 82H394M394 82L376 64M394 82L376 100" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <rect x="362" y="0" width="246" height="126" rx="24" fill="#050505"/>
-    <text x="390" y="42" fill="#FFFFFF" font-size="23" font-weight="900">Retrieve</text>
-    <text x="390" y="77" fill="#CED4DF" font-size="16" font-weight="650">exact / FAISS / Qdrant</text>
-    <text x="390" y="101" fill="#CED4DF" font-size="16" font-weight="650">candidate generation</text>
+    <rect x="434" y="0" width="426" height="164" rx="28" fill="#050505"/>
+    <text x="464" y="45" fill="#FFFFFF" font-size="24" font-weight="900">WaveMind</text>
+    <text x="464" y="82" fill="#D3DAE6" font-size="16" font-weight="700">embed -> retrieve -> evolve -> explain</text>
+    <text x="464" y="116" fill="#AEB7C8" font-size="15" font-weight="650">hotness, decay, TTL, namespaces, graph links,</text>
+    <text x="464" y="140" fill="#AEB7C8" font-size="15" font-weight="650">feedback, audit trails, and benchmark artifacts</text>
 
-    <path d="M638 63H692M692 63L676 47M692 63L676 79" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M902 82H966M966 82L948 64M966 82L948 100" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <rect x="724" y="0" width="246" height="126" rx="24" fill="#FFFFFF" stroke="#050505" stroke-width="2"/>
-    <text x="752" y="42" fill="#050505" font-size="23" font-weight="900">Evolve</text>
-    <text x="752" y="77" fill="#555D69" font-size="16" font-weight="650">hotness, TTL, graph</text>
-    <text x="752" y="101" fill="#555D69" font-size="16" font-weight="650">feedback and decay</text>
-
-    <path d="M1000 63H1054M1054 63L1038 47M1054 63L1038 79" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-
-    <rect x="1086" y="0" width="246" height="126" rx="24" fill="#FFFFFF" stroke="#050505" stroke-width="2"/>
-    <text x="1114" y="42" fill="#050505" font-size="23" font-weight="900">Explain</text>
-    <text x="1114" y="77" fill="#555D69" font-size="16" font-weight="650">scores, provenance</text>
-    <text x="1114" y="101" fill="#555D69" font-size="16" font-weight="650">auditable recall</text>
+    <rect x="1006" y="0" width="286" height="164" rx="28" fill="#FFFFFF" stroke="#050505" stroke-width="2"/>
+    <text x="1034" y="45" fill="#050505" font-size="24" font-weight="900">Recall with context</text>
+    <text x="1034" y="82" fill="#586170" font-size="16" font-weight="700">what matters now</text>
+    <text x="1034" y="116" fill="#717B89" font-size="15" font-weight="650">fresh facts rise, stale facts fade,</text>
+    <text x="1034" y="140" fill="#717B89" font-size="15" font-weight="650">and every result can be inspected</text>
   </g>
 
-  <path d="M184 304C300 264 416 264 532 304C648 344 764 344 880 304C996 264 1112 264 1228 304" stroke="#050505" stroke-width="3" stroke-linecap="round"/>
-  <g fill="#050505">
-    <circle cx="184" cy="304" r="7"/>
-    <circle cx="532" cy="304" r="7"/>
-    <circle cx="880" cy="304" r="7"/>
-    <circle cx="1228" cy="304" r="7"/>
-  </g>
+  <g transform="translate(92 360)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="900">
+    <rect width="250" height="44" rx="22" fill="#F2F4F8"/>
+    <text x="125" y="29" text-anchor="middle" fill="#303744">durable source of truth</text>
 
-  <g transform="translate(96 334)" font-family="Inter, Segoe UI, Arial, sans-serif">
-    <rect width="356" height="54" rx="27" fill="#F2F4F8"/>
-    <text x="178" y="35" text-anchor="middle" fill="#303744" font-size="16" font-weight="900">hot memories rise</text>
+    <rect x="292" width="220" height="44" rx="22" fill="#F2F4F8"/>
+    <text x="402" y="29" text-anchor="middle" fill="#303744">retrieval backends</text>
 
-    <rect x="446" width="356" height="54" rx="27" fill="#F2F4F8"/>
-    <text x="624" y="35" text-anchor="middle" fill="#303744" font-size="16" font-weight="900">stale facts fade</text>
+    <rect x="554" width="220" height="44" rx="22" fill="#F2F4F8"/>
+    <text x="664" y="29" text-anchor="middle" fill="#303744">memory dynamics</text>
 
-    <rect x="892" width="356" height="54" rx="27" fill="#F2F4F8"/>
-    <text x="1070" y="35" text-anchor="middle" fill="#303744" font-size="16" font-weight="900">recall stays explainable</text>
+    <rect x="816" width="210" height="44" rx="22" fill="#F2F4F8"/>
+    <text x="921" y="29" text-anchor="middle" fill="#303744">benchmarks</text>
+
+    <rect x="1068" width="250" height="44" rx="22" fill="#F2F4F8"/>
+    <text x="1193" y="29" text-anchor="middle" fill="#303744">production evidence</text>
   </g>
 </svg>
