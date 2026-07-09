@@ -1,75 +1,79 @@
 <svg width="1440" height="560" viewBox="0 0 1440 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">CaspianG builds local-first memory infrastructure</title>
-  <desc id="desc">A black and white GitHub profile hero for CaspianG and WaveMind.</desc>
+  <title id="title">CaspianG builds adaptive memory infrastructure</title>
+  <desc id="desc">A minimalist black and white GitHub profile hero for CaspianG and WaveMind.</desc>
 
-  <rect width="1440" height="560" rx="40" fill="#050608"/>
-  <rect x="1.5" y="1.5" width="1437" height="557" rx="38.5" stroke="#262B35" stroke-width="3"/>
+  <rect width="1440" height="560" rx="42" fill="#050505"/>
+  <rect x="1.5" y="1.5" width="1437" height="557" rx="40.5" stroke="#2B2F38" stroke-width="3"/>
 
-  <g opacity="0.1" stroke="#FFFFFF" stroke-width="1">
-    <path d="M70 96H1370M70 176H1370M70 256H1370M70 336H1370M70 416H1370M70 496H1370"/>
-    <path d="M146 70V490M266 70V490M386 70V490M506 70V490M626 70V490M746 70V490M866 70V490M986 70V490M1106 70V490M1226 70V490M1346 70V490"/>
+  <g opacity="0.13" stroke="#FFFFFF" stroke-width="1">
+    <path d="M72 100H1368M72 180H1368M72 260H1368M72 340H1368M72 420H1368M72 500H1368"/>
+    <path d="M142 72V500M262 72V500M382 72V500M502 72V500M622 72V500M742 72V500M862 72V500M982 72V500M1102 72V500M1222 72V500M1342 72V500"/>
   </g>
 
   <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <rect x="76" y="74" width="176" height="46" rx="23" fill="#FFFFFF"/>
-    <text x="164" y="104" text-anchor="middle" fill="#050608" font-size="15" font-weight="900">CASPIANG</text>
+    <rect x="76" y="72" width="176" height="44" rx="22" fill="#FFFFFF"/>
+    <text x="164" y="101" text-anchor="middle" fill="#050505" font-size="15" font-weight="900">CASPIANG</text>
 
-    <text x="76" y="212" fill="#FFFFFF" font-size="66" font-weight="900">Memory systems</text>
-    <text x="78" y="280" fill="#DDE2EC" font-size="31" font-weight="800">for software that keeps context</text>
-    <text x="80" y="328" fill="#929AA8" font-size="22" font-weight="650">local-first infrastructure, dynamic recall, honest benchmarks</text>
+    <text x="76" y="205" fill="#FFFFFF" font-size="68" font-weight="900">Adaptive memory</text>
+    <text x="78" y="274" fill="#DDE2EA" font-size="34" font-weight="800">for software that keeps context</text>
+    <text x="80" y="326" fill="#9AA2AF" font-size="22" font-weight="650">WaveMind, local-first systems, production benchmarks.</text>
+    <text x="80" y="360" fill="#737C8C" font-size="18" font-weight="650">Memory that can be queried, updated, forgotten, explained, and scaled.</text>
 
-    <g transform="translate(76 412)">
-      <rect width="150" height="52" rx="26" fill="#FFFFFF"/>
-      <text x="75" y="34" text-anchor="middle" fill="#050608" font-size="15" font-weight="900">WaveMind</text>
+    <g transform="translate(76 410)">
+      <rect width="164" height="54" rx="27" fill="#FFFFFF"/>
+      <text x="82" y="35" text-anchor="middle" fill="#050505" font-size="15" font-weight="900">WaveMind</text>
 
-      <rect x="170" width="138" height="52" rx="26" fill="#11151D" stroke="#535B6B" stroke-width="1.3"/>
-      <text x="239" y="34" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="850">Python</text>
+      <rect x="184" width="154" height="54" rx="27" fill="#11141B" stroke="#596172" stroke-width="1.3"/>
+      <text x="261" y="35" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="850">remember</text>
 
-      <rect x="328" width="162" height="52" rx="26" fill="#11151D" stroke="#535B6B" stroke-width="1.3"/>
-      <text x="409" y="34" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="850">local-first</text>
+      <rect x="358" width="128" height="54" rx="27" fill="#11141B" stroke="#596172" stroke-width="1.3"/>
+      <text x="422" y="35" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="850">adapt</text>
 
-      <rect x="510" width="176" height="52" rx="26" fill="#11151D" stroke="#535B6B" stroke-width="1.3"/>
-      <text x="598" y="34" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="850">benchmarked</text>
+      <rect x="506" width="128" height="54" rx="27" fill="#11141B" stroke="#596172" stroke-width="1.3"/>
+      <text x="570" y="35" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="850">forget</text>
     </g>
   </g>
 
-  <g transform="translate(850 82)" font-family="Inter, Segoe UI, Arial, sans-serif">
-    <rect width="512" height="396" rx="34" fill="#0B0E14" stroke="#363D4A" stroke-width="1.5"/>
-    <rect x="28" y="28" width="456" height="340" rx="28" fill="#10141C" stroke="#2D333E" stroke-width="1.2"/>
+  <g transform="translate(845 72)" font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect width="518" height="416" rx="34" fill="#0B0D12" stroke="#343A46" stroke-width="1.4"/>
+    <rect x="26" y="26" width="466" height="364" rx="28" fill="#10131A" stroke="#2F3540" stroke-width="1.2"/>
 
-    <g transform="translate(66 56)">
-      <circle cx="162" cy="142" r="116" stroke="#FFFFFF" stroke-width="1.2" opacity="0.18"/>
-      <circle cx="162" cy="142" r="78" stroke="#FFFFFF" stroke-width="1.2" opacity="0.18"/>
-      <circle cx="162" cy="142" r="40" stroke="#FFFFFF" stroke-width="1.2" opacity="0.18"/>
-      <path d="M46 142H278M162 26V258M80 60L244 224M244 60L80 224" stroke="#FFFFFF" stroke-width="1.1" opacity="0.16"/>
+    <g transform="translate(63 54)">
+      <circle cx="170" cy="150" r="132" stroke="#FFFFFF" stroke-width="1.15" opacity="0.12"/>
+      <circle cx="170" cy="150" r="94" stroke="#FFFFFF" stroke-width="1.15" opacity="0.15"/>
+      <circle cx="170" cy="150" r="56" stroke="#FFFFFF" stroke-width="1.15" opacity="0.2"/>
+      <path d="M38 150H302M170 18V282M76 56L264 244M264 56L76 244" stroke="#FFFFFF" stroke-width="1.1" opacity="0.13"/>
 
-      <path d="M44 92C84 118 122 136 162 142C202 148 240 166 280 192" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
-      <path d="M44 192C84 166 122 148 162 142C202 136 240 118 280 92" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M44 104C76 128 122 149 170 150C218 151 264 172 296 198" stroke="#FFFFFF" stroke-width="3.3" stroke-linecap="round"/>
+      <path d="M44 198C76 172 122 151 170 150C218 149 264 128 296 104" stroke="#FFFFFF" stroke-width="3.3" stroke-linecap="round"/>
+      <path d="M98 47C126 93 151 126 170 150C189 174 214 207 242 253" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity="0.45"/>
 
       <g fill="#FFFFFF">
-        <circle cx="162" cy="142" r="23"/>
-        <circle cx="44" cy="92" r="12"/>
-        <circle cx="280" cy="92" r="12"/>
-        <circle cx="44" cy="192" r="12"/>
-        <circle cx="280" cy="192" r="12"/>
+        <circle cx="170" cy="150" r="24"/>
+        <circle cx="44" cy="104" r="12"/>
+        <circle cx="296" cy="104" r="12"/>
+        <circle cx="44" cy="198" r="12"/>
+        <circle cx="296" cy="198" r="12"/>
+        <circle cx="98" cy="47" r="8"/>
+        <circle cx="242" cy="253" r="8"/>
       </g>
 
       <g>
-        <rect x="0" y="0" width="124" height="42" rx="16" fill="#FFFFFF"/>
-        <text x="62" y="27" text-anchor="middle" fill="#050608" font-size="13" font-weight="900">remember</text>
+        <rect x="108" y="112" width="124" height="76" rx="24" fill="#FFFFFF"/>
+        <text x="170" y="144" text-anchor="middle" fill="#050505" font-size="17" font-weight="900">memory</text>
+        <text x="170" y="166" text-anchor="middle" fill="#4C5563" font-size="12" font-weight="850">state</text>
 
-        <rect x="202" y="0" width="124" height="42" rx="16" fill="#1A202B" stroke="#5E6675" stroke-width="1.1"/>
-        <text x="264" y="27" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="900">adapt</text>
+        <rect x="0" y="0" width="136" height="44" rx="22" fill="#FFFFFF"/>
+        <text x="68" y="29" text-anchor="middle" fill="#050505" font-size="13" font-weight="900">query</text>
 
-        <rect x="0" y="242" width="124" height="42" rx="16" fill="#1A202B" stroke="#5E6675" stroke-width="1.1"/>
-        <text x="62" y="269" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="900">forget</text>
+        <rect x="204" y="0" width="136" height="44" rx="22" fill="#171C26" stroke="#606879" stroke-width="1.1"/>
+        <text x="272" y="29" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="900">recall</text>
 
-        <rect x="202" y="242" width="124" height="42" rx="16" fill="#1A202B" stroke="#5E6675" stroke-width="1.1"/>
-        <text x="264" y="269" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="900">recall</text>
+        <rect x="0" y="256" width="136" height="44" rx="22" fill="#171C26" stroke="#606879" stroke-width="1.1"/>
+        <text x="68" y="285" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="900">decay</text>
 
-        <rect x="102" y="108" width="120" height="68" rx="22" fill="#FFFFFF"/>
-        <text x="162" y="137" text-anchor="middle" fill="#050608" font-size="16" font-weight="900">memory</text>
-        <text x="162" y="158" text-anchor="middle" fill="#4D5563" font-size="12" font-weight="850">field</text>
+        <rect x="204" y="256" width="136" height="44" rx="22" fill="#171C26" stroke="#606879" stroke-width="1.1"/>
+        <text x="272" y="285" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="900">explain</text>
       </g>
     </g>
   </g>
