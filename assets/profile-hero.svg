@@ -1,86 +1,85 @@
 <svg width="1440" height="560" viewBox="0 0 1440 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">CaspianG builds adaptive memory infrastructure</title>
-  <desc id="desc">A minimal black and white GitHub profile banner for adaptive memory systems and WaveMind.</desc>
+  <title id="title">CaspianG builds adaptive memory systems</title>
+  <desc id="desc">A minimal black and white profile banner for WaveMind and adaptive software memory.</desc>
 
   <defs>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" stroke="#E9EDF3" stroke-width="1"/>
+    <pattern id="dotGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.15" fill="#D6DCE6"/>
     </pattern>
-    <linearGradient id="fade" x1="0" y1="0" x2="1440" y2="560" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="0.62" stop-color="#FBFCFE"/>
-      <stop offset="1" stop-color="#EFF2F6"/>
+    <linearGradient id="cardShade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#050505"/>
     </linearGradient>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#111827" flood-opacity="0.13"/>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="128%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#050505" flood-opacity="0.14"/>
     </filter>
   </defs>
 
-  <rect width="1440" height="560" rx="42" fill="url(#fade)"/>
-  <rect x="1.5" y="1.5" width="1437" height="557" rx="40.5" stroke="#D8DEE8" stroke-width="3"/>
-  <rect x="34" y="34" width="1372" height="492" rx="34" fill="url(#grid)" opacity="0.82"/>
+  <rect width="1440" height="560" rx="44" fill="#FFFFFF"/>
+  <rect x="1.5" y="1.5" width="1437" height="557" rx="42.5" stroke="#D8DEE8" stroke-width="3"/>
+  <rect x="36" y="36" width="1368" height="488" rx="36" fill="url(#dotGrid)"/>
 
   <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <g transform="translate(88 82)">
-      <rect width="136" height="36" rx="18" fill="#050505"/>
-      <text x="68" y="24" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="900" letter-spacing="2.1">CASPIANG</text>
+    <g transform="translate(92 82)">
+      <rect width="146" height="38" rx="19" fill="#050505"/>
+      <text x="73" y="25" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="900" letter-spacing="2">CASPIANG</text>
 
-      <text x="0" y="122" fill="#050505" font-size="78" font-weight="950">Memory systems</text>
-      <text x="0" y="206" fill="#050505" font-size="78" font-weight="950">that adapt.</text>
+      <text x="0" y="128" fill="#050505" font-size="76" font-weight="950">Software memory</text>
+      <text x="0" y="212" fill="#050505" font-size="76" font-weight="950">with state.</text>
 
-      <text x="2" y="278" fill="#252B35" font-size="25" font-weight="760">Local-first infrastructure for context that</text>
-      <text x="2" y="314" fill="#252B35" font-size="25" font-weight="760">remembers, decays, prioritizes, and explains.</text>
+      <text x="2" y="286" fill="#303744" font-size="25" font-weight="760">Building WaveMind: local-first infrastructure</text>
+      <text x="2" y="322" fill="#303744" font-size="25" font-weight="760">for context that remembers, fades, and adapts.</text>
 
-      <g transform="translate(0 378)" font-size="13" font-weight="900">
-        <rect width="128" height="40" rx="20" fill="#050505"/>
-        <text x="64" y="26" text-anchor="middle" fill="#FFFFFF">WaveMind</text>
+      <g transform="translate(0 384)" font-size="13" font-weight="900">
+        <rect width="132" height="42" rx="21" fill="#050505"/>
+        <text x="66" y="27" text-anchor="middle" fill="#FFFFFF">WaveMind</text>
 
-        <rect x="146" width="116" height="40" rx="20" fill="#FFFFFF" stroke="#B9C2D0" stroke-width="1.4"/>
-        <text x="204" y="26" text-anchor="middle" fill="#050505">hotness</text>
+        <rect x="148" width="112" height="42" rx="21" fill="#FFFFFF" stroke="#B8C1CF" stroke-width="1.5"/>
+        <text x="204" y="27" text-anchor="middle" fill="#050505">hotness</text>
 
-        <rect x="280" width="98" height="40" rx="20" fill="#FFFFFF" stroke="#B9C2D0" stroke-width="1.4"/>
-        <text x="329" y="26" text-anchor="middle" fill="#050505">decay</text>
+        <rect x="276" width="96" height="42" rx="21" fill="#FFFFFF" stroke="#B8C1CF" stroke-width="1.5"/>
+        <text x="324" y="27" text-anchor="middle" fill="#050505">decay</text>
 
-        <rect x="396" width="118" height="40" rx="20" fill="#FFFFFF" stroke="#B9C2D0" stroke-width="1.4"/>
-        <text x="455" y="26" text-anchor="middle" fill="#050505">feedback</text>
+        <rect x="388" width="104" height="42" rx="21" fill="#FFFFFF" stroke="#B8C1CF" stroke-width="1.5"/>
+        <text x="440" y="27" text-anchor="middle" fill="#050505">TTL</text>
 
-        <rect x="532" width="132" height="40" rx="20" fill="#FFFFFF" stroke="#B9C2D0" stroke-width="1.4"/>
-        <text x="598" y="26" text-anchor="middle" fill="#050505">benchmarks</text>
+        <rect x="508" width="142" height="42" rx="21" fill="#FFFFFF" stroke="#B8C1CF" stroke-width="1.5"/>
+        <text x="579" y="27" text-anchor="middle" fill="#050505">benchmarks</text>
       </g>
     </g>
 
-    <g transform="translate(900 82)" filter="url(#shadow)">
-      <rect width="420" height="396" rx="34" fill="#050505"/>
-      <rect x="1.5" y="1.5" width="417" height="393" rx="32.5" stroke="#2A303B" stroke-width="3"/>
+    <g transform="translate(914 76)" filter="url(#shadow)">
+      <rect width="412" height="408" rx="34" fill="url(#cardShade)"/>
+      <rect x="1.5" y="1.5" width="409" height="405" rx="32.5" stroke="#303744" stroke-width="3"/>
 
-      <text x="38" y="58" fill="#B9C4D3" font-size="12" font-weight="900" letter-spacing="2.2">ADAPTIVE RECALL</text>
-      <text x="38" y="112" fill="#FFFFFF" font-size="34" font-weight="950">search</text>
-      <text x="38" y="154" fill="#FFFFFF" font-size="34" font-weight="950">is not memory</text>
+      <text x="38" y="58" fill="#AEB8C8" font-size="12" font-weight="900" letter-spacing="2">ADAPTIVE MEMORY</text>
+      <text x="38" y="118" fill="#FFFFFF" font-size="34" font-weight="950">search</text>
+      <text x="38" y="160" fill="#FFFFFF" font-size="34" font-weight="950">is only the start</text>
 
-      <g transform="translate(42 204)">
-        <circle cx="36" cy="36" r="36" fill="#FFFFFF"/>
-        <circle cx="168" cy="36" r="36" fill="#171D27" stroke="#6B7280" stroke-width="1.6"/>
-        <circle cx="300" cy="36" r="36" fill="#FFFFFF"/>
+      <g transform="translate(48 214)">
+        <circle cx="32" cy="32" r="32" fill="#FFFFFF"/>
+        <circle cx="156" cy="32" r="32" fill="#171D27" stroke="#6B7280" stroke-width="1.6"/>
+        <circle cx="280" cy="32" r="32" fill="#FFFFFF"/>
 
-        <path d="M78 36H124" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-        <path d="M113 24L126 36L113 48" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M210 36H256" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-        <path d="M245 24L258 36L245 48" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M72 32H112" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+        <path d="M102 20L114 32L102 44" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M196 32H236" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+        <path d="M226 20L238 32L226 44" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-        <text x="36" y="42" text-anchor="middle" fill="#050505" font-size="12" font-weight="950">store</text>
-        <text x="168" y="42" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="950">field</text>
-        <text x="300" y="42" text-anchor="middle" fill="#050505" font-size="12" font-weight="950">recall</text>
+        <text x="32" y="37" text-anchor="middle" fill="#050505" font-size="12" font-weight="950">store</text>
+        <text x="156" y="37" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="950">field</text>
+        <text x="280" y="37" text-anchor="middle" fill="#050505" font-size="12" font-weight="950">recall</text>
       </g>
 
-      <g transform="translate(38 314)" font-size="12" font-weight="900">
-        <rect width="96" height="34" rx="17" fill="#171D27" stroke="#6B7280" stroke-width="1.2"/>
-        <text x="48" y="22" text-anchor="middle" fill="#FFFFFF">namespaces</text>
-        <rect x="110" width="76" height="34" rx="17" fill="#171D27" stroke="#6B7280" stroke-width="1.2"/>
-        <text x="148" y="22" text-anchor="middle" fill="#FFFFFF">TTL</text>
-        <rect x="200" width="78" height="34" rx="17" fill="#171D27" stroke="#6B7280" stroke-width="1.2"/>
-        <text x="239" y="22" text-anchor="middle" fill="#FFFFFF">graph</text>
-        <rect x="292" width="72" height="34" rx="17" fill="#171D27" stroke="#6B7280" stroke-width="1.2"/>
-        <text x="328" y="22" text-anchor="middle" fill="#FFFFFF">traces</text>
+      <g transform="translate(38 324)" font-size="12" font-weight="900">
+        <rect width="104" height="34" rx="17" fill="#171D27" stroke="#6B7280" stroke-width="1.2"/>
+        <text x="52" y="22" text-anchor="middle" fill="#FFFFFF">namespaces</text>
+        <rect x="118" width="94" height="34" rx="17" fill="#171D27" stroke="#6B7280" stroke-width="1.2"/>
+        <text x="165" y="22" text-anchor="middle" fill="#FFFFFF">feedback</text>
+        <rect x="226" width="76" height="34" rx="17" fill="#171D27" stroke="#6B7280" stroke-width="1.2"/>
+        <text x="264" y="22" text-anchor="middle" fill="#FFFFFF">graph</text>
+        <rect x="306" width="58" height="34" rx="17" fill="#FFFFFF"/>
+        <text x="335" y="22" text-anchor="middle" fill="#050505">API</text>
       </g>
     </g>
   </g>
