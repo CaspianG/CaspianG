@@ -1,17 +1,17 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/profile-hero.svg" alt="CaspianG builds adaptive memory systems" width="100%" />
+    <img src="./assets/profile-hero.svg" alt="CaspianG builds adaptive memory infrastructure" width="100%" />
   </a>
 </p>
 
 <h1 align="center">CaspianG</h1>
 
 <p align="center">
-  <strong>I build adaptive memory infrastructure for software that needs context to survive beyond one request.</strong>
+  <strong>Building memory infrastructure for software that needs context, history, and behavior.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/CaspianG/wavemind"><img alt="WaveMind" src="https://img.shields.io/badge/WaveMind-dynamic%20memory-050505?style=for-the-badge"></a>
+  <a href="https://github.com/CaspianG/wavemind"><img alt="WaveMind" src="https://img.shields.io/badge/WaveMind-adaptive%20memory-050505?style=for-the-badge"></a>
   <a href="https://pypi.org/project/wavemind/"><img alt="PyPI" src="https://img.shields.io/pypi/v/wavemind?style=for-the-badge&label=PyPI&color=050505"></a>
   <a href="https://github.com/CaspianG/wavemind/actions/workflows/tests.yml"><img alt="Tests" src="https://img.shields.io/github/actions/workflow/status/CaspianG/wavemind/tests.yml?branch=main&style=for-the-badge&label=tests&color=050505"></a>
   <a href="https://github.com/CaspianG/wavemind/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/CaspianG/wavemind?style=for-the-badge&label=stars&color=050505"></a>
@@ -31,54 +31,38 @@
 
 ---
 
-<table>
-  <tr>
-    <td width="60%" valign="top">
-      <h2>What I am working on</h2>
-      <p>
-        <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
-        is a local-first memory layer for long-running software: assistants, internal copilots,
-        research notebooks, developer tools, and products that need memory with behavior.
-      </p>
-      <p>
-        The idea is simple: vector search finds candidates, but memory state decides what matters now.
-        Useful facts heat up, stale facts decay, corrections win, namespaces isolate context, and
-        benchmark gates keep claims honest.
-      </p>
-    </td>
-    <td width="40%" valign="top">
-      <h2>Try it</h2>
-      <pre><code class="language-bash">pip install wavemind
+## What I Build
+
+My main work is **[WaveMind](https://github.com/CaspianG/wavemind)**: a local-first memory layer for long-running software.
+
+It is built around one idea: storing vectors is not enough. Real memory needs state. Useful facts should become easier to recall, stale facts should fade, corrections should override old context, and every namespace should stay isolated and inspectable.
+
+```bash
+pip install wavemind
 wavemind quickstart
-wavemind studio</code></pre>
-      <p>
-        Python API, CLI, FastAPI server, Studio UI, SQLite/Postgres paths,
-        ANN backends, integrations, and benchmark reports live in the main repo.
-      </p>
-    </td>
-  </tr>
-</table>
+wavemind studio
+```
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/memory-loop.svg" alt="WaveMind memory pipeline" width="100%" />
+    <img src="./assets/memory-loop.svg" alt="WaveMind combines storage, search, memory state, and feedback" width="100%" />
   </a>
 </p>
 
-## Focus
+## Current Focus
 
-| Area | Direction |
+| Area | What I am pushing toward |
 | --- | --- |
-| **Dynamic memory** | Hotness, decay, TTL, feedback, stale-fact suppression, graph links, and traceable recall. |
-| **Local-first systems** | Installable tools that work without starting from a cloud account or opaque service. |
-| **Production path** | Persistent truth stores, ANN indexes, rate limits, backups, observability, and scale benchmarks. |
-| **Developer adoption** | Small APIs, useful examples, framework integrations, clear docs, and reproducible benchmark artifacts. |
+| **Adaptive memory** | Hotness, decay, TTL, feedback, correction handling, consolidation, and graph recall. |
+| **Local-first tooling** | A library, CLI, API server, Studio UI, and reproducible examples that work without a cloud account. |
+| **Production readiness** | SQLite/Postgres truth stores, ANN indexes, backups, rate limits, observability, and scale benchmarks. |
+| **Developer adoption** | Clear docs, framework integrations, real benchmark artifacts, and small APIs that are easy to try. |
 
-## Main Repositories
+## Featured Work
 
-| Project | What it is | Links |
+| Project | Description | Links |
 | --- | --- | --- |
-| **[WaveMind](https://github.com/CaspianG/wavemind)** | Adaptive memory infrastructure for software that needs to remember, forget, and evolve. | [Quick Start](https://github.com/CaspianG/wavemind#user-content-quick-start) / [Benchmarks](https://github.com/CaspianG/wavemind#user-content-benchmark) / [Issues](https://github.com/CaspianG/wavemind/issues) |
+| **[WaveMind](https://github.com/CaspianG/wavemind)** | Adaptive memory infrastructure for software that must remember, forget, and evolve over time. | [Quick Start](https://github.com/CaspianG/wavemind#user-content-quick-start) / [Benchmarks](https://github.com/CaspianG/wavemind#user-content-benchmark) / [Issues](https://github.com/CaspianG/wavemind/issues) |
 | **[focus-flow](https://github.com/CaspianG/focus-flow)** | Minimal desktop focus timer for deep-work sessions, themes, and English/Russian UI. | [Repository](https://github.com/CaspianG/focus-flow) |
 | **[CORECITY](https://github.com/CaspianG/CORECITY)** | Browser game experiment around a living market mechanic driven by players. | [Repository](https://github.com/CaspianG/CORECITY) |
 
