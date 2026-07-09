@@ -1,7 +1,17 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/profile-hero.svg" alt="CaspianG builds dynamic memory systems" width="100%" />
+    <img src="./assets/profile-hero.svg" alt="CaspianG builds dynamic memory infrastructure" width="100%" />
   </a>
+</p>
+
+<h1 align="center">CaspianG</h1>
+
+<p align="center">
+  <strong>Building dynamic memory infrastructure for software that has to remember, update, forget, and explain.</strong>
+</p>
+
+<p align="center">
+  My main project is <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>, a local-first memory engine with durable storage, vector search, hotness, decay, TTL, namespaces, graph signals, provenance, and benchmarked recall behavior.
 </p>
 
 <p align="center">
@@ -9,18 +19,6 @@
   <a href="https://pypi.org/project/wavemind/"><img alt="PyPI" src="https://img.shields.io/pypi/v/wavemind?style=for-the-badge&label=PyPI&color=050505"></a>
   <a href="https://github.com/CaspianG/wavemind/actions/workflows/full-check.yml"><img alt="Checks" src="https://img.shields.io/github/actions/workflow/status/CaspianG/wavemind/full-check.yml?branch=main&style=for-the-badge&label=checks&color=050505"></a>
   <a href="https://github.com/CaspianG/wavemind/releases"><img alt="Release" src="https://img.shields.io/github/v/release/CaspianG/wavemind?style=for-the-badge&label=release&color=050505"></a>
-</p>
-
-<h1 align="center">CaspianG</h1>
-
-<h3 align="center">
-  Building dynamic memory infrastructure for software that needs context to survive time.
-</h3>
-
-<p align="center">
-  My main project is <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>:
-  a local-first memory layer with durable storage, vector candidates, hotness, decay, TTL,
-  namespaces, graph signals, provenance, and explainable recall.
 </p>
 
 <p align="center">
@@ -39,28 +37,24 @@
 
 <table>
   <tr>
-    <td width="58%" valign="top">
-      <h2>WaveMind</h2>
+    <td width="52%" valign="top">
+      <h2>What I am building</h2>
       <p>
-        Vector databases retrieve similar text. WaveMind adds memory behavior on top:
-        what was useful gets stronger, stale facts fade, conflicts stay traceable,
-        and every recall can be inspected.
+        Vector search can find similar text. WaveMind adds a memory layer around it:
+        useful memories get stronger, stale facts fade, corrections stay traceable,
+        and retrieval can be inspected instead of treated as a black box.
       </p>
       <pre><code>pip install wavemind
 wavemind quickstart
 wavemind studio</code></pre>
-      <p>
-        Built for agents, personal tools, research notebooks, support systems,
-        internal copilots, and any app where memory needs to evolve instead of only store.
-      </p>
     </td>
-    <td width="42%" valign="top">
+    <td width="48%" valign="top">
       <h2>Current focus</h2>
       <ul>
         <li>Production-scale memory benchmarks.</li>
         <li>FAISS, Qdrant, pgvector, and hybrid search paths.</li>
-        <li>Graph memory, stale-fact suppression, and consolidation.</li>
-        <li>Studio UI, observability, and agent framework integrations.</li>
+        <li>Graph memory, consolidation, and stale-fact suppression.</li>
+        <li>Studio UI, observability, and framework integrations.</li>
       </ul>
     </td>
   </tr>
@@ -68,25 +62,29 @@ wavemind studio</code></pre>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/memory-loop.svg" alt="WaveMind memory architecture: store, search, evolve, explain" width="100%" />
+    <img src="./assets/memory-loop.svg" alt="WaveMind memory architecture: store, retrieve, evolve, explain" width="100%" />
   </a>
 </p>
 
-## What I Build
+## Work Areas
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h3>Memory systems</h3>
+    <td width="25%" valign="top">
+      <h3>Memory engines</h3>
       <p>Persistent, inspectable memory for long-running software: namespaces, TTL, forgetting, feedback, graph links, and recall scoring.</p>
     </td>
-    <td width="33%" valign="top">
+    <td width="25%" valign="top">
       <h3>Evaluation</h3>
-      <p>Benchmarks for long-context recall, dynamic memory behavior, latency, cost efficiency, production load, and agent impact.</p>
+      <p>Benchmarks for long-memory recall, dynamic memory behavior, latency, cost efficiency, production load, and agent impact.</p>
     </td>
-    <td width="33%" valign="top">
+    <td width="25%" valign="top">
       <h3>Local-first tools</h3>
-      <p>Practical software that can run on a developer machine first, then scale into services when the use case proves itself.</p>
+      <p>Software that works on a developer machine first, then scales into services when the workflow proves itself.</p>
+    </td>
+    <td width="25%" valign="top">
+      <h3>Product systems</h3>
+      <p>Practical interfaces, APIs, docs, and examples that make complex infrastructure usable by real developers.</p>
     </td>
   </tr>
 </table>
