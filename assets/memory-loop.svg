@@ -5,13 +5,13 @@
   <rect x="1.5" y="1.5" width="1437" height="417" rx="34.5" fill="#FFFFFF" stroke="#DCE1EA" stroke-width="3"/>
 
   <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="72" y="74" fill="#050505" font-size="38" font-weight="900">From search results to living memory</text>
-    <text x="74" y="114" fill="#59616F" font-size="18" font-weight="650">Durable storage keeps the facts. Indexes find candidates. The memory field changes what gets recalled.</text>
+    <text x="72" y="74" fill="#050505" font-size="38" font-weight="900">Memory is not only similarity search</text>
+    <text x="74" y="114" fill="#59616F" font-size="18" font-weight="650">WaveMind keeps facts durable, retrieves candidates, then lets memory state change what gets recalled.</text>
   </g>
 
-  <g transform="translate(58 154)" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <g transform="translate(60 154)" font-family="Inter, Segoe UI, Arial, sans-serif">
     <rect x="0" y="0" width="246" height="126" rx="24" fill="#FFFFFF" stroke="#050505" stroke-width="2"/>
-    <text x="28" y="42" fill="#050505" font-size="23" font-weight="900">Store</text>
+    <text x="28" y="42" fill="#050505" font-size="23" font-weight="900">Remember</text>
     <text x="28" y="77" fill="#555D69" font-size="16" font-weight="650">SQLite / Postgres</text>
     <text x="28" y="101" fill="#555D69" font-size="16" font-weight="650">text, tags, metadata</text>
 

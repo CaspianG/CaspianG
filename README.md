@@ -7,11 +7,12 @@
 <h1 align="center">CaspianG</h1>
 
 <p align="center">
-  <strong>Building dynamic memory infrastructure for software that has to remember, update, forget, and explain.</strong>
+  <strong>I build memory infrastructure for software that needs to remember, adapt, forget, and explain.</strong>
 </p>
 
 <p align="center">
-  My main project is <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>, a local-first memory engine with durable storage, vector search, hotness, decay, TTL, namespaces, graph signals, provenance, and benchmarked recall behavior.
+  Main project: <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>, a local-first dynamic memory engine for long-running software.
+  It combines durable storage, vector retrieval, hotness, decay, TTL, namespaces, graph signals, provenance, and benchmarks.
 </p>
 
 <p align="center">
@@ -22,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/CaspianG/wavemind"><strong>Repository</strong></a>
+  <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
   &nbsp;/&nbsp;
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
   &nbsp;/&nbsp;
@@ -37,24 +38,24 @@
 
 <table>
   <tr>
-    <td width="52%" valign="top">
+    <td width="50%" valign="top">
       <h2>What I am building</h2>
       <p>
-        Vector search can find similar text. WaveMind adds a memory layer around it:
-        useful memories get stronger, stale facts fade, corrections stay traceable,
-        and retrieval can be inspected instead of treated as a black box.
+        Most retrieval systems treat memory as a static vector lookup. WaveMind adds state:
+        useful memories become stronger, stale facts fade, corrections stay traceable,
+        and recall can be inspected instead of trusted blindly.
       </p>
       <pre><code>pip install wavemind
 wavemind quickstart
 wavemind studio</code></pre>
     </td>
-    <td width="48%" valign="top">
+    <td width="50%" valign="top">
       <h2>Current focus</h2>
       <ul>
         <li>Production-scale memory benchmarks.</li>
-        <li>FAISS, Qdrant, pgvector, and hybrid search paths.</li>
-        <li>Graph memory, consolidation, and stale-fact suppression.</li>
-        <li>Studio UI, observability, and framework integrations.</li>
+        <li>FAISS, Qdrant, pgvector, and hybrid retrieval paths.</li>
+        <li>Graph memory, consolidation, feedback, and stale-fact suppression.</li>
+        <li>Studio UI, observability, framework integrations, and real deployment evidence.</li>
       </ul>
     </td>
   </tr>
@@ -76,15 +77,15 @@ wavemind studio</code></pre>
     </td>
     <td width="25%" valign="top">
       <h3>Evaluation</h3>
-      <p>Benchmarks for long-memory recall, dynamic memory behavior, latency, cost efficiency, production load, and agent impact.</p>
+      <p>Benchmarks for long-memory recall, dynamic behavior, latency, cost efficiency, production load, and agent impact.</p>
     </td>
     <td width="25%" valign="top">
-      <h3>Local-first tools</h3>
-      <p>Software that works on a developer machine first, then scales into services when the workflow proves itself.</p>
+      <h3>Local-first systems</h3>
+      <p>Tools that work on a developer machine first, then scale into services when the workflow proves itself.</p>
     </td>
     <td width="25%" valign="top">
-      <h3>Product systems</h3>
-      <p>Practical interfaces, APIs, docs, and examples that make complex infrastructure usable by real developers.</p>
+      <h3>Product infrastructure</h3>
+      <p>APIs, docs, dashboards, examples, and integrations that make complex systems usable by real developers.</p>
     </td>
   </tr>
 </table>
