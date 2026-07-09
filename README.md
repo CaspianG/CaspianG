@@ -7,7 +7,7 @@
 <h1 align="center">CaspianG</h1>
 
 <p align="center">
-  <strong>I build local-first memory infrastructure for software that needs context, history, and behavior.</strong>
+  <strong>Building adaptive memory infrastructure for software that needs context, history, and reliable recall.</strong>
 </p>
 
 <p align="center">
@@ -31,9 +31,35 @@
 
 ---
 
-## Now Building
+## What I Build
 
-**[WaveMind](https://github.com/CaspianG/wavemind)** is a memory layer for long-running software. It combines durable storage, vector retrieval, and a dynamic memory state: hot facts become easier to recall, stale facts fade, corrections override old context, and namespaces stay isolated.
+I work on systems that turn raw data into usable memory: persistent storage, retrieval, priority, decay, feedback, corrections, and benchmarks that show whether the system actually helps.
+
+The current flagship is **[WaveMind](https://github.com/CaspianG/wavemind)**, a local-first memory layer for long-running software. It is built around a simple idea: vector search finds candidates, but memory state decides what should be recalled now.
+
+<table>
+  <tr>
+    <td width="48%">
+      <h3>WaveMind</h3>
+      <p><strong>Adaptive memory for software that remembers, forgets, and evolves.</strong></p>
+      <p>
+        Durable storage, vector search, dynamic priority, TTL, namespaces, feedback, graph recall, FastAPI, CLI, Studio, benchmarks, Docker, Helm, and production-readiness work.
+      </p>
+      <p>
+        <a href="https://github.com/CaspianG/wavemind">Repository</a>
+        ·
+        <a href="https://pypi.org/project/wavemind/">PyPI</a>
+        ·
+        <a href="https://github.com/CaspianG/wavemind#user-content-quick-start">Quick Start</a>
+      </p>
+    </td>
+    <td width="52%">
+      <a href="https://github.com/CaspianG/wavemind">
+        <img src="./assets/memory-loop.svg" alt="WaveMind memory loop: store, search, state, recall, feedback" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ```bash
 pip install wavemind
@@ -41,27 +67,21 @@ wavemind quickstart
 wavemind studio
 ```
 
-<p align="center">
-  <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/memory-loop.svg" alt="WaveMind combines storage, search, memory state, and feedback" width="100%" />
-  </a>
-</p>
+## Current Focus
 
-## Focus
-
-| Area | Direction |
+| Track | What is shipping |
 | --- | --- |
-| **Adaptive memory** | Hotness, decay, TTL, feedback, correction handling, graph recall, and consolidation. |
-| **Local-first tools** | Python library, CLI, FastAPI server, Studio UI, imports, backups, and examples. |
-| **Production path** | SQLite/Postgres truth stores, ANN indexes, rate limits, observability, and scale evidence. |
-| **Open ecosystem** | LangChain, LlamaIndex, agent workflows, reproducible benchmarks, and practical integrations. |
+| **Memory quality** | Hotness, decay, corrections, TTL, feedback signals, stale-fact suppression, and graph recall. |
+| **Developer experience** | Python API, CLI, FastAPI server, Studio UI, imports, backups, and framework examples. |
+| **Scale path** | SQLite/Postgres truth stores, ANN candidate indexes, sharding plans, cache layers, and reproducible scale evidence. |
+| **Evidence** | Long-memory benchmarks, retrieval baselines, latency profiles, regression tests, and public result artifacts. |
 
 ## Projects
 
-| Project | What it is | Links |
+| Project | Snapshot | Links |
 | --- | --- | --- |
-| **[WaveMind](https://github.com/CaspianG/wavemind)** | Adaptive memory infrastructure for software that must remember, forget, and evolve over time. | [Quick Start](https://github.com/CaspianG/wavemind#user-content-quick-start) / [Benchmarks](https://github.com/CaspianG/wavemind#user-content-benchmark) / [Issues](https://github.com/CaspianG/wavemind/issues) |
-| **[focus-flow](https://github.com/CaspianG/focus-flow)** | Minimal desktop focus timer for deep-work sessions, themes, and English/Russian UI. | [Repository](https://github.com/CaspianG/focus-flow) |
+| **[WaveMind](https://github.com/CaspianG/wavemind)** | Adaptive memory infrastructure for software that must preserve, prioritize, and update context over time. | [Docs](https://github.com/CaspianG/wavemind#readme) / [Benchmarks](https://github.com/CaspianG/wavemind#user-content-benchmark) / [Issues](https://github.com/CaspianG/wavemind/issues) |
+| **[focus-flow](https://github.com/CaspianG/focus-flow)** | Minimal desktop focus timer for deep-work sessions with themes and English/Russian UI. | [Repository](https://github.com/CaspianG/focus-flow) |
 | **[CORECITY](https://github.com/CaspianG/CORECITY)** | Browser game experiment around a living market mechanic driven by players. | [Repository](https://github.com/CaspianG/CORECITY) |
 
 ## Stack
@@ -84,8 +104,8 @@ wavemind studio
 | Collaboration | Useful contribution |
 | --- | --- |
 | **Benchmarks** | Long-memory evaluation, stale-fact suppression, retrieval quality, latency, agent-impact tests, and scale profiles. |
-| **Integrations** | LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, notebooks, local apps, and product workflows. |
-| **Production feedback** | Systems where memory must evolve, forget, explain, or preserve user-specific context over time. |
+| **Integrations** | LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, notebooks, local apps, and production workflows. |
+| **Production feedback** | Real systems where memory must evolve, forget, explain, or preserve user-specific context over time. |
 
 ## Contact
 
