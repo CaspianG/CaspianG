@@ -1,51 +1,51 @@
 <svg width="1440" height="420" viewBox="0 0 1440 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">WaveMind memory architecture</title>
-  <desc id="desc">A minimal diagram showing durable storage, vector retrieval, adaptive memory state, and explainable output.</desc>
+  <desc id="desc">A monochrome architecture diagram showing storage, vector candidates, memory dynamics, and explainable recall.</desc>
 
   <rect x="1.5" y="1.5" width="1437" height="417" rx="34.5" fill="#FFFFFF" stroke="#DCE1EA" stroke-width="3"/>
 
   <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="72" y="76" fill="#07080A" font-size="38" font-weight="900">WaveMind turns retrieval into memory</text>
-    <text x="74" y="116" fill="#59616F" font-size="18" font-weight="650">Durable facts stay in storage. Vector search finds candidates. Memory state decides what matters now.</text>
+    <text x="72" y="74" fill="#050505" font-size="38" font-weight="900">From retrieval to memory</text>
+    <text x="74" y="114" fill="#59616F" font-size="18" font-weight="650">A durable store keeps facts. Indexes find candidates. Memory state changes what gets recalled.</text>
   </g>
 
-  <g transform="translate(70 156)" font-family="Inter, Segoe UI, Arial, sans-serif">
-    <rect x="0" y="0" width="258" height="124" rx="22" fill="#FFFFFF" stroke="#0B0D11" stroke-width="2"/>
-    <text x="30" y="43" fill="#0B0D11" font-size="23" font-weight="900">Store</text>
+  <g transform="translate(56 152)" font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="0" y="0" width="248" height="126" rx="22" fill="#FFFFFF" stroke="#050505" stroke-width="2"/>
+    <text x="30" y="43" fill="#050505" font-size="23" font-weight="900">Store</text>
     <text x="30" y="78" fill="#555D69" font-size="16" font-weight="650">SQLite / Postgres</text>
     <text x="30" y="102" fill="#555D69" font-size="16" font-weight="650">text, tags, metadata</text>
 
-    <path d="M286 62H342M342 62L326 46M342 62L326 78" stroke="#0B0D11" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M276 63H332M332 63L316 47M332 63L316 79" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <rect x="374" y="0" width="258" height="124" rx="22" fill="#0B0D11"/>
-    <text x="404" y="43" fill="#FFFFFF" font-size="23" font-weight="900">Retrieve</text>
-    <text x="404" y="78" fill="#CED4DF" font-size="16" font-weight="650">exact / FAISS / Qdrant</text>
-    <text x="404" y="102" fill="#CED4DF" font-size="16" font-weight="650">candidate generation</text>
+    <rect x="364" y="0" width="248" height="126" rx="22" fill="#050505"/>
+    <text x="394" y="43" fill="#FFFFFF" font-size="23" font-weight="900">Search</text>
+    <text x="394" y="78" fill="#CED4DF" font-size="16" font-weight="650">exact / FAISS / Qdrant</text>
+    <text x="394" y="102" fill="#CED4DF" font-size="16" font-weight="650">candidate generation</text>
 
-    <path d="M660 62H716M716 62L700 46M716 62L700 78" stroke="#0B0D11" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M640 63H696M696 63L680 47M696 63L680 79" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <rect x="748" y="0" width="258" height="124" rx="22" fill="#FFFFFF" stroke="#0B0D11" stroke-width="2"/>
-    <text x="778" y="43" fill="#0B0D11" font-size="23" font-weight="900">Evolve</text>
-    <text x="778" y="78" fill="#555D69" font-size="16" font-weight="650">hotness, TTL, graph</text>
-    <text x="778" y="102" fill="#555D69" font-size="16" font-weight="650">feedback and decay</text>
+    <rect x="728" y="0" width="248" height="126" rx="22" fill="#FFFFFF" stroke="#050505" stroke-width="2"/>
+    <text x="758" y="43" fill="#050505" font-size="23" font-weight="900">Evolve</text>
+    <text x="758" y="78" fill="#555D69" font-size="16" font-weight="650">hotness, TTL, graph</text>
+    <text x="758" y="102" fill="#555D69" font-size="16" font-weight="650">feedback and decay</text>
 
-    <path d="M1034 62H1090M1090 62L1074 46M1090 62L1074 78" stroke="#0B0D11" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1004 63H1060M1060 63L1044 47M1060 63L1044 79" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <rect x="1122" y="0" width="258" height="124" rx="22" fill="#FFFFFF" stroke="#0B0D11" stroke-width="2"/>
-    <text x="1152" y="43" fill="#0B0D11" font-size="23" font-weight="900">Explain</text>
-    <text x="1152" y="78" fill="#555D69" font-size="16" font-weight="650">scores, provenance</text>
-    <text x="1152" y="102" fill="#555D69" font-size="16" font-weight="650">auditable recall</text>
+    <rect x="1092" y="0" width="248" height="126" rx="22" fill="#FFFFFF" stroke="#050505" stroke-width="2"/>
+    <text x="1122" y="43" fill="#050505" font-size="23" font-weight="900">Explain</text>
+    <text x="1122" y="78" fill="#555D69" font-size="16" font-weight="650">scores, provenance</text>
+    <text x="1122" y="102" fill="#555D69" font-size="16" font-weight="650">auditable recall</text>
   </g>
 
-  <path d="M184 304C300 266 416 266 532 304C648 342 764 342 880 304C996 266 1112 266 1228 304" stroke="#0B0D11" stroke-width="3" stroke-linecap="round"/>
-  <g fill="#0B0D11">
-    <circle cx="184" cy="304" r="7"/>
-    <circle cx="532" cy="304" r="7"/>
-    <circle cx="880" cy="304" r="7"/>
-    <circle cx="1228" cy="304" r="7"/>
+  <path d="M184 302C300 264 416 264 532 302C648 340 764 340 880 302C996 264 1112 264 1228 302" stroke="#050505" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#050505">
+    <circle cx="184" cy="302" r="7"/>
+    <circle cx="532" cy="302" r="7"/>
+    <circle cx="880" cy="302" r="7"/>
+    <circle cx="1228" cy="302" r="7"/>
   </g>
 
-  <g transform="translate(96 334)" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <g transform="translate(96 332)" font-family="Inter, Segoe UI, Arial, sans-serif">
     <rect width="356" height="54" rx="27" fill="#F2F4F8"/>
     <text x="178" y="35" text-anchor="middle" fill="#303744" font-size="16" font-weight="900">hot memories rise</text>
 
@@ -53,6 +53,6 @@
     <text x="624" y="35" text-anchor="middle" fill="#303744" font-size="16" font-weight="900">stale facts fade</text>
 
     <rect x="892" width="356" height="54" rx="27" fill="#F2F4F8"/>
-    <text x="1070" y="35" text-anchor="middle" fill="#303744" font-size="16" font-weight="900">conflicts stay traceable</text>
+    <text x="1070" y="35" text-anchor="middle" fill="#303744" font-size="16" font-weight="900">recall stays explainable</text>
   </g>
 </svg>
