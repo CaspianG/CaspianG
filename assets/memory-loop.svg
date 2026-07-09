@@ -1,59 +1,56 @@
-<svg width="1440" height="440" viewBox="0 0 1440 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">WaveMind recall flow</title>
-  <desc id="desc">A clean diagram showing static retrieval plus dynamic memory state.</desc>
+<svg width="1440" height="360" viewBox="0 0 1440 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">WaveMind memory loop</title>
+  <desc id="desc">A minimal architecture card showing storage, search, memory state, and explainable recall.</desc>
 
-  <rect x="1.5" y="1.5" width="1437" height="437" rx="34.5" fill="#FFFFFF" stroke="#DCE1EA" stroke-width="3"/>
+  <rect x="1.5" y="1.5" width="1437" height="357" rx="34.5" fill="#FFFFFF" stroke="#DCE1EA" stroke-width="3"/>
 
   <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="72" y="76" fill="#050505" font-size="40" font-weight="900">Static retrieval is useful. Memory needs state.</text>
-    <text x="74" y="116" fill="#59616F" font-size="18" font-weight="650">WaveMind keeps storage durable, then lets recall change with time, feedback, and context.</text>
+    <text x="72" y="72" fill="#050505" font-size="38" font-weight="900">WaveMind: search is static, memory has state.</text>
+    <text x="74" y="112" fill="#59616F" font-size="18" font-weight="650">Durable storage stays the source of truth. Recall changes with time, feedback, and context.</text>
   </g>
 
-  <g transform="translate(68 160)" font-family="Inter, Segoe UI, Arial, sans-serif">
-    <rect x="0" y="0" width="278" height="160" rx="28" fill="#F5F7FA" stroke="#D8DEE8" stroke-width="2"/>
-    <text x="28" y="44" fill="#050505" font-size="23" font-weight="900">Store</text>
-    <text x="28" y="82" fill="#586170" font-size="16" font-weight="750">SQLite / Postgres</text>
-    <text x="28" y="116" fill="#717B89" font-size="15" font-weight="650">texts, vectors, metadata,</text>
-    <text x="28" y="140" fill="#717B89" font-size="15" font-weight="650">tags, namespaces, TTL</text>
+  <g transform="translate(70 152)" font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect width="278" height="132" rx="26" fill="#F5F7FA" stroke="#D8DEE8" stroke-width="2"/>
+    <text x="28" y="44" fill="#050505" font-size="22" font-weight="900">Store</text>
+    <text x="28" y="82" fill="#586170" font-size="15" font-weight="750">texts, vectors, metadata</text>
+    <text x="28" y="108" fill="#717B89" font-size="14" font-weight="650">SQLite / Postgres path</text>
 
-    <path d="M318 80H382M382 80L364 62M382 80L364 98" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M316 66H378M378 66L360 48M378 66L360 84" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <rect x="422" y="0" width="278" height="160" rx="28" fill="#FFFFFF" stroke="#050505" stroke-width="2"/>
-    <text x="450" y="44" fill="#050505" font-size="23" font-weight="900">Search</text>
-    <text x="450" y="82" fill="#586170" font-size="16" font-weight="750">vector candidates</text>
-    <text x="450" y="116" fill="#717B89" font-size="15" font-weight="650">hash, sentence encoders,</text>
-    <text x="450" y="140" fill="#717B89" font-size="15" font-weight="650">FAISS, Qdrant paths</text>
+    <rect x="418" width="278" height="132" rx="26" fill="#FFFFFF" stroke="#050505" stroke-width="2"/>
+    <text x="446" y="44" fill="#050505" font-size="22" font-weight="900">Search</text>
+    <text x="446" y="82" fill="#586170" font-size="15" font-weight="750">candidate memories</text>
+    <text x="446" y="108" fill="#717B89" font-size="14" font-weight="650">hash, sentence, FAISS, Qdrant</text>
 
-    <path d="M740 80H804M804 80L786 62M804 80L786 98" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M734 66H796M796 66L778 48M796 66L778 84" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <rect x="844" y="0" width="278" height="160" rx="28" fill="#050505"/>
-    <text x="872" y="44" fill="#FFFFFF" font-size="23" font-weight="900">Evolve</text>
-    <text x="872" y="82" fill="#D3DAE6" font-size="16" font-weight="750">memory state</text>
-    <text x="872" y="116" fill="#AEB7C8" font-size="15" font-weight="650">hotness, decay, feedback,</text>
-    <text x="872" y="140" fill="#AEB7C8" font-size="15" font-weight="650">graph links, corrections</text>
+    <rect x="836" width="278" height="132" rx="26" fill="#050505"/>
+    <text x="864" y="44" fill="#FFFFFF" font-size="22" font-weight="900">Evolve</text>
+    <text x="864" y="82" fill="#D3DAE6" font-size="15" font-weight="750">hotness, decay, feedback</text>
+    <text x="864" y="108" fill="#AEB7C8" font-size="14" font-weight="650">graph links and corrections</text>
 
-    <path d="M1162 80H1202M1202 80L1184 62M1202 80L1184 98" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1152 66H1194M1194 66L1176 48M1194 66L1176 84" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <rect x="1222" y="0" width="130" height="160" rx="28" fill="#F5F7FA" stroke="#D8DEE8" stroke-width="2"/>
-    <text x="1287" y="70" text-anchor="middle" fill="#050505" font-size="19" font-weight="900">Recall</text>
-    <text x="1287" y="100" text-anchor="middle" fill="#59616F" font-size="13" font-weight="750">with</text>
-    <text x="1287" y="122" text-anchor="middle" fill="#59616F" font-size="13" font-weight="750">context</text>
+    <rect x="1214" width="148" height="132" rx="26" fill="#F5F7FA" stroke="#D8DEE8" stroke-width="2"/>
+    <text x="1288" y="58" text-anchor="middle" fill="#050505" font-size="20" font-weight="900">Recall</text>
+    <text x="1288" y="88" text-anchor="middle" fill="#59616F" font-size="13" font-weight="750">ranked and</text>
+    <text x="1288" y="110" text-anchor="middle" fill="#59616F" font-size="13" font-weight="750">explainable</text>
   </g>
 
-  <g transform="translate(82 358)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="900">
-    <rect width="218" height="44" rx="22" fill="#F2F4F8"/>
-    <text x="109" y="29" text-anchor="middle" fill="#303744">durable source</text>
+  <g transform="translate(84 312)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">
+    <rect width="176" height="32" rx="16" fill="#F2F4F8"/>
+    <text x="88" y="22" text-anchor="middle" fill="#303744">durable source</text>
 
-    <rect x="250" width="218" height="44" rx="22" fill="#F2F4F8"/>
-    <text x="359" y="29" text-anchor="middle" fill="#303744">fast candidates</text>
+    <rect x="210" width="174" height="32" rx="16" fill="#F2F4F8"/>
+    <text x="297" y="22" text-anchor="middle" fill="#303744">fast candidates</text>
 
-    <rect x="500" width="230" height="44" rx="22" fill="#F2F4F8"/>
-    <text x="615" y="29" text-anchor="middle" fill="#303744">dynamic priority</text>
+    <rect x="420" width="188" height="32" rx="16" fill="#F2F4F8"/>
+    <text x="514" y="22" text-anchor="middle" fill="#303744">dynamic priority</text>
 
-    <rect x="762" width="214" height="44" rx="22" fill="#F2F4F8"/>
-    <text x="869" y="29" text-anchor="middle" fill="#303744">explainable results</text>
+    <rect x="644" width="184" height="32" rx="16" fill="#F2F4F8"/>
+    <text x="736" y="22" text-anchor="middle" fill="#303744">explainable results</text>
 
-    <rect x="1008" width="250" height="44" rx="22" fill="#F2F4F8"/>
-    <text x="1133" y="29" text-anchor="middle" fill="#303744">production evidence</text>
+    <rect x="864" width="200" height="32" rx="16" fill="#F2F4F8"/>
+    <text x="964" y="22" text-anchor="middle" fill="#303744">benchmark evidence</text>
   </g>
 </svg>

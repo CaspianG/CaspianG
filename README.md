@@ -1,17 +1,13 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/profile-hero.svg" alt="CaspianG builds dynamic memory infrastructure" width="100%" />
+    <img src="./assets/profile-hero.svg" alt="CaspianG builds dynamic memory systems" width="100%" />
   </a>
 </p>
 
 <h1 align="center">CaspianG</h1>
 
 <p align="center">
-  <strong>Building WaveMind: dynamic memory infrastructure for software that must remember, adapt, and explain itself.</strong>
-</p>
-
-<p align="center">
-  Local-first memory systems, retrieval infrastructure, benchmarks, and developer tools.
+  <strong>Building memory infrastructure for software that needs to remember, adapt, and stay explainable over time.</strong>
 </p>
 
 <p align="center">
@@ -37,26 +33,28 @@
 
 <table>
   <tr>
-    <td width="52%" valign="top">
-      <h2>What I am focused on</h2>
+    <td width="55%" valign="top">
+      <h2>Current Focus</h2>
       <p>
-        My main work is <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>:
-        a memory engine where recall is not just nearest-neighbor search.
+        My main project is <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>,
+        an open-source memory layer where recall is not just vector search, but a changing state.
       </p>
       <p>
-        The database stays durable. Retrieval stays fast. Memory state changes over time:
-        useful facts get stronger, stale facts fade, corrections remain traceable,
-        and every result can be inspected.
+        It combines durable storage, candidate retrieval, hotness, decay, TTL, namespaces,
+        feedback, graph signals, and reproducible benchmark evidence.
+      </p>
+      <p>
+        The goal is simple: software should not only find old context. It should know what still matters.
       </p>
     </td>
-    <td width="48%" valign="top">
-      <h2>Try it in one minute</h2>
+    <td width="45%" valign="top">
+      <h2>Try WaveMind</h2>
       <pre><code>pip install wavemind
 wavemind quickstart
 wavemind studio</code></pre>
       <p>
-        CLI, Python API, HTTP API, Studio UI, persistent storage, vector backends,
-        background workers, telemetry, and reproducible benchmark artifacts.
+        CLI, Python API, HTTP API, local Studio UI, persistent storage, vector backends,
+        workers, telemetry, and checked benchmark reports.
       </p>
     </td>
   </tr>
@@ -64,36 +62,26 @@ wavemind studio</code></pre>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/memory-loop.svg" alt="WaveMind recall flow: store, search, evolve, explain" width="100%" />
+    <img src="./assets/memory-loop.svg" alt="WaveMind architecture: store, search, evolve, explain" width="100%" />
   </a>
 </p>
 
-## WaveMind In One View
-
-| Layer | What it does |
-| --- | --- |
-| **Retrieval** | Finds candidate memories with hash/sentence encoders and vector backends. |
-| **Memory state** | Applies hotness, decay, TTL, namespaces, feedback, and graph signals. |
-| **Persistence** | Keeps SQLite/Postgres-compatible durable storage as the source of truth. |
-| **Production path** | Tracks scale, latency, recall, observability, backups, and claim boundaries. |
-| **Integrations** | Works through CLI, Python, HTTP, Studio, LangChain, LlamaIndex, and examples. |
-
-## Current Work
+## What I Build
 
 | Area | Direction |
 | --- | --- |
-| **Scale** | Persisted indexes, service-backed retrieval, sharding, load profiles, and honest production evidence. |
-| **Memory dynamics** | Hotness, decay, feedback, graph propagation, consolidation, stale-fact suppression, and explainable recall. |
-| **Developer experience** | One-command demos, Studio UI, framework integrations, migration guides, and practical examples. |
-| **Benchmarks** | Public datasets, reproducible reports, latency curves, retrieval quality, and long-memory evaluation. |
+| **Dynamic memory** | Systems that rank context by relevance, recency, feedback, priority, and decay. |
+| **Retrieval infrastructure** | Local-first search, vector backends, persistent stores, benchmarks, and latency profiles. |
+| **Agent tooling** | Practical integrations for Python, HTTP, LangChain, LlamaIndex, notebooks, and local apps. |
+| **Production evidence** | Tests, reproducible reports, claim boundaries, dashboards, and release-ready documentation. |
 
 ## Selected Projects
 
-| Project | What it is | Status |
+| Project | What it is | Links |
 | --- | --- | --- |
-| [**WaveMind**](https://github.com/CaspianG/wavemind) | Dynamic memory engine with CLI, HTTP API, Studio, workers, persistent storage, vector backends, benchmarks, and integrations. | Active |
-| [**focus-flow**](https://github.com/CaspianG/focus-flow) | Minimal desktop focus timer for deep-work sessions with planning, session tracking, themes, and English/Russian UI. | Public |
-| [**CORECITY**](https://github.com/CaspianG/CORECITY) | Browser game concept built around a living market mechanic driven by players. | Public |
+| **WaveMind** | Dynamic memory engine with CLI, HTTP API, Studio, workers, persistent storage, vector backends, benchmarks, and integrations. | [Repo](https://github.com/CaspianG/wavemind) · [PyPI](https://pypi.org/project/wavemind/) |
+| **focus-flow** | Minimal desktop focus timer for deep-work sessions with planning, themes, session tracking, and English/Russian UI. | [Repo](https://github.com/CaspianG/focus-flow) |
+| **CORECITY** | Browser game concept built around a living market mechanic driven by players. | [Repo](https://github.com/CaspianG/CORECITY) |
 
 ## Stack
 
@@ -114,7 +102,7 @@ wavemind studio</code></pre>
 | Collaboration | Good fit |
 | --- | --- |
 | **Benchmarks** | Long-memory evaluation, stale-fact suppression, retrieval quality, latency, cost efficiency, and agent-impact tests. |
-| **Integrations** | LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, notebooks, local apps, and migration paths from static vector search. |
+| **Integrations** | LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, local apps, notebooks, and migration paths from static vector search. |
 | **Product feedback** | Real workflows where memory needs to evolve, forget, explain, or preserve user-specific context over time. |
 
 ## Contact
