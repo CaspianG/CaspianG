@@ -7,11 +7,11 @@
 <h1 align="center">CaspianG</h1>
 
 <p align="center">
-  <strong>Building adaptive memory infrastructure for software that needs context, history, and reliable recall.</strong>
+  <strong>Building adaptive memory systems for software that needs context, history, and reliable recall.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/CaspianG/wavemind"><img alt="WaveMind" src="https://img.shields.io/badge/WaveMind-adaptive%20memory-050505?style=for-the-badge"></a>
+  <a href="https://github.com/CaspianG/wavemind"><img alt="WaveMind" src="https://img.shields.io/badge/WaveMind-adaptive_memory-050505?style=for-the-badge"></a>
   <a href="https://pypi.org/project/wavemind/"><img alt="PyPI" src="https://img.shields.io/pypi/v/wavemind?style=for-the-badge&label=PyPI&color=050505"></a>
   <a href="https://github.com/CaspianG/wavemind/actions/workflows/tests.yml"><img alt="Tests" src="https://img.shields.io/github/actions/workflow/status/CaspianG/wavemind/tests.yml?branch=main&style=for-the-badge&label=tests&color=050505"></a>
   <a href="https://github.com/CaspianG/wavemind/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/CaspianG/wavemind?style=for-the-badge&label=stars&color=050505"></a>
@@ -19,13 +19,13 @@
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
-  &nbsp;/&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
-  &nbsp;/&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="https://github.com/CaspianG/wavemind#user-content-quick-start">Quick Start</a>
-  &nbsp;/&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="https://github.com/CaspianG/wavemind#user-content-benchmark">Benchmarks</a>
-  &nbsp;/&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="https://github.com/CaspianG/wavemind/issues">Contribute</a>
 </p>
 
@@ -33,29 +33,29 @@
 
 ## What I Build
 
-I work on systems that turn raw data into usable memory: persistent storage, retrieval, priority, decay, feedback, corrections, and benchmarks that show whether the system actually helps.
+I work on systems that make memory usable: storage, retrieval, priority, decay, feedback, corrections, and benchmarks that show whether recall actually improves over time.
 
-The current flagship is **[WaveMind](https://github.com/CaspianG/wavemind)**, a local-first memory layer for long-running software. It is built around a simple idea: vector search finds candidates, but memory state decides what should be recalled now.
+My current focus is **[WaveMind](https://github.com/CaspianG/wavemind)**, a local-first adaptive memory layer. Vector search finds candidates; memory state decides what deserves attention now.
 
 <table>
   <tr>
-    <td width="48%">
+    <td width="46%">
       <h3>WaveMind</h3>
       <p><strong>Adaptive memory for software that remembers, forgets, and evolves.</strong></p>
       <p>
-        Durable storage, vector search, dynamic priority, TTL, namespaces, feedback, graph recall, FastAPI, CLI, Studio, benchmarks, Docker, Helm, and production-readiness work.
+        Python API, CLI, FastAPI, SQLite/Postgres storage, ANN indexes, namespaces, TTL, feedback, graph recall, Studio, Docker, Helm, benchmarks, and production-readiness checks.
       </p>
       <p>
         <a href="https://github.com/CaspianG/wavemind">Repository</a>
-        ·
+        &nbsp;&middot;&nbsp;
         <a href="https://pypi.org/project/wavemind/">PyPI</a>
-        ·
+        &nbsp;&middot;&nbsp;
         <a href="https://github.com/CaspianG/wavemind#user-content-quick-start">Quick Start</a>
       </p>
     </td>
-    <td width="52%">
+    <td width="54%">
       <a href="https://github.com/CaspianG/wavemind">
-        <img src="./assets/memory-loop.svg" alt="WaveMind memory loop: store, search, state, recall, feedback" width="100%" />
+        <img src="./assets/memory-loop.svg" alt="WaveMind memory loop: store, search, memory state, recall, feedback" width="100%" />
       </a>
     </td>
   </tr>
@@ -69,11 +69,11 @@ wavemind studio
 
 ## Current Focus
 
-| Track | What is shipping |
+| Track | Shipping direction |
 | --- | --- |
 | **Memory quality** | Hotness, decay, corrections, TTL, feedback signals, stale-fact suppression, and graph recall. |
 | **Developer experience** | Python API, CLI, FastAPI server, Studio UI, imports, backups, and framework examples. |
-| **Scale path** | SQLite/Postgres truth stores, ANN candidate indexes, sharding plans, cache layers, and reproducible scale evidence. |
+| **Scale path** | SQLite/Postgres truth stores, ANN candidate indexes, sharding, cache layers, and reproducible scale evidence. |
 | **Evidence** | Long-memory benchmarks, retrieval baselines, latency profiles, regression tests, and public result artifacts. |
 
 ## Projects
