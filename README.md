@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/profile-hero.svg" alt="CaspianG builds adaptive memory systems with WaveMind" width="100%" />
+    <img src="./assets/profile-hero.svg" alt="CaspianG builds adaptive memory systems" width="100%" />
   </a>
 </p>
 
 <h1 align="center">CaspianG</h1>
 
 <p align="center">
-  <strong>Building adaptive memory systems for software that needs durable context, controlled forgetting, and explainable recall.</strong>
+  <strong>Building memory infrastructure for software that needs durable context, controlled forgetting, and explainable recall.</strong>
 </p>
 
 <p align="center">
@@ -31,49 +31,70 @@
 
 ---
 
-## Building Now
+## What I Am Building
 
-[**WaveMind**](https://github.com/CaspianG/wavemind) is a local-first memory engine for long-running software: agents, research notebooks, internal copilots, local tools, and production systems where static context is not enough.
-
-It stores facts and metadata durably, retrieves candidates through vector search, then applies memory behavior: TTL, priority, feedback, recall history, graph links, conflict handling, and auditable forgetting.
-
-```bash
-pip install wavemind
+<table>
+  <tr>
+    <td width="52%" valign="top">
+      <h3>WaveMind</h3>
+      <p>
+        <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a> is a local-first memory engine for long-running software.
+        It stores facts durably, retrieves candidates through vector search, then applies memory behavior:
+        TTL, priority, feedback, recall history, graph links, conflict handling, and auditable forgetting.
+      </p>
+      <pre><code>pip install wavemind
 wavemind quickstart
-wavemind studio
-```
+wavemind studio</code></pre>
+    </td>
+    <td width="48%" valign="top">
+      <h3>Why it exists</h3>
+      <p>
+        Ordinary vector search can find similar text. Real memory also needs to decide what still matters,
+        what became stale, what was corrected, what is trusted, and why something was recalled.
+      </p>
+      <p>
+        WaveMind is built around that missing layer: memory state on top of durable storage and retrieval.
+      </p>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/memory-loop.svg" alt="WaveMind memory loop: remember, retrieve, adapt, explain" width="100%" />
+    <img src="./assets/memory-loop.svg" alt="WaveMind memory loop: store, search, evolve, explain" width="100%" />
   </a>
 </p>
 
-## Why WaveMind
+## Current Focus
 
-| Static retrieval | Adaptive memory |
-| --- | --- |
-| Finds nearest vectors. | Tracks what is useful, fresh, stale, reinforced, or conflicting. |
-| Old facts keep competing forever. | TTL, decay, corrections, and feedback can suppress stale facts. |
-| Scores are often opaque. | Recall can expose score, provenance, namespace, and memory state. |
-| Storage is the product. | Memory behavior is the product. |
-
-## Current Direction
-
-| Track | Shipping direction |
-| --- | --- |
-| **Scale** | FAISS, Qdrant, pgvector, sharding profiles, p95/p99 latency reports, and reproducible benchmark evidence. |
-| **Memory dynamics** | Graph propagation, consolidation, stale-fact suppression, conflict handling, and self-organizing memory nodes. |
-| **Product layer** | WaveMind Studio, visual memory maps, namespace explorer, feedback, backups, and operational dashboards. |
-| **Integrations** | LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, notebooks, internal copilots, and migration guides. |
+<table>
+  <tr>
+    <td width="25%" valign="top">
+      <h3>Scale</h3>
+      <p>FAISS, Qdrant, pgvector, sharding profiles, p95/p99 latency reports, and reproducible benchmark evidence.</p>
+    </td>
+    <td width="25%" valign="top">
+      <h3>Dynamics</h3>
+      <p>Graph propagation, consolidation, stale-fact suppression, conflict handling, and self-organizing memory nodes.</p>
+    </td>
+    <td width="25%" valign="top">
+      <h3>Product</h3>
+      <p>WaveMind Studio, visual memory maps, namespace explorer, feedback, backups, and operational dashboards.</p>
+    </td>
+    <td width="25%" valign="top">
+      <h3>Ecosystem</h3>
+      <p>LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, notebooks, internal copilots, and migration guides.</p>
+    </td>
+  </tr>
+</table>
 
 ## Selected Work
 
-| Project | What it is |
-| --- | --- |
-| [**WaveMind**](https://github.com/CaspianG/wavemind) | Dynamic memory engine with persistence, vector search, TTL, namespaces, graph recall, workers, Studio, CLI, HTTP API, Docker, benchmarks, and framework integrations. |
-| [**focus-flow**](https://github.com/CaspianG/focus-flow) | Desktop focus timer for deep-work sessions with planning, session tracking, themes, and English/Russian UI. |
-| [**CORECITY**](https://github.com/CaspianG/CORECITY) | Browser game concept around a living market mechanic driven by players. |
+| Project | What it is | Status |
+| --- | --- | --- |
+| [**WaveMind**](https://github.com/CaspianG/wavemind) | Dynamic memory engine with persistence, vector search, TTL, namespaces, graph recall, workers, Studio, CLI, HTTP API, Docker, benchmarks, and framework integrations. | Active |
+| [**focus-flow**](https://github.com/CaspianG/focus-flow) | Desktop focus timer for deep-work sessions with planning, session tracking, themes, and English/Russian UI. | Public |
+| [**CORECITY**](https://github.com/CaspianG/CORECITY) | Browser game concept around a living market mechanic driven by players. | Public |
 
 ## Stack
 
@@ -89,6 +110,14 @@ wavemind studio
   <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-050505?style=flat-square&logo=kubernetes&logoColor=white">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-050505?style=flat-square&logo=typescript&logoColor=white">
 </p>
+
+## Open For
+
+| Collaboration | Good fit |
+| --- | --- |
+| Benchmarks | Long-memory evaluation, agent memory tasks, stale-fact suppression, retrieval quality, and production latency. |
+| Integrations | Agent frameworks, notebooks, internal tools, local-first apps, and migration paths from static vector search. |
+| Product feedback | Real workflows where memory needs to evolve, forget, explain, or preserve user-specific context. |
 
 ## Contact
 

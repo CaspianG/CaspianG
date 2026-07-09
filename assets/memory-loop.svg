@@ -1,31 +1,31 @@
 <svg width="1440" height="420" viewBox="0 0 1440 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">WaveMind memory loop</title>
-  <desc id="desc">A clean diagram showing how WaveMind turns retrieval into adaptive memory.</desc>
+  <desc id="desc">A clean diagram showing how WaveMind turns storage and retrieval into adaptive memory.</desc>
 
   <rect x="1.5" y="1.5" width="1437" height="417" rx="34.5" fill="#FFFFFF" stroke="#DCE1EA" stroke-width="3"/>
 
   <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="72" y="76" fill="#07080A" font-size="38" font-weight="900">WaveMind turns retrieval into memory</text>
+    <text x="72" y="76" fill="#07080A" font-size="38" font-weight="900">WaveMind turns search into memory</text>
     <text x="74" y="116" fill="#5C6470" font-size="18" font-weight="650">Search finds candidates. Memory state decides what should still matter.</text>
   </g>
 
   <g transform="translate(70 154)" font-family="Inter, Segoe UI, Arial, sans-serif">
     <rect x="0" y="0" width="252" height="124" rx="22" fill="#FFFFFF" stroke="#0B0D11" stroke-width="2"/>
-    <text x="30" y="43" fill="#0B0D11" font-size="23" font-weight="900">Remember</text>
+    <text x="30" y="43" fill="#0B0D11" font-size="23" font-weight="900">Store</text>
     <text x="30" y="78" fill="#555D69" font-size="16" font-weight="650">facts, docs, events</text>
     <text x="30" y="102" fill="#555D69" font-size="16" font-weight="650">with metadata</text>
 
     <path d="M280 62H336M336 62L320 46M336 62L320 78" stroke="#0B0D11" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
     <rect x="368" y="0" width="252" height="124" rx="22" fill="#0B0D11"/>
-    <text x="398" y="43" fill="#FFFFFF" font-size="23" font-weight="900">Retrieve</text>
+    <text x="398" y="43" fill="#FFFFFF" font-size="23" font-weight="900">Search</text>
     <text x="398" y="78" fill="#CED4DF" font-size="16" font-weight="650">exact, ANN, service</text>
-    <text x="398" y="102" fill="#CED4DF" font-size="16" font-weight="650">candidate search</text>
+    <text x="398" y="102" fill="#CED4DF" font-size="16" font-weight="650">candidate retrieval</text>
 
     <path d="M648 62H704M704 62L688 46M704 62L688 78" stroke="#0B0D11" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
     <rect x="736" y="0" width="252" height="124" rx="22" fill="#FFFFFF" stroke="#0B0D11" stroke-width="2"/>
-    <text x="766" y="43" fill="#0B0D11" font-size="23" font-weight="900">Adapt</text>
+    <text x="766" y="43" fill="#0B0D11" font-size="23" font-weight="900">Evolve</text>
     <text x="766" y="78" fill="#555D69" font-size="16" font-weight="650">TTL, priority, graph</text>
     <text x="766" y="102" fill="#555D69" font-size="16" font-weight="650">feedback, decay</text>
 
@@ -34,7 +34,7 @@
     <rect x="1104" y="0" width="252" height="124" rx="22" fill="#FFFFFF" stroke="#0B0D11" stroke-width="2"/>
     <text x="1134" y="43" fill="#0B0D11" font-size="23" font-weight="900">Explain</text>
     <text x="1134" y="78" fill="#555D69" font-size="16" font-weight="650">scores, provenance</text>
-    <text x="1134" y="102" fill="#555D69" font-size="16" font-weight="650">auditable context</text>
+    <text x="1134" y="102" fill="#555D69" font-size="16" font-weight="650">auditable recall</text>
   </g>
 
   <path d="M182 300C300 260 418 260 536 300C654 340 772 340 890 300C1008 260 1126 260 1244 300" stroke="#0B0D11" stroke-width="3" stroke-linecap="round"/>
