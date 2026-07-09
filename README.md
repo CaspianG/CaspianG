@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/profile-hero.svg" alt="CaspianG builds WaveMind, adaptive memory infrastructure for durable software context" width="100%" />
+    <img src="./assets/profile-hero.svg" alt="CaspianG builds adaptive memory systems with WaveMind" width="100%" />
   </a>
 </p>
 
 <h1 align="center">CaspianG</h1>
 
 <p align="center">
-  <strong>Building memory infrastructure for software that needs durable context, controlled forgetting, and explainable recall.</strong>
+  <strong>Building adaptive memory systems for software that needs durable context, controlled forgetting, and explainable recall.</strong>
 </p>
 
 <p align="center">
@@ -31,11 +31,11 @@
 
 ---
 
-## What I Am Building
+## Building Now
 
-[**WaveMind**](https://github.com/CaspianG/wavemind) is a local-first dynamic memory engine for long-running software: agents, research notebooks, internal copilots, local tools, and production systems where static context is not enough.
+[**WaveMind**](https://github.com/CaspianG/wavemind) is a local-first memory engine for long-running software: agents, research notebooks, internal copilots, local tools, and production systems where static context is not enough.
 
-It keeps text and metadata in durable storage, retrieves candidates through vector search, then applies memory state: TTL, priority, feedback, recall history, graph links, conflict handling, and auditable forgetting.
+It stores facts and metadata durably, retrieves candidates through vector search, then applies memory behavior: TTL, priority, feedback, recall history, graph links, conflict handling, and auditable forgetting.
 
 ```bash
 pip install wavemind
@@ -49,16 +49,16 @@ wavemind studio
   </a>
 </p>
 
-## Why It Matters
+## Why WaveMind
 
-| Static retrieval | Dynamic memory |
+| Static retrieval | Adaptive memory |
 | --- | --- |
 | Finds nearest vectors. | Tracks what is useful, fresh, stale, reinforced, or conflicting. |
 | Old facts keep competing forever. | TTL, decay, corrections, and feedback can suppress stale facts. |
 | Scores are often opaque. | Recall can expose score, provenance, namespace, and memory state. |
 | Storage is the product. | Memory behavior is the product. |
 
-## Current Focus
+## Current Direction
 
 | Track | Shipping direction |
 | --- | --- |
@@ -67,7 +67,7 @@ wavemind studio
 | **Product layer** | WaveMind Studio, visual memory maps, namespace explorer, feedback, backups, and operational dashboards. |
 | **Integrations** | LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, notebooks, internal copilots, and migration guides. |
 
-## Featured Work
+## Selected Work
 
 | Project | What it is |
 | --- | --- |
