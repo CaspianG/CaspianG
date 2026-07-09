@@ -1,17 +1,17 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/profile-hero.svg" alt="CaspianG builds WaveMind, adaptive memory infrastructure for long-running software" width="100%" />
+    <img src="./assets/profile-hero.svg" alt="CaspianG builds WaveMind, adaptive memory infrastructure for durable software context" width="100%" />
   </a>
 </p>
 
 <h1 align="center">CaspianG</h1>
 
 <p align="center">
-  <strong>Building WaveMind: adaptive memory infrastructure for software that needs durable context, controlled forgetting, and explainable recall.</strong>
+  <strong>Building memory infrastructure for software that needs durable context, controlled forgetting, and explainable recall.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/CaspianG/wavemind"><img alt="WaveMind" src="https://img.shields.io/badge/WaveMind-memory%20engine-050505?style=for-the-badge"></a>
+  <a href="https://github.com/CaspianG/wavemind"><img alt="WaveMind" src="https://img.shields.io/badge/WaveMind-dynamic%20memory-050505?style=for-the-badge"></a>
   <a href="https://pypi.org/project/wavemind/"><img alt="PyPI" src="https://img.shields.io/pypi/v/wavemind?style=for-the-badge&label=PyPI&color=050505"></a>
   <a href="https://github.com/CaspianG/wavemind/actions/workflows/full-check.yml"><img alt="Checks" src="https://img.shields.io/github/actions/workflow/status/CaspianG/wavemind/full-check.yml?branch=main&style=for-the-badge&label=checks&color=050505"></a>
   <a href="https://github.com/CaspianG/wavemind/releases"><img alt="Release" src="https://img.shields.io/github/v/release/CaspianG/wavemind?style=for-the-badge&label=release&color=050505"></a>
@@ -31,11 +31,11 @@
 
 ---
 
-## Current Work
+## What I Am Building
 
-[**WaveMind**](https://github.com/CaspianG/wavemind) is an open-source memory engine for long-running software: agents, research notebooks, internal copilots, local tools, and production systems where static context is not enough.
+[**WaveMind**](https://github.com/CaspianG/wavemind) is a local-first dynamic memory engine for long-running software: agents, research notebooks, internal copilots, local tools, and production systems where static context is not enough.
 
-It combines durable storage, vector retrieval, memory state, TTL, priority, feedback, graph recall, conflict handling, and auditable forgetting. The purpose is direct: memory should change as reality changes.
+It keeps text and metadata in durable storage, retrieves candidates through vector search, then applies memory state: TTL, priority, feedback, recall history, graph links, conflict handling, and auditable forgetting.
 
 ```bash
 pip install wavemind
@@ -49,40 +49,31 @@ wavemind studio
   </a>
 </p>
 
-## Why WaveMind Exists
+## Why It Matters
 
-| Ordinary vector search | WaveMind |
+| Static retrieval | Dynamic memory |
 | --- | --- |
-| Returns nearest neighbors. | Tracks which memories are useful, fresh, stale, reinforced, or conflicting. |
-| Old facts keep competing forever. | TTL, decay, feedback, and corrections can suppress stale facts. |
-| Memory is usually opaque. | Scores, provenance, namespaces, and state are inspectable. |
-| Built mainly as storage. | Built as a memory layer above storage, indexes, and agent frameworks. |
+| Finds nearest vectors. | Tracks what is useful, fresh, stale, reinforced, or conflicting. |
+| Old facts keep competing forever. | TTL, decay, corrections, and feedback can suppress stale facts. |
+| Scores are often opaque. | Recall can expose score, provenance, namespace, and memory state. |
+| Storage is the product. | Memory behavior is the product. |
 
-## What I Build
+## Current Focus
 
-| Area | What I care about |
+| Track | Shipping direction |
 | --- | --- |
-| **Adaptive memory** | Hotness, decay, recall history, feedback, consolidation, and graph propagation. |
-| **Local-first systems** | Software that works on a laptop first, then scales through FAISS, Qdrant, pgvector, Redis, and service backends. |
-| **Production evidence** | Benchmarks, admission gates, CI, reproducible reports, and honest limitations. |
-| **Developer adoption** | Python API, CLI, HTTP API, Docker, Studio, integrations, examples, and migration guides. |
+| **Scale** | FAISS, Qdrant, pgvector, sharding profiles, p95/p99 latency reports, and reproducible benchmark evidence. |
+| **Memory dynamics** | Graph propagation, consolidation, stale-fact suppression, conflict handling, and self-organizing memory nodes. |
+| **Product layer** | WaveMind Studio, visual memory maps, namespace explorer, feedback, backups, and operational dashboards. |
+| **Integrations** | LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, notebooks, internal copilots, and migration guides. |
 
-## Featured Repositories
+## Featured Work
 
-| Repository | Description |
+| Project | What it is |
 | --- | --- |
-| [**WaveMind**](https://github.com/CaspianG/wavemind) | Adaptive memory engine with persistence, vector search, TTL, namespaces, graph recall, workers, Studio, CLI, HTTP API, Docker, benchmarks, and framework integrations. |
+| [**WaveMind**](https://github.com/CaspianG/wavemind) | Dynamic memory engine with persistence, vector search, TTL, namespaces, graph recall, workers, Studio, CLI, HTTP API, Docker, benchmarks, and framework integrations. |
 | [**focus-flow**](https://github.com/CaspianG/focus-flow) | Desktop focus timer for deep-work sessions with planning, session tracking, themes, and English/Russian UI. |
 | [**CORECITY**](https://github.com/CaspianG/CORECITY) | Browser game concept around a living market mechanic driven by players. |
-
-## Active Roadmap
-
-| Track | Next work |
-| --- | --- |
-| **Scale** | Persisted ANN indexes, service backends, sharding profiles, p95/p99 latency reports, and larger public benchmarks. |
-| **Memory dynamics** | Graph propagation, consolidation, stale-fact suppression, conflict handling, and self-organizing memory nodes. |
-| **Integrations** | LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, notebooks, internal copilots, and migration guides. |
-| **Product layer** | WaveMind Studio, visual memory maps, namespace explorer, import/export, feedback, backups, and operational dashboards. |
 
 ## Stack
 
@@ -90,6 +81,8 @@ wavemind studio
   <img alt="Python" src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=white">
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-050505?style=flat-square&logo=fastapi&logoColor=white">
   <img alt="SQLite" src="https://img.shields.io/badge/SQLite-050505?style=flat-square&logo=sqlite&logoColor=white">
+  <img alt="FAISS" src="https://img.shields.io/badge/FAISS-050505?style=flat-square">
+  <img alt="Qdrant" src="https://img.shields.io/badge/Qdrant-050505?style=flat-square">
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-050505?style=flat-square&logo=postgresql&logoColor=white">
   <img alt="Redis" src="https://img.shields.io/badge/Redis-050505?style=flat-square&logo=redis&logoColor=white">
   <img alt="Docker" src="https://img.shields.io/badge/Docker-050505?style=flat-square&logo=docker&logoColor=white">
