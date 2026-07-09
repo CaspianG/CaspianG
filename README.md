@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/profile-hero.svg" alt="CaspianG builds adaptive memory infrastructure" width="100%" />
+    <img src="./assets/profile-hero.jpg" alt="CaspianG builds adaptive memory infrastructure" width="100%" />
   </a>
 </p>
 
@@ -62,7 +62,7 @@ wavemind studio</code></pre>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/memory-loop.svg" alt="WaveMind adaptive recall map" width="100%" />
+    <img src="./assets/memory-loop.jpg" alt="WaveMind adaptive recall map" width="100%" />
   </a>
 </p>
 
