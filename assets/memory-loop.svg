@@ -1,64 +1,77 @@
-<svg width="1440" height="380" viewBox="0 0 1440 380" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">WaveMind adaptive recall map</title>
-  <desc id="desc">A minimal diagram showing how WaveMind turns stored context into adaptive, explainable memory.</desc>
+<svg width="1440" height="420" viewBox="0 0 1440 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">WaveMind adaptive memory loop</title>
+  <desc id="desc">A clean diagram showing the durable store, candidate search, memory field, and explained recall loop.</desc>
 
-  <rect x="1.5" y="1.5" width="1437" height="377" rx="34.5" fill="#FFFFFF" stroke="#D9DEE8" stroke-width="3"/>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1440" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F6F8FB"/>
+    </linearGradient>
+    <filter id="softShadow" x="-8%" y="-14%" width="116%" height="135%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#111827" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="1437" height="417" rx="36.5" fill="url(#paper)" stroke="#D8DEE8" stroke-width="3"/>
 
   <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="72" y="76" fill="#050505" font-size="40" font-weight="950">WaveMind turns retrieval into memory behavior.</text>
-    <text x="74" y="116" fill="#586170" font-size="18" font-weight="700">Vector search finds candidates. The memory layer decides what still matters.</text>
-  </g>
+    <text x="72" y="78" fill="#050505" font-size="42" font-weight="950">WaveMind makes memory state visible.</text>
+    <text x="74" y="118" fill="#596273" font-size="18" font-weight="720">A vector index finds candidates. The memory layer decides what deserves attention now.</text>
 
-  <g transform="translate(72 156)" font-family="Inter, Segoe UI, Arial, sans-serif">
-    <g>
-      <rect width="242" height="132" rx="24" fill="#F5F7FA" stroke="#DCE2EC" stroke-width="2"/>
-      <text x="28" y="44" fill="#050505" font-size="22" font-weight="950">Durable store</text>
-      <text x="28" y="82" fill="#56606F" font-size="15" font-weight="750">texts, vectors, metadata</text>
-      <text x="28" y="108" fill="#737D8B" font-size="14" font-weight="650">SQLite / Postgres path</text>
+    <g transform="translate(72 172)" filter="url(#softShadow)">
+      <g>
+        <rect width="252" height="138" rx="28" fill="#FFFFFF" stroke="#DCE2EC" stroke-width="2"/>
+        <text x="30" y="48" fill="#050505" font-size="23" font-weight="950">Truth store</text>
+        <text x="30" y="84" fill="#576171" font-size="15" font-weight="760">text, vectors, metadata</text>
+        <text x="30" y="112" fill="#7A8392" font-size="14" font-weight="680">SQLite / Postgres</text>
+      </g>
+
+      <path d="M288 69H350M350 69L332 51M350 69L332 87" stroke="#050505" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <g transform="translate(390)">
+        <rect width="252" height="138" rx="28" fill="#FFFFFF" stroke="#050505" stroke-width="2.2"/>
+        <text x="30" y="48" fill="#050505" font-size="23" font-weight="950">Candidate index</text>
+        <text x="30" y="84" fill="#576171" font-size="15" font-weight="760">fast recall shortlist</text>
+        <text x="30" y="112" fill="#7A8392" font-size="14" font-weight="680">FAISS / Annoy / Qdrant</text>
+      </g>
+
+      <path d="M678 69H740M740 69L722 51M740 69L722 87" stroke="#050505" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <g transform="translate(780)">
+        <rect width="272" height="138" rx="28" fill="#050505"/>
+        <text x="30" y="48" fill="#FFFFFF" font-size="23" font-weight="950">Memory field</text>
+        <text x="30" y="84" fill="#D7DDE8" font-size="15" font-weight="760">hotness, decay, feedback</text>
+        <text x="30" y="112" fill="#ABB4C4" font-size="14" font-weight="680">TTL, graph links, corrections</text>
+      </g>
+
+      <path d="M1088 69H1150M1150 69L1132 51M1150 69L1132 87" stroke="#050505" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <g transform="translate(1190)">
+        <rect width="178" height="138" rx="28" fill="#FFFFFF" stroke="#DCE2EC" stroke-width="2"/>
+        <text x="89" y="50" text-anchor="middle" fill="#050505" font-size="23" font-weight="950">Recall</text>
+        <text x="89" y="84" text-anchor="middle" fill="#576171" font-size="15" font-weight="760">ranked</text>
+        <text x="89" y="111" text-anchor="middle" fill="#576171" font-size="15" font-weight="760">explainable</text>
+      </g>
     </g>
 
-    <path d="M276 66H336M336 66L319 49M336 66L319 83" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(74 350)" font-size="13" font-weight="900">
+      <rect width="164" height="34" rx="17" fill="#EEF2F7"/>
+      <text x="82" y="23" text-anchor="middle" fill="#303744">persistent truth</text>
 
-    <g transform="translate(374)">
-      <rect width="242" height="132" rx="24" fill="#FFFFFF" stroke="#050505" stroke-width="2"/>
-      <text x="28" y="44" fill="#050505" font-size="22" font-weight="950">Candidate search</text>
-      <text x="28" y="82" fill="#56606F" font-size="15" font-weight="750">fast top-k retrieval</text>
-      <text x="28" y="108" fill="#737D8B" font-size="14" font-weight="650">hash, sentence, FAISS, Qdrant</text>
+      <rect x="188" width="142" height="34" rx="17" fill="#EEF2F7"/>
+      <text x="259" y="23" text-anchor="middle" fill="#303744">small API</text>
+
+      <rect x="354" width="174" height="34" rx="17" fill="#EEF2F7"/>
+      <text x="441" y="23" text-anchor="middle" fill="#303744">dynamic priority</text>
+
+      <rect x="552" width="208" height="34" rx="17" fill="#EEF2F7"/>
+      <text x="656" y="23" text-anchor="middle" fill="#303744">stale fact suppression</text>
+
+      <rect x="784" width="190" height="34" rx="17" fill="#EEF2F7"/>
+      <text x="879" y="23" text-anchor="middle" fill="#303744">benchmark gates</text>
+
+      <rect x="998" width="176" height="34" rx="17" fill="#EEF2F7"/>
+      <text x="1086" y="23" text-anchor="middle" fill="#303744">visible behavior</text>
     </g>
-
-    <path d="M650 66H710M710 66L693 49M710 66L693 83" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-
-    <g transform="translate(748)">
-      <rect width="262" height="132" rx="24" fill="#050505"/>
-      <text x="28" y="44" fill="#FFFFFF" font-size="22" font-weight="950">Memory field</text>
-      <text x="28" y="82" fill="#D3DAE6" font-size="15" font-weight="750">priority, decay, feedback</text>
-      <text x="28" y="108" fill="#AEB7C8" font-size="14" font-weight="650">TTL, graph links, corrections</text>
-    </g>
-
-    <path d="M1044 66H1104M1104 66L1087 49M1104 66L1087 83" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-
-    <g transform="translate(1142)">
-      <rect width="226" height="132" rx="24" fill="#F5F7FA" stroke="#DCE2EC" stroke-width="2"/>
-      <text x="113" y="48" text-anchor="middle" fill="#050505" font-size="22" font-weight="950">Recall</text>
-      <text x="113" y="83" text-anchor="middle" fill="#56606F" font-size="15" font-weight="750">ranked, scoped,</text>
-      <text x="113" y="108" text-anchor="middle" fill="#56606F" font-size="15" font-weight="750">explainable</text>
-    </g>
-  </g>
-
-  <g transform="translate(80 322)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">
-    <rect width="172" height="32" rx="16" fill="#F1F4F8"/>
-    <text x="86" y="22" text-anchor="middle" fill="#303744">persistent truth</text>
-
-    <rect x="202" width="168" height="32" rx="16" fill="#F1F4F8"/>
-    <text x="286" y="22" text-anchor="middle" fill="#303744">low-friction API</text>
-
-    <rect x="400" width="196" height="32" rx="16" fill="#F1F4F8"/>
-    <text x="498" y="22" text-anchor="middle" fill="#303744">dynamic priority</text>
-
-    <rect x="626" width="204" height="32" rx="16" fill="#F1F4F8"/>
-    <text x="728" y="22" text-anchor="middle" fill="#303744">stale fact suppression</text>
-
-    <rect x="860" width="208" height="32" rx="16" fill="#F1F4F8"/>
-    <text x="964" y="22" text-anchor="middle" fill="#303744">benchmark artifacts</text>
   </g>
 </svg>
