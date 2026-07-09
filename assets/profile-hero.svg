@@ -1,110 +1,109 @@
 <svg width="1440" height="620" viewBox="0 0 1440 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">CaspianG builds dynamic memory infrastructure</title>
-  <desc id="desc">A modern monochrome GitHub profile banner for WaveMind and long-term software memory.</desc>
+  <desc id="desc">A clean monochrome banner for WaveMind and dynamic software memory.</desc>
 
-  <rect width="1440" height="620" rx="46" fill="#FFFFFF"/>
-  <rect x="1.5" y="1.5" width="1437" height="617" rx="44.5" stroke="#D8DEE8" stroke-width="3"/>
+  <rect width="1440" height="620" rx="44" fill="#FFFFFF"/>
+  <rect x="1.5" y="1.5" width="1437" height="617" rx="42.5" stroke="#D9DEE8" stroke-width="3"/>
 
-  <g opacity="0.78">
-    <path d="M88 110H1352" stroke="#EEF1F5" stroke-width="2"/>
-    <path d="M88 202H1352" stroke="#EEF1F5" stroke-width="2"/>
-    <path d="M88 294H1352" stroke="#EEF1F5" stroke-width="2"/>
-    <path d="M88 386H1352" stroke="#EEF1F5" stroke-width="2"/>
-    <path d="M88 478H1352" stroke="#EEF1F5" stroke-width="2"/>
-    <path d="M220 76V544" stroke="#EEF1F5" stroke-width="2"/>
-    <path d="M374 76V544" stroke="#EEF1F5" stroke-width="2"/>
-    <path d="M528 76V544" stroke="#EEF1F5" stroke-width="2"/>
-    <path d="M682 76V544" stroke="#EEF1F5" stroke-width="2"/>
-    <path d="M836 76V544" stroke="#EEF1F5" stroke-width="2"/>
-    <path d="M990 76V544" stroke="#EEF1F5" stroke-width="2"/>
-    <path d="M1144 76V544" stroke="#EEF1F5" stroke-width="2"/>
-    <path d="M1298 76V544" stroke="#EEF1F5" stroke-width="2"/>
+  <g opacity="0.84">
+    <path d="M88 112H1352" stroke="#EFF2F6" stroke-width="2"/>
+    <path d="M88 206H1352" stroke="#EFF2F6" stroke-width="2"/>
+    <path d="M88 300H1352" stroke="#EFF2F6" stroke-width="2"/>
+    <path d="M88 394H1352" stroke="#EFF2F6" stroke-width="2"/>
+    <path d="M88 488H1352" stroke="#EFF2F6" stroke-width="2"/>
+    <path d="M214 76V544" stroke="#EFF2F6" stroke-width="2"/>
+    <path d="M370 76V544" stroke="#EFF2F6" stroke-width="2"/>
+    <path d="M526 76V544" stroke="#EFF2F6" stroke-width="2"/>
+    <path d="M682 76V544" stroke="#EFF2F6" stroke-width="2"/>
+    <path d="M838 76V544" stroke="#EFF2F6" stroke-width="2"/>
+    <path d="M994 76V544" stroke="#EFF2F6" stroke-width="2"/>
+    <path d="M1150 76V544" stroke="#EFF2F6" stroke-width="2"/>
+    <path d="M1306 76V544" stroke="#EFF2F6" stroke-width="2"/>
   </g>
 
   <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <g transform="translate(94 78)">
-      <rect width="162" height="42" rx="21" fill="#050505"/>
-      <text x="81" y="27" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="900" letter-spacing="2.4">CASPIANG</text>
+    <g transform="translate(88 74)">
+      <rect width="154" height="42" rx="21" fill="#050505"/>
+      <text x="77" y="27" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="900" letter-spacing="2.2">CASPIANG</text>
 
-      <text x="0" y="134" fill="#050505" font-size="68" font-weight="900">Memory</text>
-      <text x="0" y="208" fill="#050505" font-size="68" font-weight="900">infrastructure</text>
-      <text x="0" y="282" fill="#050505" font-size="68" font-weight="900">for long-running</text>
-      <text x="0" y="356" fill="#050505" font-size="68" font-weight="900">software.</text>
+      <text x="0" y="132" fill="#050505" font-size="76" font-weight="900">Software memory,</text>
+      <text x="0" y="214" fill="#050505" font-size="76" font-weight="900">made dynamic.</text>
 
-      <text x="4" y="424" fill="#222733" font-size="23" font-weight="800">WaveMind makes recall stateful, auditable, and useful over time.</text>
-      <text x="4" y="462" fill="#667085" font-size="18" font-weight="650">Durable storage, vector retrieval, hotness, decay, TTL, graph signals, and benchmarks.</text>
+      <text x="4" y="290" fill="#232832" font-size="24" font-weight="800">I build infrastructure for systems that need</text>
+      <text x="4" y="326" fill="#232832" font-size="24" font-weight="800">to remember over time.</text>
+      <text x="4" y="367" fill="#687182" font-size="18" font-weight="650">Durable storage, vector retrieval, hotness, decay, TTL, graph signals, and benchmarks.</text>
 
-      <g transform="translate(0 486)" font-size="13" font-weight="900">
-        <rect width="118" height="42" rx="21" fill="#050505"/>
-        <text x="59" y="27" text-anchor="middle" fill="#FFFFFF">local-first</text>
+      <g transform="translate(0 410)" font-size="13" font-weight="900">
+        <rect width="120" height="42" rx="21" fill="#050505"/>
+        <text x="60" y="27" text-anchor="middle" fill="#FFFFFF">local-first</text>
 
-        <rect x="134" width="132" height="42" rx="21" fill="#FFFFFF" stroke="#B7BFCC" stroke-width="1.5"/>
-        <text x="200" y="27" text-anchor="middle" fill="#050505">benchmarked</text>
+        <rect x="138" width="126" height="42" rx="21" fill="#FFFFFF" stroke="#B7BFCC" stroke-width="1.5"/>
+        <text x="201" y="27" text-anchor="middle" fill="#050505">benchmarked</text>
 
-        <rect x="282" width="116" height="42" rx="21" fill="#FFFFFF" stroke="#B7BFCC" stroke-width="1.5"/>
-        <text x="340" y="27" text-anchor="middle" fill="#050505">explainable</text>
+        <rect x="282" width="118" height="42" rx="21" fill="#FFFFFF" stroke="#B7BFCC" stroke-width="1.5"/>
+        <text x="341" y="27" text-anchor="middle" fill="#050505">observable</text>
 
-        <rect x="414" width="136" height="42" rx="21" fill="#FFFFFF" stroke="#B7BFCC" stroke-width="1.5"/>
-        <text x="482" y="27" text-anchor="middle" fill="#050505">production path</text>
+        <rect x="418" width="140" height="42" rx="21" fill="#FFFFFF" stroke="#B7BFCC" stroke-width="1.5"/>
+        <text x="488" y="27" text-anchor="middle" fill="#050505">production path</text>
+      </g>
+
+      <g transform="translate(0 460)">
+        <rect width="560" height="58" rx="29" fill="#F4F6FA" stroke="#D8DEE8" stroke-width="1.5"/>
+        <text x="32" y="37" fill="#050505" font-size="18" font-weight="900">WaveMind</text>
+        <text x="142" y="37" fill="#59616F" font-size="16" font-weight="750">recall that can evolve, decay, and explain itself</text>
       </g>
     </g>
 
-    <g transform="translate(896 76)">
-      <rect width="430" height="468" rx="40" fill="#050505"/>
-      <rect x="1.5" y="1.5" width="427" height="465" rx="38.5" stroke="#303745" stroke-width="3"/>
+    <g transform="translate(876 76)">
+      <rect width="452" height="468" rx="40" fill="#050505"/>
+      <rect x="1.5" y="1.5" width="449" height="465" rx="38.5" stroke="#2C3442" stroke-width="3"/>
 
       <g transform="translate(38 38)">
-        <text x="0" y="18" fill="#AEB7C8" font-size="12" font-weight="900" letter-spacing="2.4">WAVEMIND</text>
-        <text x="0" y="60" fill="#FFFFFF" font-size="36" font-weight="900">dynamic memory</text>
-        <text x="0" y="94" fill="#C8D0DC" font-size="16" font-weight="650">Similarity search finds candidates.</text>
-        <text x="0" y="120" fill="#C8D0DC" font-size="16" font-weight="650">Memory state decides what matters now.</text>
+        <text x="0" y="18" fill="#AEB7C8" font-size="12" font-weight="900" letter-spacing="2.3">WAVEMIND MEMORY LOOP</text>
       </g>
 
-      <g transform="translate(74 178)">
-        <circle cx="142" cy="118" r="112" stroke="#FFFFFF" stroke-width="1.4" opacity="0.10"/>
-        <circle cx="142" cy="118" r="82" stroke="#FFFFFF" stroke-width="1.4" opacity="0.17"/>
-        <circle cx="142" cy="118" r="48" stroke="#FFFFFF" stroke-width="1.4" opacity="0.28"/>
+      <g transform="translate(64 92)">
+        <circle cx="162" cy="164" r="142" stroke="#FFFFFF" stroke-width="1.4" opacity="0.08"/>
+        <circle cx="162" cy="164" r="104" stroke="#FFFFFF" stroke-width="1.4" opacity="0.14"/>
+        <circle cx="162" cy="164" r="64" stroke="#FFFFFF" stroke-width="1.4" opacity="0.24"/>
 
-        <path d="M18 118C62 48 222 48 266 118" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.24"/>
-        <path d="M18 118C62 188 222 188 266 118" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.24"/>
-        <path d="M142 8C88 58 88 178 142 228" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity="0.18"/>
-        <path d="M142 8C196 58 196 178 142 228" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity="0.18"/>
+        <path d="M38 164C86 88 238 88 286 164" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.26"/>
+        <path d="M38 164C86 240 238 240 286 164" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.26"/>
+        <path d="M162 26C104 86 104 242 162 302" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" opacity="0.18"/>
+        <path d="M162 26C220 86 220 242 162 302" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" opacity="0.18"/>
 
-        <g stroke="#FFFFFF" stroke-width="2.7" stroke-linecap="round" opacity="0.82">
-          <path d="M55 118H110"/>
-          <path d="M174 118H229"/>
-          <path d="M142 38V86"/>
-          <path d="M80 62L118 96"/>
-          <path d="M208 174L168 140"/>
-          <path d="M86 178L120 142"/>
+        <g stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.82">
+          <path d="M74 164H124"/>
+          <path d="M200 164H250"/>
+          <path d="M162 70V118"/>
+          <path d="M102 100L134 132"/>
+          <path d="M222 226L190 194"/>
+          <path d="M106 230L136 196"/>
         </g>
 
         <g fill="#FFFFFF">
-          <circle cx="142" cy="118" r="34"/>
-          <circle cx="18" cy="118" r="8"/>
-          <circle cx="266" cy="118" r="8"/>
-          <circle cx="142" cy="8" r="7"/>
-          <circle cx="80" cy="62" r="6"/>
-          <circle cx="208" cy="174" r="6"/>
-          <circle cx="86" cy="178" r="5"/>
+          <circle cx="162" cy="164" r="38"/>
+          <circle cx="38" cy="164" r="8"/>
+          <circle cx="286" cy="164" r="8"/>
+          <circle cx="162" cy="26" r="7"/>
+          <circle cx="102" cy="100" r="6"/>
+          <circle cx="222" cy="226" r="6"/>
+          <circle cx="106" cy="230" r="5"/>
         </g>
       </g>
 
-      <g transform="translate(34 386)" font-size="12" font-weight="900">
-        <rect width="82" height="36" rx="18" fill="#FFFFFF"/>
-        <text x="41" y="24" text-anchor="middle" fill="#050505">hotness</text>
+      <g transform="translate(42 374)" font-size="12" font-weight="900">
+        <rect width="76" height="36" rx="18" fill="#FFFFFF"/>
+        <text x="38" y="24" text-anchor="middle" fill="#050505">store</text>
 
-        <rect x="92" width="66" height="36" rx="18" fill="#151922" stroke="#596274" stroke-width="1.1"/>
-        <text x="125" y="24" text-anchor="middle" fill="#FFFFFF">decay</text>
+        <rect x="88" width="84" height="36" rx="18" fill="#151922" stroke="#5C6676" stroke-width="1.1"/>
+        <text x="130" y="24" text-anchor="middle" fill="#FFFFFF">retrieve</text>
 
-        <rect x="168" width="54" height="36" rx="18" fill="#151922" stroke="#596274" stroke-width="1.1"/>
-        <text x="195" y="24" text-anchor="middle" fill="#FFFFFF">TTL</text>
+        <rect x="184" width="76" height="36" rx="18" fill="#151922" stroke="#5C6676" stroke-width="1.1"/>
+        <text x="222" y="24" text-anchor="middle" fill="#FFFFFF">evolve</text>
 
-        <rect x="232" width="68" height="36" rx="18" fill="#151922" stroke="#596274" stroke-width="1.1"/>
-        <text x="266" y="24" text-anchor="middle" fill="#FFFFFF">graph</text>
-
-        <rect x="310" width="54" height="36" rx="18" fill="#151922" stroke="#596274" stroke-width="1.1"/>
-        <text x="337" y="24" text-anchor="middle" fill="#FFFFFF">API</text>
+        <rect x="272" width="82" height="36" rx="18" fill="#151922" stroke="#5C6676" stroke-width="1.1"/>
+        <text x="313" y="24" text-anchor="middle" fill="#FFFFFF">explain</text>
       </g>
     </g>
   </g>

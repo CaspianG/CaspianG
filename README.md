@@ -7,13 +7,11 @@
 <h1 align="center">CaspianG</h1>
 
 <p align="center">
-  <strong>I build infrastructure for software that needs memory, state, and long-term context.</strong>
+  <strong>Building WaveMind: dynamic memory infrastructure for software that must remember, adapt, and explain itself.</strong>
 </p>
 
 <p align="center">
-  Main project:
-  <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>,
-  a local-first dynamic memory engine where recall is not just similarity search, but an evolving memory state.
+  Local-first memory systems, retrieval infrastructure, benchmarks, and developer tools.
 </p>
 
 <p align="center">
@@ -24,7 +22,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/CaspianG/wavemind"><strong>Repository</strong></a>
+  <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>
   &nbsp;&middot;&nbsp;
   <a href="https://pypi.org/project/wavemind/">PyPI</a>
   &nbsp;&middot;&nbsp;
@@ -39,26 +37,26 @@
 
 <table>
   <tr>
-    <td width="58%" valign="top">
-      <h2>What I am building</h2>
+    <td width="52%" valign="top">
+      <h2>What I am focused on</h2>
       <p>
-        Most memory systems retrieve the nearest vectors and stop there.
-        WaveMind adds state on top of retrieval: useful memories get stronger,
-        stale facts fade, corrections remain traceable, and recall can be inspected.
+        My main work is <a href="https://github.com/CaspianG/wavemind"><strong>WaveMind</strong></a>:
+        a memory engine where recall is not just nearest-neighbor search.
       </p>
       <p>
-        The goal is a practical memory layer for long-running software:
-        local by default, durable, benchmarked, and ready to grow into production deployments.
+        The database stays durable. Retrieval stays fast. Memory state changes over time:
+        useful facts get stronger, stale facts fade, corrections remain traceable,
+        and every result can be inspected.
       </p>
     </td>
-    <td width="42%" valign="top">
-      <h2>Try it</h2>
+    <td width="48%" valign="top">
+      <h2>Try it in one minute</h2>
       <pre><code>pip install wavemind
 wavemind quickstart
 wavemind studio</code></pre>
       <p>
-        CLI, Python API, HTTP API, Studio UI, SQLite/Postgres persistence,
-        FAISS/Qdrant paths, workers, telemetry, and benchmarks.
+        CLI, Python API, HTTP API, Studio UI, persistent storage, vector backends,
+        background workers, telemetry, and reproducible benchmark artifacts.
       </p>
     </td>
   </tr>
@@ -66,24 +64,34 @@ wavemind studio</code></pre>
 
 <p align="center">
   <a href="https://github.com/CaspianG/wavemind">
-    <img src="./assets/memory-loop.svg" alt="WaveMind memory architecture: store, retrieve, evolve, explain" width="100%" />
+    <img src="./assets/memory-loop.svg" alt="WaveMind recall flow: store, search, evolve, explain" width="100%" />
   </a>
 </p>
 
-## Current Focus
+## WaveMind In One View
+
+| Layer | What it does |
+| --- | --- |
+| **Retrieval** | Finds candidate memories with hash/sentence encoders and vector backends. |
+| **Memory state** | Applies hotness, decay, TTL, namespaces, feedback, and graph signals. |
+| **Persistence** | Keeps SQLite/Postgres-compatible durable storage as the source of truth. |
+| **Production path** | Tracks scale, latency, recall, observability, backups, and claim boundaries. |
+| **Integrations** | Works through CLI, Python, HTTP, Studio, LangChain, LlamaIndex, and examples. |
+
+## Current Work
 
 | Area | Direction |
 | --- | --- |
-| **Scale** | Persisted indexes, service-backed retrieval, sharding, production-load profiles, and honest claim boundaries. |
-| **Memory dynamics** | Hotness, decay, TTL, feedback, graph signals, consolidation, stale-fact suppression, and explainable recall. |
-| **Developer adoption** | Simple install, Studio UI, agent/framework integrations, examples, migration guides, and public benchmark reports. |
-| **Reliability** | Backups, observability, auth/RBAC, rate limiting, reproducible tests, and CI-backed benchmark artifacts. |
+| **Scale** | Persisted indexes, service-backed retrieval, sharding, load profiles, and honest production evidence. |
+| **Memory dynamics** | Hotness, decay, feedback, graph propagation, consolidation, stale-fact suppression, and explainable recall. |
+| **Developer experience** | One-command demos, Studio UI, framework integrations, migration guides, and practical examples. |
+| **Benchmarks** | Public datasets, reproducible reports, latency curves, retrieval quality, and long-memory evaluation. |
 
 ## Selected Projects
 
 | Project | What it is | Status |
 | --- | --- | --- |
-| [**WaveMind**](https://github.com/CaspianG/wavemind) | Dynamic memory engine with CLI, HTTP API, Studio, workers, persistent storage, vector backends, benchmark suite, and framework integrations. | Active |
+| [**WaveMind**](https://github.com/CaspianG/wavemind) | Dynamic memory engine with CLI, HTTP API, Studio, workers, persistent storage, vector backends, benchmarks, and integrations. | Active |
 | [**focus-flow**](https://github.com/CaspianG/focus-flow) | Minimal desktop focus timer for deep-work sessions with planning, session tracking, themes, and English/Russian UI. | Public |
 | [**CORECITY**](https://github.com/CaspianG/CORECITY) | Browser game concept built around a living market mechanic driven by players. | Public |
 
@@ -98,7 +106,6 @@ wavemind studio</code></pre>
   <img alt="Qdrant" src="https://img.shields.io/badge/Qdrant-050505?style=flat-square">
   <img alt="Redis" src="https://img.shields.io/badge/Redis-050505?style=flat-square&logo=redis&logoColor=white">
   <img alt="Docker" src="https://img.shields.io/badge/Docker-050505?style=flat-square&logo=docker&logoColor=white">
-  <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-050505?style=flat-square&logo=kubernetes&logoColor=white">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-050505?style=flat-square&logo=typescript&logoColor=white">
 </p>
 
